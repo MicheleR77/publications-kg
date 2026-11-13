@@ -29,10 +29,23 @@ header h1{font-size:17px;font-weight:600;margin:0;text-wrap:balance}
 header .sub{color:var(--muted);font-size:13px}
 .stats{display:flex;gap:14px;margin-left:auto;font-family:var(--f-mono);font-size:12px;color:var(--muted)}
 .stats b{color:var(--ink);font-weight:500}
-main{flex:1;min-height:0;display:grid;grid-template-columns:260px minmax(0,1fr) 360px}
+main{flex:1;min-height:0;position:relative;display:grid;grid-template-columns:260px minmax(0,1fr)}
 aside{background:var(--panel);overflow:auto;padding:14px 16px;display:flex;flex-direction:column;gap:16px}
 #filters{border-right:1px solid var(--rule)}
-#detail{border-left:1px solid var(--rule)}
+#detail{position:absolute;top:0;right:0;bottom:0;width:min(380px,92%);border-left:1px solid var(--rule);box-shadow:-8px 0 24px rgba(0,0,0,.12);transform:translateX(105%);transition:transform .2s ease;z-index:5}
+#detail.open{transform:none}
+.closebar{display:flex;justify-content:flex-end;margin:-6px -6px 0 0}
+.tbtn{border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:6px;padding:4px 10px;font:13px var(--f-body);cursor:pointer;text-decoration:none}
+.tbtn:hover{border-color:var(--accent)}
+.tools{display:flex;gap:6px;flex-wrap:wrap}
+#ftoggle{display:none}
+body.compact header .sub{display:none}
+body.compact main{grid-template-columns:minmax(0,1fr)}
+body.compact #ftoggle{display:inline-block}
+body.compact #filters{position:absolute;top:0;left:0;bottom:0;width:min(280px,88%);z-index:6;box-shadow:8px 0 24px rgba(0,0,0,.12);transform:translateX(-105%);transition:transform .2s ease}
+body.compact #filters.open{transform:none}
+body.compact .legend{display:none}
+body.compact .hint{display:none}
 h2{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px;font-weight:600}
 input[type=search]{width:100%;padding:7px 9px;border:1px solid var(--rule);border-radius:6px;background:var(--paper);color:var(--ink);font:inherit}
 input[type=search]:focus,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
@@ -62,8 +75,7 @@ ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
 ol.list li{padding:7px 0;border-bottom:1px solid var(--rule);font-size:13px}
 ol.list .y{font-family:var(--f-mono);color:var(--muted);font-size:12px;margin-right:6px;font-variant-numeric:tabular-nums}
 .note{font-size:12px;color:var(--muted)}
-@media (max-width:1000px){main{grid-template-columns:1fr;grid-template-rows:auto 60vh auto}
-  #filters,#detail{border:0;border-bottom:1px solid var(--rule)}}
+
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
@@ -72,6 +84,11 @@ ol.list .y{font-family:var(--f-mono);color:var(--muted);font-size:12px;margin-ri
   <h1>Knowledge Graph delle pubblicazioni — Michele Russo</h1>
   <span class="sub">Disegno · rilievo · modellazione · AR/AI per il patrimonio (CEAR-10/A, 08/E1)</span>
   <div class="stats" id="stats"></div>
+  <div class="tools">
+    <button class="tbtn" id="ftoggle" type="button" aria-controls="filters">Filtri</button>
+    <button class="tbtn" id="ltoggle" type="button" aria-controls="detail">Elenco pubblicazioni</button>
+    <a class="tbtn" id="fullscreen" href="https://micheler77.github.io/publications-kg/" target="_blank" rel="noopener" hidden>Apri a schermo intero</a>
+  </div>
 </header>
 <main>
   <aside id="filters" aria-label="Filtri">
@@ -109,6 +126,15 @@ ol.list .y{font-family:var(--f-mono);color:var(--muted);font-size:12px;margin-ri
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script>
 const DATA = /*__DATA__*/null;
+const FRAMED = (()=>{try{return window.self!==window.top}catch(e){return true}})();
+if(FRAMED){ document.documentElement.setAttribute('data-theme','light'); document.getElementById('fullscreen').hidden=false; }
+function setCompact(){ document.body.classList.toggle('compact', FRAMED || window.innerWidth<1100); }
+setCompact(); window.addEventListener('resize',setCompact);
+const detailEl=document.getElementById('detail'), filtersEl=document.getElementById('filters');
+function openDetail(){ detailEl.classList.add('open'); }
+function closeDetail(){ detailEl.classList.remove('open'); }
+document.getElementById('ftoggle').addEventListener('click',()=>filtersEl.classList.toggle('open'));
+document.getElementById('ltoggle').addEventListener('click',()=>{ if(detailEl.classList.contains('open')&&!state.selected){closeDetail();return;} state.selected=null; highlight(); listView(pubs.filter(pubVisible)); openDetail(); });
 const nodeById = new Map(DATA.nodes.map(n=>[n.id,n]));
 const pubs = DATA.nodes.filter(n=>n.kind==='publication');
 const years = pubs.map(p=>+p.year); const YMIN=Math.min(...years), YMAX=Math.max(...years);
@@ -138,7 +164,7 @@ themeNodes.forEach(t=>{const b=document.createElement('button'); b.className='ch
   b.innerHTML=`<span class="sw" style="background:${THEMECOL(t)}"></span>${esc(t)}`;
   b.addEventListener('click',()=>{state.theme=state.theme===t?null:t; themesEl.querySelectorAll('.chip').forEach(c=>c.setAttribute('aria-pressed',c===b&&state.theme?'true':'false')); update();});
   themesEl.appendChild(b);});
-document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase(); update();});
+document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase(); update(); if(state.q){state.selected=null; listView(pubs.filter(pubVisible)); openDetail();}});
 document.getElementById('legend').innerHTML=Object.entries(TYPECOL).map(([t,c])=>`<span><span class="sw" style="background:${c}"></span> ${t}</span>`).join('')+`<span class="note">Keyword colorate per macro-tema</span>`;
 
 // ---------- filtering ----------
@@ -183,13 +209,20 @@ function update(){
   labelSel=labelSel.data(labelled,d=>d.id).join('text').attr('class',d=>'lbl '+(d.kind==='theme'?'theme':'kw')).attr('dx',d=>radius(d)+3).attr('dy',4).text(d=>d.label);
   const k=d3.zoomTransform(svg.node()).k; g.selectAll('text.kw').style('display',k>1.3?null:'none');
   sim.nodes(nodes); sim.force('link',d3.forceLink(links).distance(d=>d.rel==='broader'?70:34).strength(d=>d.rel==='broader'?.6:.35)); sim.alpha(.6).restart();
-  highlight(); stats(vp); if(!state.selected) listView(vp);
+  highlight(); stats(vp); if(!state.selected && detailEl.classList.contains('open')) listView(vp);
 }
 function ticked(){ linkSel.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
   nodeSel.attr('cx',d=>d.x).attr('cy',d=>d.y); labelSel.attr('x',d=>d.x).attr('y',d=>d.y); }
 function resize(){ const r=document.getElementById('graphwrap').getBoundingClientRect(); svg.attr('viewBox',[-r.width/2,-r.height/2,r.width,r.height]); }
-window.addEventListener('resize',resize); resize();
-svg.on('click',()=>{state.selected=null; highlight(); listView(pubs.filter(pubVisible));});
+new ResizeObserver(resize).observe(document.getElementById('graphwrap')); resize();
+let fitted=false;
+function fit(){ const ns=sim.nodes(); if(!ns.length) return; const xs=ns.map(n=>n.x), ys=ns.map(n=>n.y);
+  const x0=Math.min(...xs), x1=Math.max(...xs), y0=Math.min(...ys), y1=Math.max(...ys);
+  const r=document.getElementById('graphwrap').getBoundingClientRect(); const pad=40;
+  const k=Math.min(2, Math.min((r.width-pad)/(x1-x0||1),(r.height-pad)/(y1-y0||1)));
+  const t=d3.zoomIdentity.scale(k).translate(-(x0+x1)/2,-(y0+y1)/2); svg.call(zoom.transform,t); }
+sim.on('end',()=>{ if(!fitted){ fitted=true; fit(); } });
+svg.on('click',()=>{state.selected=null; highlight(); closeDetail(); filtersEl.classList.remove('open');});
 function highlight(){
   const q=state.q, sel=state.selected; let on=null;
   if(sel){ on=new Set([sel,...(adj.get(sel)||[])]); }
@@ -204,15 +237,16 @@ function stats(vp){ const au=new Set(); vp.forEach(p=>(p.authors||[]).forEach(a=
 // ---------- detail panel ----------
 const det=document.getElementById('detail');
 function pubLink(p){ return `<li><span class="y">${p.year}</span><button class="link" data-id="${esc(p.id)}">${esc(p.label)}</button></li>`; }
-function bindLinks(){ det.querySelectorAll('[data-id]').forEach(b=>b.addEventListener('click',()=>select(b.dataset.id))); }
+const CLOSE='<div class="closebar"><button class="tbtn" type="button" data-close>Chiudi ×</button></div>';
+function bindLinks(){ det.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>{closeDetail(); state.selected=null; highlight();})); det.querySelectorAll('[data-id]').forEach(b=>b.addEventListener('click',()=>select(b.dataset.id))); }
 function listView(vp){
   const shown=vp.filter(matches).sort((a,b)=>b.year-a.year||a.label.localeCompare(b.label));
-  det.innerHTML=`<div><h2>${state.q?'Risultati della ricerca':'Pubblicazioni visibili'} (${shown.length})</h2><ol class="list">${shown.map(pubLink).join('')}</ol></div>`; bindLinks(); }
+  det.innerHTML=CLOSE+`<div><h2>${state.q?'Risultati della ricerca':'Pubblicazioni visibili'} (${shown.length})</h2><ol class="list">${shown.map(pubLink).join('')}</ol></div>`; bindLinks(); }
 function select(id){
-  state.selected=id; const d=nodeById.get(id); highlight();
+  state.selected=id; openDetail(); const d=nodeById.get(id); highlight();
   if(d.kind==='publication'){
     const nameLink=a=>`<button class="link" data-id="${esc('person/'+slug(a))}">${esc(a)}</button>`;
-    det.innerHTML=`<article class="card">
+    det.innerHTML=CLOSE+`<article class="card">
       <p class="meta"><span class="badge">${esc(d.ptype)}</span>${d.classA?'<span class="badge">ANVUR Classe A</span>':''}<span class="badge">${esc(d.lang||'')}</span></p>
       <h3>${esc(d.label)}</h3>
       <p class="meta">${(d.authors||[]).map(nameLink).join('; ')}</p>
@@ -236,7 +270,7 @@ function select(id){
     if(d.kind==='author'){ const co=new Map(); ps.forEach(p=>(p.authors||[]).forEach(a=>{if(a!==d.label) co.set(a,(co.get(a)||0)+1);}));
       extra=`<h2>Coautori</h2><div class="chips">${[...co].sort((a,b)=>b[1]-a[1]).slice(0,30).map(([a,c])=>`<button class="chip" data-id="${esc('person/'+slug(a))}">${esc(a)} <span class="note">${c}</span></button>`).join('')}</div>`; }
     const uniq=[...new Map(ps.map(p=>[p.id,p])).values()].sort((a,b)=>b.year-a.year);
-    det.innerHTML=`<div class="card"><p class="meta"><span class="badge">${KIND[d.kind].lab}</span></p><h3>${esc(d.label)}</h3>${d.theme?`<p class="meta">Macro-tema: <button class="link" data-id="theme/${slug(d.theme)}">${esc(d.theme)}</button></p>`:''}${extra}
+    det.innerHTML=CLOSE+`<div class="card"><p class="meta"><span class="badge">${KIND[d.kind].lab}</span></p><h3>${esc(d.label)}</h3>${d.theme?`<p class="meta">Macro-tema: <button class="link" data-id="theme/${slug(d.theme)}">${esc(d.theme)}</button></p>`:''}${extra}
       <h2 style="margin-top:12px">Pubblicazioni (${uniq.length})</h2><ol class="list">${uniq.map(pubLink).join('')}</ol></div>`;
   }
   bindLinks();
