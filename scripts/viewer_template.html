@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Knowledge Graph pubblicazioni Russo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: drafting-table tool — filters left, graph on squared paper centre, record card right */
+:root{
+  --paper:#f6f7f4; --panel:#ffffff; --ink:#1f2933; --muted:#5f6b76; --rule:#d9ddd6;
+  --accent:#1f5fa8; --accent-soft:#e3ecf7; --grid:#e8ebe4; --hl:#c2410c;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#14181c; --panel:#1b2026; --ink:#e6e9ec; --muted:#9aa5b0; --rule:#2c333b;
+  --accent:#7fb0ec; --accent-soft:#1f2c3b; --grid:#1c2228; --hl:#f59e0b; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --paper:#14181c; --panel:#1b2026; --ink:#e6e9ec; --muted:#9aa5b0; --rule:#2c333b;
+  --accent:#7fb0ec; --accent-soft:#1f2c3b; --grid:#1c2228; --hl:#f59e0b; color-scheme:dark;}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--paper);color:var(--ink);font:14px/1.5 var(--f-body);display:flex;flex-direction:column}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding:12px 18px;border-bottom:1px solid var(--rule);background:var(--panel)}
+header h1{font-size:17px;font-weight:600;margin:0;text-wrap:balance}
+header .sub{color:var(--muted);font-size:13px}
+.stats{display:flex;gap:14px;margin-left:auto;font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.stats b{color:var(--ink);font-weight:500}
+main{flex:1;min-height:0;display:grid;grid-template-columns:260px minmax(0,1fr) 360px}
+aside{background:var(--panel);overflow:auto;padding:14px 16px;display:flex;flex-direction:column;gap:16px}
+#filters{border-right:1px solid var(--rule)}
+#detail{border-left:1px solid var(--rule)}
+h2{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px;font-weight:600}
+input[type=search]{width:100%;padding:7px 9px;border:1px solid var(--rule);border-radius:6px;background:var(--paper);color:var(--ink);font:inherit}
+input[type=search]:focus,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.checks label{display:flex;align-items:center;gap:7px;font-size:13px;padding:2px 0;cursor:pointer}
+.sw{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.range{display:grid;grid-template-columns:auto 1fr auto;gap:6px;align-items:center;font-family:var(--f-mono);font-size:12px}
+.range input{width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:999px;padding:2px 9px;font:12px var(--f-body);cursor:pointer;display:inline-flex;align-items:center;gap:5px}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
+.chip.static{cursor:default}
+button.link{background:none;border:0;color:var(--accent);padding:0;font:inherit;cursor:pointer;text-align:left}
+#graphwrap{position:relative;min-width:0;min-height:0;background-color:var(--paper);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:24px 24px}
+svg{width:100%;height:100%;display:block;cursor:grab}
+.lbl{font:11px var(--f-body);fill:var(--ink);paint-order:stroke;stroke:var(--paper);stroke-width:3px;pointer-events:none}
+.lbl.theme{font-weight:600;font-size:12.5px}
+.legend{position:absolute;left:10px;bottom:10px;background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:8px 10px;font-size:12px;display:flex;flex-direction:column;gap:3px}
+.hint{position:absolute;right:10px;top:10px;font-size:12px;color:var(--muted);background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:4px 8px}
+.card h3{font-size:16px;line-height:1.35;margin:0 0 6px;text-wrap:balance}
+.meta{color:var(--muted);font-size:13px;margin:0 0 8px}
+.kv{display:grid;grid-template-columns:88px 1fr;gap:3px 10px;font-size:13px;margin:8px 0}
+.kv dt{color:var(--muted)}.kv dd{margin:0;overflow-wrap:anywhere}
+.abs{font-size:13.5px;line-height:1.6;max-width:65ch;border-top:1px solid var(--rule);padding-top:8px;margin-top:8px}
+.badge{display:inline-block;font:500 11px var(--f-mono);padding:1px 6px;border-radius:4px;background:var(--accent-soft);color:var(--accent);margin-right:4px}
+ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+ol.list li{padding:7px 0;border-bottom:1px solid var(--rule);font-size:13px}
+ol.list .y{font-family:var(--f-mono);color:var(--muted);font-size:12px;margin-right:6px;font-variant-numeric:tabular-nums}
+.note{font-size:12px;color:var(--muted)}
+@media (max-width:1000px){main{grid-template-columns:1fr;grid-template-rows:auto 60vh auto}
+  #filters,#detail{border:0;border-bottom:1px solid var(--rule)}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Knowledge Graph delle pubblicazioni — Michele Russo</h1>
+  <span class="sub">Disegno · rilievo · modellazione · AR/AI per il patrimonio (CEAR-10/A, 08/E1)</span>
+  <div class="stats" id="stats"></div>
+</header>
+<main>
+  <aside id="filters" aria-label="Filtri">
+    <div>
+      <h2><label for="q">Cerca</label></h2>
+      <input id="q" type="search" placeholder="titolo, autore, keyword, luogo…" autocomplete="off">
+    </div>
+    <div>
+      <h2>Tipologia</h2>
+      <div class="checks" id="types"></div>
+    </div>
+    <div>
+      <h2>Anni</h2>
+      <div class="range"><span id="y0l"></span><input id="y0" type="range" aria-label="Anno iniziale"><span></span></div>
+      <div class="range"><span id="y1l"></span><input id="y1" type="range" aria-label="Anno finale"><span></span></div>
+    </div>
+    <div>
+      <h2>Livelli del grafo</h2>
+      <div class="checks" id="layers"></div>
+    </div>
+    <div>
+      <h2>Macro-temi</h2>
+      <div class="chips" id="themes"></div>
+      <p class="note">Clic su un tema per mostrare solo le pubblicazioni che lo trattano.</p>
+    </div>
+    <p class="note">Dati: Excel del progetto, 12/11/2026. Le relazioni mostrate sono tutte verificate sulle fonti. Licenza dei dati: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </aside>
+  <div id="graphwrap">
+    <svg id="svg" role="img" aria-label="Grafo delle pubblicazioni con keyword, macro-temi, autori, sedi e luoghi"></svg>
+    <div class="legend" id="legend"></div>
+    <div class="hint">Trascina per spostare · rotella per zoom · clic su un nodo per la scheda</div>
+  </div>
+  <aside id="detail" aria-live="polite"></aside>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const nodeById = new Map(DATA.nodes.map(n=>[n.id,n]));
+const pubs = DATA.nodes.filter(n=>n.kind==='publication');
+const years = pubs.map(p=>+p.year); const YMIN=Math.min(...years), YMAX=Math.max(...years);
+const TYPES = [...new Set(pubs.map(p=>p.ptype))];
+const TYPECOL = {'Journal article':'#1f5fa8','Conference paper':'#2a9d8f','Book chapter':'#c2410c','Monograph':'#7c3aed'};
+const themeNodes = DATA.nodes.filter(n=>n.kind==='theme').map(n=>n.label).sort();
+const THEMECOL = d3.scaleOrdinal(themeNodes, ['#4e79a7','#f28e2b','#e15759','#76b7b2','#59a14f','#edc948','#b07aa1','#ff9da7','#9c755f','#8c8c8c','#2f4b7c','#a05195','#d45087','#665191']);
+const KIND = {publication:{lab:'Pubblicazioni',col:'#1f5fa8'},keyword:{lab:'Keyword',col:'#9aa5b0'},theme:{lab:'Macro-temi',col:'#444'},author:{lab:'Autori',col:'#8a6d3b'},venue:{lab:'Riviste e volumi',col:'#6b7280'},place:{lab:'Luoghi dei casi studio',col:'#15803d'}};
+const state = {q:'', types:new Set(TYPES), y0:YMIN, y1:YMAX, layers:new Set(['keyword','theme','place']), theme:null, selected:null};
+const adj = new Map(); DATA.links.forEach(l=>{[l.source,l.target].forEach((a,i)=>{const b=i?l.source:l.target; if(!adj.has(a))adj.set(a,new Set()); adj.get(a).add(b);});});
+const esc = s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+// ---------- controls ----------
+const typesEl=document.getElementById('types');
+TYPES.forEach(t=>{const id='t_'+t.replace(/\W/g,''); typesEl.insertAdjacentHTML('beforeend',`<label for="${id}"><input id="${id}" type="checkbox" checked><span class="sw" style="background:${TYPECOL[t]||'#888'}"></span>${esc(t)} <span class="note">(${pubs.filter(p=>p.ptype===t).length})</span></label>`);
+  document.getElementById(id).addEventListener('change',e=>{e.target.checked?state.types.add(t):state.types.delete(t); update();});});
+const layersEl=document.getElementById('layers');
+['keyword','theme','author','venue','place'].forEach(k=>{const id='l_'+k; layersEl.insertAdjacentHTML('beforeend',`<label for="${id}"><input id="${id}" type="checkbox" ${state.layers.has(k)?'checked':''}><span class="sw" style="background:${KIND[k].col}"></span>${KIND[k].lab}</label>`);
+  document.getElementById(id).addEventListener('change',e=>{e.target.checked?state.layers.add(k):state.layers.delete(k); update();});});
+const y0=document.getElementById('y0'), y1=document.getElementById('y1');
+[y0,y1].forEach(el=>{el.min=YMIN; el.max=YMAX; el.step=1;}); y0.value=YMIN; y1.value=YMAX;
+const yl=()=>{document.getElementById('y0l').textContent=state.y0; document.getElementById('y1l').textContent=state.y1;}; yl();
+y0.addEventListener('input',()=>{state.y0=Math.min(+y0.value,state.y1); y0.value=state.y0; yl(); update();});
+y1.addEventListener('input',()=>{state.y1=Math.max(+y1.value,state.y0); y1.value=state.y1; yl(); update();});
+const themesEl=document.getElementById('themes');
+themeNodes.forEach(t=>{const b=document.createElement('button'); b.className='chip'; b.setAttribute('aria-pressed','false');
+  b.innerHTML=`<span class="sw" style="background:${THEMECOL(t)}"></span>${esc(t)}`;
+  b.addEventListener('click',()=>{state.theme=state.theme===t?null:t; themesEl.querySelectorAll('.chip').forEach(c=>c.setAttribute('aria-pressed',c===b&&state.theme?'true':'false')); update();});
+  themesEl.appendChild(b);});
+document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase(); update();});
+document.getElementById('legend').innerHTML=Object.entries(TYPECOL).map(([t,c])=>`<span><span class="sw" style="background:${c}"></span> ${t}</span>`).join('')+`<span class="note">Keyword colorate per macro-tema</span>`;
+
+// ---------- filtering ----------
+function pubVisible(p){
+  if(!state.types.has(p.ptype)) return false;
+  if(+p.year<state.y0||+p.year>state.y1) return false;
+  if(state.theme && !(p.keywords||[]).some(k=>{const n=nodeById.get(keywordId(k)); return n&&n.theme===state.theme;})) return false;
+  return true;
+}
+const kwIdx = new Map(DATA.nodes.filter(n=>n.kind==='keyword').map(n=>[n.label,n.id]));
+const keywordId = k=>kwIdx.get(k);
+function matches(p){ if(!state.q) return true;
+  const hay=[p.label,(p.authors||[]).join(' '),(p.keywords||[]).join(' '),(p.places||[]).join(' '),p.venue||'',String(p.year)].join(' ').toLowerCase();
+  return state.q.split(/\s+/).every(w=>hay.includes(w)); }
+
+// ---------- graph ----------
+const svg=d3.select('#svg'), g=svg.append('g');
+const zoom=d3.zoom().scaleExtent([0.2,6]).on('zoom',e=>{g.attr('transform',e.transform); g.selectAll('text.kw').style('display',e.transform.k>1.3?null:'none');});
+svg.call(zoom);
+let linkSel=g.append('g').attr('stroke-opacity',.35).selectAll('line'), nodeSel=g.append('g').selectAll('circle'), labelSel=g.append('g').selectAll('text');
+const sim=d3.forceSimulation().force('charge',d3.forceManyBody().strength(d=>d.kind==='theme'?-420:-38)).force('collide',d3.forceCollide().radius(d=>radius(d)+2))
+  .force('x',d3.forceX().strength(.04)).force('y',d3.forceY().strength(.04)).on('tick',ticked);
+function radius(d){ const deg=(adj.get(d.id)||new Set()).size;
+  if(d.kind==='publication') return 5; if(d.kind==='theme') return 11; return Math.max(3,Math.min(10,2+Math.sqrt(deg)*1.4)); }
+function color(d){ if(d.kind==='publication') return TYPECOL[d.ptype]||'#888'; if(d.kind==='keyword') return THEMECOL(d.theme||''); if(d.kind==='theme') return THEMECOL(d.label); return KIND[d.kind].col; }
+const simNodes=new Map();
+function update(){
+  const vp=pubs.filter(pubVisible); const vpIds=new Set(vp.map(p=>p.id));
+  const keep=new Set(vpIds);
+  DATA.links.forEach(l=>{ if(vpIds.has(l.source)){const t=nodeById.get(l.target); if(state.layers.has(t.kind)) keep.add(l.target);} });
+  if(state.layers.has('theme')) DATA.links.forEach(l=>{ if(l.rel==='broader'&&keep.has(l.source)) keep.add(l.target); });
+  const nodes=[...keep].map(id=>{ if(!simNodes.has(id)) simNodes.set(id,Object.assign({},nodeById.get(id))); return simNodes.get(id); });
+  const links=DATA.links.filter(l=>keep.has(l.source)&&keep.has(l.target)).map(l=>({source:simNodes.get(l.source),target:simNodes.get(l.target),rel:l.rel}));
+  linkSel=linkSel.data(links,d=>d.source.id+'>'+d.target.id).join('line').attr('stroke','var(--muted)').attr('stroke-width',d=>d.rel==='broader'?1.2:.6);
+  nodeSel=nodeSel.data(nodes,d=>d.id).join(en=>en.append('circle').attr('stroke','var(--panel)').attr('stroke-width',1)
+      .on('click',(e,d)=>{e.stopPropagation(); select(d.id);})
+      .call(d3.drag().on('start',(e,d)=>{if(!e.active)sim.alphaTarget(.2).restart(); d.fx=d.x; d.fy=d.y;}).on('drag',(e,d)=>{d.fx=e.x; d.fy=e.y;}).on('end',(e,d)=>{if(!e.active)sim.alphaTarget(0); d.fx=null; d.fy=null;}))
+      .call(s=>s.append('title')))
+    .attr('r',radius).attr('fill',color);
+  nodeSel.select('title').text(d=>d.kind==='publication'?`${d.year} · ${d.label}`:d.label);
+  const labelled=nodes.filter(d=>d.kind==='theme'||d.kind==='keyword'||d.kind==='place');
+  labelSel=labelSel.data(labelled,d=>d.id).join('text').attr('class',d=>'lbl '+(d.kind==='theme'?'theme':'kw')).attr('dx',d=>radius(d)+3).attr('dy',4).text(d=>d.label);
+  const k=d3.zoomTransform(svg.node()).k; g.selectAll('text.kw').style('display',k>1.3?null:'none');
+  sim.nodes(nodes); sim.force('link',d3.forceLink(links).distance(d=>d.rel==='broader'?70:34).strength(d=>d.rel==='broader'?.6:.35)); sim.alpha(.6).restart();
+  highlight(); stats(vp); if(!state.selected) listView(vp);
+}
+function ticked(){ linkSel.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+  nodeSel.attr('cx',d=>d.x).attr('cy',d=>d.y); labelSel.attr('x',d=>d.x).attr('y',d=>d.y); }
+function resize(){ const r=document.getElementById('graphwrap').getBoundingClientRect(); svg.attr('viewBox',[-r.width/2,-r.height/2,r.width,r.height]); }
+window.addEventListener('resize',resize); resize();
+svg.on('click',()=>{state.selected=null; highlight(); listView(pubs.filter(pubVisible));});
+function highlight(){
+  const q=state.q, sel=state.selected; let on=null;
+  if(sel){ on=new Set([sel,...(adj.get(sel)||[])]); }
+  else if(q){ on=new Set(pubs.filter(p=>pubVisible(p)&&matches(p)).map(p=>p.id)); pubs.forEach(p=>{if(on.has(p.id)) (adj.get(p.id)||[]).forEach(x=>on.add(x));}); }
+  nodeSel.attr('opacity',d=>!on||on.has(d.id)?1:.12).attr('stroke',d=>d.id===sel?'var(--hl)':'var(--panel)').attr('stroke-width',d=>d.id===sel?2.5:1);
+  linkSel.attr('opacity',d=>!on||(on.has(d.source.id)&&on.has(d.target.id))?1:.08);
+  labelSel.attr('opacity',d=>!on||on.has(d.id)?1:.15);
+}
+function stats(vp){ const au=new Set(); vp.forEach(p=>(p.authors||[]).forEach(a=>au.add(a)));
+  document.getElementById('stats').innerHTML=`<span><b>${vp.length}</b> pubblicazioni</span><span><b>${au.size}</b> autori</span><span><b>${state.y0}–${state.y1}</b></span>`; }
+
+// ---------- detail panel ----------
+const det=document.getElementById('detail');
+function pubLink(p){ return `<li><span class="y">${p.year}</span><button class="link" data-id="${esc(p.id)}">${esc(p.label)}</button></li>`; }
+function bindLinks(){ det.querySelectorAll('[data-id]').forEach(b=>b.addEventListener('click',()=>select(b.dataset.id))); }
+function listView(vp){
+  const shown=vp.filter(matches).sort((a,b)=>b.year-a.year||a.label.localeCompare(b.label));
+  det.innerHTML=`<div><h2>${state.q?'Risultati della ricerca':'Pubblicazioni visibili'} (${shown.length})</h2><ol class="list">${shown.map(pubLink).join('')}</ol></div>`; bindLinks(); }
+function select(id){
+  state.selected=id; const d=nodeById.get(id); highlight();
+  if(d.kind==='publication'){
+    const nameLink=a=>`<button class="link" data-id="${esc('person/'+slug(a))}">${esc(a)}</button>`;
+    det.innerHTML=`<article class="card">
+      <p class="meta"><span class="badge">${esc(d.ptype)}</span>${d.classA?'<span class="badge">ANVUR Classe A</span>':''}<span class="badge">${esc(d.lang||'')}</span></p>
+      <h3>${esc(d.label)}</h3>
+      <p class="meta">${(d.authors||[]).map(nameLink).join('; ')}</p>
+      <dl class="kv"><dt>Anno</dt><dd>${d.year}</dd>
+        ${d.venue?`<dt>In</dt><dd>${esc(d.venue)}</dd>`:''}
+        ${d.pages?`<dt>Pagine</dt><dd>${esc(d.pages)}</dd>`:''}
+        ${d.doi?`<dt>DOI</dt><dd><a href="https://doi.org/${esc(d.doi)}">${esc(d.doi)}</a></dd>`:(d.url?`<dt>Link</dt><dd><a href="${esc(d.url)}">${esc(d.url)}</a></dd>`:'')}
+        ${d.iris?`<dt>IRIS</dt><dd><a href="${esc(d.iris)}">Scheda IRIS Sapienza</a></dd>`:''}
+        ${(d.places||[]).length?`<dt>Caso studio</dt><dd>${d.places.map(x=>`<button class="link" data-id="${esc('place/'+slug(x))}">${esc(x)}</button>`).join('<br>')}</dd>`:''}
+        ${(d.scale||[]).length?`<dt>Scala</dt><dd>${esc(d.scale.join(', '))}</dd>`:''}
+      </dl>
+      <div class="chips">${(d.keywords||[]).map(k=>{const n=nodeById.get(keywordId(k)); return `<button class="chip" data-id="${esc(keywordId(k))}"><span class="sw" style="background:${THEMECOL(n&&n.theme||'')}"></span>${esc(k)}</button>`;}).join('')}</div>
+      ${d.abstract?`<div class="abs">${esc(d.abstract)}</div>`:(d.oa?'<p class="note">Abstract non disponibile nella pubblicazione.</p>':'<p class="note">Abstract disponibile presso l\'editore (pubblicazione non open access).</p>')}
+    </article>`;
+  } else {
+    const ps=[...(adj.get(id)||[])].map(x=>nodeById.get(x)).filter(n=>n.kind==='publication');
+    let extra='';
+    if(d.kind==='theme'){ const kws=[...(adj.get(id)||[])].map(x=>nodeById.get(x)).filter(n=>n.kind==='keyword');
+      const set=new Set(); kws.forEach(k=>(adj.get(k.id)||[]).forEach(x=>{const n=nodeById.get(x); if(n.kind==='publication') set.add(n);}));
+      ps.push(...set); extra=`<div class="chips">${kws.map(k=>`<button class="chip" data-id="${esc(k.id)}">${esc(k.label)}</button>`).join('')}</div>`; }
+    if(d.kind==='author'){ const co=new Map(); ps.forEach(p=>(p.authors||[]).forEach(a=>{if(a!==d.label) co.set(a,(co.get(a)||0)+1);}));
+      extra=`<h2>Coautori</h2><div class="chips">${[...co].sort((a,b)=>b[1]-a[1]).slice(0,30).map(([a,c])=>`<button class="chip" data-id="${esc('person/'+slug(a))}">${esc(a)} <span class="note">${c}</span></button>`).join('')}</div>`; }
+    const uniq=[...new Map(ps.map(p=>[p.id,p])).values()].sort((a,b)=>b.year-a.year);
+    det.innerHTML=`<div class="card"><p class="meta"><span class="badge">${KIND[d.kind].lab}</span></p><h3>${esc(d.label)}</h3>${d.theme?`<p class="meta">Macro-tema: <button class="link" data-id="theme/${slug(d.theme)}">${esc(d.theme)}</button></p>`:''}${extra}
+      <h2 style="margin-top:12px">Pubblicazioni (${uniq.length})</h2><ol class="list">${uniq.map(pubLink).join('')}</ol></div>`;
+  }
+  bindLinks();
+}
+function slug(s){ return s.normalize('NFKD').replace(/[̀-ͯ]/g,'').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').toLowerCase(); }
+update();
+</script>
+</body>
+</html>
