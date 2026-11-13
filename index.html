@@ -39,6 +39,10 @@ aside{background:var(--panel);overflow:auto;padding:14px 16px;display:flex;flex-
 .tbtn:hover{border-color:var(--accent)}
 .tools{display:flex;gap:6px;flex-wrap:wrap}
 #ftoggle{display:none}
+#g3d{position:absolute;inset:0;display:none}
+body.mode3d #g3d{display:block}
+body.mode3d #svg{visibility:hidden}
+.tbtn[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
 body.compact header .sub{display:none}
 body.compact main{grid-template-columns:minmax(0,1fr)}
 body.compact #ftoggle{display:inline-block}
@@ -87,6 +91,7 @@ ol.list .y{font-family:var(--f-mono);color:var(--muted);font-size:12px;margin-ri
   <div class="tools">
     <button class="tbtn" id="ftoggle" type="button" aria-controls="filters">Filtri</button>
     <button class="tbtn" id="ltoggle" type="button" aria-controls="detail">Elenco pubblicazioni</button>
+    <button class="tbtn" id="t3d" type="button" aria-pressed="false">Vista 3D</button>
     <a class="tbtn" id="fullscreen" href="https://micheler77.github.io/publications-kg/" target="_blank" rel="noopener" hidden>Apri a schermo intero</a>
   </div>
 </header>
@@ -117,9 +122,10 @@ ol.list .y{font-family:var(--f-mono);color:var(--muted);font-size:12px;margin-ri
     <p class="note">Dati: Excel del progetto, 12/11/2026. Le relazioni mostrate sono tutte verificate sulle fonti. Licenza dei dati: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
   </aside>
   <div id="graphwrap">
+    <div id="g3d" aria-label="Grafo in 3D"></div>
     <svg id="svg" role="img" aria-label="Grafo delle pubblicazioni con keyword, macro-temi, autori, sedi e luoghi"></svg>
     <div class="legend" id="legend"></div>
-    <div class="hint">Trascina per spostare · rotella per zoom · clic su un nodo per la scheda</div>
+    <div class="hint" id="hint">Trascina per spostare · rotella per zoom · clic su un nodo per la scheda</div>
   </div>
   <aside id="detail" aria-live="polite"></aside>
 </main>
@@ -209,8 +215,46 @@ function update(){
   labelSel=labelSel.data(labelled,d=>d.id).join('text').attr('class',d=>'lbl '+(d.kind==='theme'?'theme':'kw')).attr('dx',d=>radius(d)+3).attr('dy',4).text(d=>d.label);
   const k=d3.zoomTransform(svg.node()).k; g.selectAll('text.kw').style('display',k>1.3?null:'none');
   sim.nodes(nodes); sim.force('link',d3.forceLink(links).distance(d=>d.rel==='broader'?70:34).strength(d=>d.rel==='broader'?.6:.35)); sim.alpha(.6).restart();
+  current={ids:[...keep], links:DATA.links.filter(l=>keep.has(l.source)&&keep.has(l.target))};
+  if(g3d) feed3d();
   highlight(); stats(vp); if(!state.selected && detailEl.classList.contains('open')) listView(vp);
 }
+let current={ids:[],links:[]}, g3d=null, rot=null;
+const LIB3D='https://cdn.jsdelivr.net/npm/3d-force-graph@1.79.1/dist/3d-force-graph.min.js';
+function feed3d(){
+  const nodes=current.ids.map(id=>{const n=nodeById.get(id); return {id, label:n.kind==='publication'?`${n.year} · ${n.label}`:n.label, kind:n.kind, col:color(n), val:n.kind==='theme'?8:n.kind==='publication'?1.5:Math.max(1,radius(n)/3)};});
+  g3d.graphData({nodes, links:current.links.map(l=>({source:l.source,target:l.target}))});
+}
+let dist3d=900;
+function startRotate(){ const c=g3d.cameraPosition(); let a=Math.atan2(c.x,c.z); stopRotate(); rot=setInterval(()=>{ a+=Math.PI/900; g3d.cameraPosition({x:dist3d*Math.sin(a), y:c.y*0, z:dist3d*Math.cos(a)}); },30); }
+function stopRotate(){ if(rot){clearInterval(rot); rot=null;} }
+function init3d(){
+  const el=document.getElementById('g3d'); const css=getComputedStyle(document.documentElement);
+  g3d=ForceGraph3D()(el).backgroundColor(css.getPropertyValue('--paper').trim()||'#f6f7f4')
+    .nodeLabel('label').nodeColor('col').nodeVal('val').nodeOpacity(.95)
+    .linkColor(()=>css.getPropertyValue('--muted').trim()||'#888').linkOpacity(.25)
+    .onNodeClick(n=>{stopRotate(); select(n.id);}).showNavInfo(false).cooldownTicks(120);
+  let first=true;
+  g3d.onEngineStop(()=>{ if(!first) return; first=false;
+    const ns=g3d.graphData().nodes; const rs=ns.map(n=>Math.hypot(n.x,n.y,n.z)).sort((a,b)=>a-b);
+    const r90=rs[Math.floor(rs.length*0.9)]||300; dist3d=r90*2.1; startRotate(); });
+  const r=document.getElementById('graphwrap').getBoundingClientRect(); g3d.width(r.width).height(r.height);
+  new ResizeObserver(()=>{const r=document.getElementById('graphwrap').getBoundingClientRect(); g3d.width(r.width).height(r.height);}).observe(document.getElementById('graphwrap'));
+  el.addEventListener('pointerdown',stopRotate); el.addEventListener('wheel',stopRotate,{passive:true});
+  feed3d();
+}
+document.getElementById('t3d').addEventListener('click',e=>{
+  const on=!document.body.classList.contains('mode3d'); const b=e.currentTarget;
+  document.body.classList.toggle('mode3d',on); b.setAttribute('aria-pressed',on); b.textContent=on?'Vista 2D':'Vista 3D';
+  document.getElementById('hint').textContent=on?'Trascina per ruotare · rotella per zoom · clic su un nodo per la scheda':'Trascina per spostare · rotella per zoom · clic su un nodo per la scheda';
+  if(!on){ stopRotate(); return; }
+  if(g3d){ startRotate(); return; }
+  if(window.ForceGraph3D){ init3d(); return; }
+  b.textContent='Caricamento…'; const sc=document.createElement('script'); sc.src=LIB3D;
+  sc.onload=()=>{ b.textContent='Vista 2D'; init3d(); };
+  sc.onerror=()=>{ b.textContent='Vista 3D'; document.body.classList.remove('mode3d'); b.setAttribute('aria-pressed','false'); document.getElementById('hint').textContent='La vista 3D non si è caricata: controlla la connessione e riprova.'; };
+  document.head.appendChild(sc);
+});
 function ticked(){ linkSel.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
   nodeSel.attr('cx',d=>d.x).attr('cy',d=>d.y); labelSel.attr('x',d=>d.x).attr('y',d=>d.y); }
 function resize(){ const r=document.getElementById('graphwrap').getBoundingClientRect(); svg.attr('viewBox',[-r.width/2,-r.height/2,r.width,r.height]); }
