@@ -13,7 +13,7 @@
    "creator": {
     "@id": "person/russo-michele"
    },
-   "description": "Publications (journal articles, book chapters, conference papers, monographs) with authors, keywords, macro-themes, venues, case-study places and scales. Abstracts are included for open-access publications only.",
+   "description": "Publications (journal articles, book chapters, conference papers, monographs) with authors, keywords, macro-themes, venues, case-study places and scales. Abstracts are included for open-access publications only. kg:TextualAffinity items are inferred relations (similarity of title + abstract, computed offline; only scores are published, not texts): basis \"shared keywords\" = corroborated by at least one common keyword, \"reviewed\" = approved by the author.",
    "license": "https://creativecommons.org/licenses/by/4.0/"
   },
   {
@@ -12690,6 +12690,3270 @@
    "@id": "place/palazzo-carignano-museum-turin",
    "@type": "Place",
    "name": "Palazzo Carignano Museum, Turin"
+  },
+  {
+   "@id": "affinity/2026_Russo_PalazzoCarignano--2025_Spallone_CarignanoStaircase",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2026_Russo_PalazzoCarignano"
+    },
+    {
+     "@id": "publication/2025_Spallone_CarignanoStaircase"
+    }
+   ],
+   "kg:score": 0.641,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Russo_SantElena--2023_Russo_SantElenaMetroArcheo",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Russo_SantElena"
+    },
+    {
+     "@id": "publication/2023_Russo_SantElenaMetroArcheo"
+    }
+   ],
+   "kg:score": 0.798,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Russo_SantElena--2022_Russo_LowCostSculpture",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Russo_SantElena"
+    },
+    {
+     "@id": "publication/2022_Russo_LowCostSculpture"
+    }
+   ],
+   "kg:score": 0.268,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Russo_CanossaBIM--2023_Russo_CanossaFORTMED",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Russo_CanossaBIM"
+    },
+    {
+     "@id": "publication/2023_Russo_CanossaFORTMED"
+    }
+   ],
+   "kg:score": 0.418,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Russo_CanossaBIM--2022_Russo_CanossaCastle",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Russo_CanossaBIM"
+    },
+    {
+     "@id": "publication/2022_Russo_CanossaCastle"
+    }
+   ],
+   "kg:score": 0.437,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Ippoliti_VisualStorytelling--2024_Ippoliti_VisualLanguage",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Ippoliti_VisualStorytelling"
+    },
+    {
+     "@id": "publication/2024_Ippoliti_VisualLanguage"
+    }
+   ],
+   "kg:score": 0.324,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Ippoliti_VisualStorytelling--2024_Flenghi_TalkingCities",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Ippoliti_VisualStorytelling"
+    },
+    {
+     "@id": "publication/2024_Flenghi_TalkingCities"
+    }
+   ],
+   "kg:score": 0.294,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Ippoliti_VisualStorytelling--2023_Ippoliti_EsquilineRome",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Ippoliti_VisualStorytelling"
+    },
+    {
+     "@id": "publication/2023_Ippoliti_EsquilineRome"
+    }
+   ],
+   "kg:score": 0.441,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Ippoliti_VisualStorytelling--2017_Carpiceci_PedestrianCyclistic",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Ippoliti_VisualStorytelling"
+    },
+    {
+     "@id": "publication/2017_Carpiceci_PedestrianCyclistic"
+    }
+   ],
+   "kg:score": 0.312,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Billi_MachineLearning--2022_Russo_SpaceGrid3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Billi_MachineLearning"
+    },
+    {
+     "@id": "publication/2022_Russo_SpaceGrid3DArch"
+    }
+   ],
+   "kg:score": 0.339,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2022_Russo_CanossaUAV--2018_Russo_UAVFacades",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2022_Russo_CanossaUAV"
+    },
+    {
+     "@id": "publication/2018_Russo_UAVFacades"
+    }
+   ],
+   "kg:score": 0.273,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2021_Russo_AugmentedReality--2023_Cavallari_StreetARt",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2021_Russo_AugmentedReality"
+    },
+    {
+     "@id": "publication/2023_Cavallari_StreetARt"
+    }
+   ],
+   "kg:score": 0.417,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2021_Russo_AugmentedReality--2022_Cavallari_AugmentedStreetArt",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2021_Russo_AugmentedReality"
+    },
+    {
+     "@id": "publication/2022_Cavallari_AugmentedStreetArt"
+    }
+   ],
+   "kg:score": 0.426,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2021_Russo_AugmentedReality--2023_Giordano_DigitalChallenges",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2021_Russo_AugmentedReality"
+    },
+    {
+     "@id": "publication/2023_Giordano_DigitalChallenges"
+    }
+   ],
+   "kg:score": 0.462,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2021_Russo_AugmentedReality--2023_Russo_AugmentedGeometry",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2021_Russo_AugmentedReality"
+    },
+    {
+     "@id": "publication/2023_Russo_AugmentedGeometry"
+    }
+   ],
+   "kg:score": 0.329,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2020_Grilli_MachineLearningITA--2020_Teruggi_MachineLearningENG",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2020_Grilli_MachineLearningITA"
+    },
+    {
+     "@id": "publication/2020_Teruggi_MachineLearningENG"
+    }
+   ],
+   "kg:score": 0.614,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2020_Grilli_MachineLearningITA--2021_Russo_MachineLearningCH",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2020_Grilli_MachineLearningITA"
+    },
+    {
+     "@id": "publication/2021_Russo_MachineLearningCH"
+    }
+   ],
+   "kg:score": 0.5,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2020_Teruggi_MachineLearningENG--2021_Russo_MachineLearningCH",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2020_Teruggi_MachineLearningENG"
+    },
+    {
+     "@id": "publication/2021_Russo_MachineLearningCH"
+    }
+   ],
+   "kg:score": 0.642,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2020_Russo_CameraGiove--2025_Spallone_CarignanoStaircase",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2020_Russo_CameraGiove"
+    },
+    {
+     "@id": "publication/2025_Spallone_CarignanoStaircase"
+    }
+   ],
+   "kg:score": 0.289,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Carnevali_RailwayBIM--2024_Cappuccino_HBIMCatena",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Carnevali_RailwayBIM"
+    },
+    {
+     "@id": "publication/2024_Cappuccino_HBIMCatena"
+    }
+   ],
+   "kg:score": 0.268,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2018_Russo_UAVFacades--2018_Carnevali_CloseRangeUAV",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2018_Russo_UAVFacades"
+    },
+    {
+     "@id": "publication/2018_Carnevali_CloseRangeUAV"
+    }
+   ],
+   "kg:score": 0.537,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2018_Russo_UAVFacades--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2018_Russo_UAVFacades"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.273,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2014_Guidi_3DSurveyArchaeological--2013_Russo_Rinascita",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2014_Guidi_3DSurveyArchaeological"
+    },
+    {
+     "@id": "publication/2013_Russo_Rinascita"
+    }
+   ],
+   "kg:score": 0.385,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2014_Guidi_3DSurveyArchaeological--2012_Guidi_GGroupMyson",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2014_Guidi_3DSurveyArchaeological"
+    },
+    {
+     "@id": "publication/2012_Guidi_GGroupMyson"
+    }
+   ],
+   "kg:score": 0.468,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2014_Guidi_3DSurveyArchaeological--2012_Russo_LaserFotogrammetria",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2014_Guidi_3DSurveyArchaeological"
+    },
+    {
+     "@id": "publication/2012_Russo_LaserFotogrammetria"
+    }
+   ],
+   "kg:score": 0.258,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2014_Guidi_3DSurveyArchaeological--2013_Guidi_HinduTemplesEVA",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2014_Guidi_3DSurveyArchaeological"
+    },
+    {
+     "@id": "publication/2013_Guidi_HinduTemplesEVA"
+    }
+   ],
+   "kg:score": 0.542,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2014_Guidi_3DSurveyArchaeological--2013_Guidi_DigitalReconstruction3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2014_Guidi_3DSurveyArchaeological"
+    },
+    {
+     "@id": "publication/2013_Guidi_DigitalReconstruction3DArch"
+    }
+   ],
+   "kg:score": 0.513,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2014_Guidi_3DSurveyArchaeological--2012_Guidi_ChamArchitecture",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2014_Guidi_3DSurveyArchaeological"
+    },
+    {
+     "@id": "publication/2012_Guidi_ChamArchitecture"
+    }
+   ],
+   "kg:score": 0.672,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2015_Manferdini_AbbaziaPomposa--2011_Russo_Realitybased",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2015_Manferdini_AbbaziaPomposa"
+    },
+    {
+     "@id": "publication/2011_Russo_Realitybased"
+    }
+   ],
+   "kg:score": 0.351,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2015_Manferdini_AbbaziaPomposa--2017_Russo_SanMaurelio",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2015_Manferdini_AbbaziaPomposa"
+    },
+    {
+     "@id": "publication/2017_Russo_SanMaurelio"
+    }
+   ],
+   "kg:score": 0.299,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2015_Manferdini_AbbaziaPomposa--2016_Russo_FacciateComplesse",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2015_Manferdini_AbbaziaPomposa"
+    },
+    {
+     "@id": "publication/2016_Russo_FacciateComplesse"
+    }
+   ],
+   "kg:score": 0.309,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2015_Manferdini_AbbaziaPomposa--2014_Russo_AbbaziaPomposaUID",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2015_Manferdini_AbbaziaPomposa"
+    },
+    {
+     "@id": "publication/2014_Russo_AbbaziaPomposaUID"
+    }
+   ],
+   "kg:score": 0.404,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Russo_Fotografia--2019_Russo_MobilePhoneImaging",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Russo_Fotografia"
+    },
+    {
+     "@id": "publication/2019_Russo_MobilePhoneImaging"
+    }
+   ],
+   "kg:score": 0.28,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Russo_Rinascita--2012_Guidi_GGroupMyson",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Russo_Rinascita"
+    },
+    {
+     "@id": "publication/2012_Guidi_GGroupMyson"
+    }
+   ],
+   "kg:score": 0.431,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Russo_Rinascita--2013_Guidi_HinduTemplesEVA",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Russo_Rinascita"
+    },
+    {
+     "@id": "publication/2013_Guidi_HinduTemplesEVA"
+    }
+   ],
+   "kg:score": 0.318,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Russo_Rinascita--2013_Guidi_DigitalReconstruction3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Russo_Rinascita"
+    },
+    {
+     "@id": "publication/2013_Guidi_DigitalReconstruction3DArch"
+    }
+   ],
+   "kg:score": 0.346,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Russo_Rinascita--2012_Guidi_ChamArchitecture",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Russo_Rinascita"
+    },
+    {
+     "@id": "publication/2012_Guidi_ChamArchitecture"
+    }
+   ],
+   "kg:score": 0.461,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Russo_Rinascita--2011_Guidi_Diachronic3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Russo_Rinascita"
+    },
+    {
+     "@id": "publication/2011_Guidi_Diachronic3DArch"
+    }
+   ],
+   "kg:score": 0.278,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Russo_Principali--2012_Russo_LaserFotogrammetria",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Russo_Principali"
+    },
+    {
+     "@id": "publication/2012_Russo_LaserFotogrammetria"
+    }
+   ],
+   "kg:score": 0.554,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Russo_Realitybased--2009_Guidi_Diachronic",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Russo_Realitybased"
+    },
+    {
+     "@id": "publication/2009_Guidi_Diachronic"
+    }
+   ],
+   "kg:score": 0.37,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Russo_Realitybased--2025_Spallone_CarignanoAccessibility",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Russo_Realitybased"
+    },
+    {
+     "@id": "publication/2025_Spallone_CarignanoAccessibility"
+    }
+   ],
+   "kg:score": 0.256,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Russo_Realitybased--2011_Russo_IntegratedCH",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Russo_Realitybased"
+    },
+    {
+     "@id": "publication/2011_Russo_IntegratedCH"
+    }
+   ],
+   "kg:score": 0.263,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2010_Guidi_Performance--2011_Guidi_LowCostTOF",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2010_Guidi_Performance"
+    },
+    {
+     "@id": "publication/2011_Guidi_LowCostTOF"
+    }
+   ],
+   "kg:score": 0.519,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2010_Guidi_Performance--2009_Guidi_RangeSensorsMarble",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2010_Guidi_Performance"
+    },
+    {
+     "@id": "publication/2009_Guidi_RangeSensorsMarble"
+    }
+   ],
+   "kg:score": 0.344,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2010_Guidi_Performance--2009_Russo_CharacterizationRange",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2010_Guidi_Performance"
+    },
+    {
+     "@id": "publication/2009_Russo_CharacterizationRange"
+    }
+   ],
+   "kg:score": 0.893,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2010_Guidi_Performance--2009_Guidi_ResolutionCharacterization",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2010_Guidi_Performance"
+    },
+    {
+     "@id": "publication/2009_Guidi_ResolutionCharacterization"
+    }
+   ],
+   "kg:score": 0.472,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2010_Guidi_Performance--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2010_Guidi_Performance"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.587,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2010_Guidi_Performance--2005_Guidi_BoatHullModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2010_Guidi_Performance"
+    },
+    {
+     "@id": "publication/2005_Guidi_BoatHullModeling"
+    }
+   ],
+   "kg:score": 0.288,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_Diachronic--2011_Russo_IntegratedCH",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_Diachronic"
+    },
+    {
+     "@id": "publication/2011_Russo_IntegratedCH"
+    }
+   ],
+   "kg:score": 0.461,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_Diachronic--2011_Guidi_Diachronic3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_Diachronic"
+    },
+    {
+     "@id": "publication/2011_Guidi_Diachronic3DArch"
+    }
+   ],
+   "kg:score": 0.423,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_Multiresolution--2012_Russo_LaserFotogrammetria",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_Multiresolution"
+    },
+    {
+     "@id": "publication/2012_Russo_LaserFotogrammetria"
+    }
+   ],
+   "kg:score": 0.253,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_Multiresolution--2009_Guidi_PompeiiForumCAA",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_Multiresolution"
+    },
+    {
+     "@id": "publication/2009_Guidi_PompeiiForumCAA"
+    }
+   ],
+   "kg:score": 0.821,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_Multiresolution--2008_Guidi_LargeComplexSite",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_Multiresolution"
+    },
+    {
+     "@id": "publication/2008_Guidi_LargeComplexSite"
+    }
+   ],
+   "kg:score": 0.915,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_Multiresolution--2008_Guidi_PompeiiForumVSMM",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_Multiresolution"
+    },
+    {
+     "@id": "publication/2008_Guidi_PompeiiForumVSMM"
+    }
+   ],
+   "kg:score": 0.876,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_Multiresolution--2007_Guidi_PlasticoDigitale",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_Multiresolution"
+    },
+    {
+     "@id": "publication/2007_Guidi_PlasticoDigitale"
+    }
+   ],
+   "kg:score": 0.263,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2008_Guidi_Virtualizing--2007_Guidi_PlasticoDigitale",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2008_Guidi_Virtualizing"
+    },
+    {
+     "@id": "publication/2007_Guidi_PlasticoDigitale"
+    }
+   ],
+   "kg:score": 0.262,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2008_Guidi_Virtualizing--2006_Guidi_DigitizationCityModels",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2008_Guidi_Virtualizing"
+    },
+    {
+     "@id": "publication/2006_Guidi_DigitizationCityModels"
+    }
+   ],
+   "kg:score": 0.275,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2008_Guidi_Virtualizing--2005_Guidi_PlasticoRoma3DIM",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2008_Guidi_Virtualizing"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRoma3DIM"
+    }
+   ],
+   "kg:score": 0.258,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2008_Guidi_Virtualizing--2005_Guidi_VirtualizingAncientRome",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2008_Guidi_Virtualizing"
+    },
+    {
+     "@id": "publication/2005_Guidi_VirtualizingAncientRome"
+    }
+   ],
+   "kg:score": 0.827,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Russo_Tecniche--2012_Russo_IntegratedReverse",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Russo_Tecniche"
+    },
+    {
+     "@id": "publication/2012_Russo_IntegratedReverse"
+    }
+   ],
+   "kg:score": 0.262,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Russo_Tecniche--2006_Gaiani_MetodologieInnovative",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Russo_Tecniche"
+    },
+    {
+     "@id": "publication/2006_Gaiani_MetodologieInnovative"
+    }
+   ],
+   "kg:score": 0.317,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Russo_Tecniche--2010_Guidi_AcquisizioneModellazione",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Russo_Tecniche"
+    },
+    {
+     "@id": "publication/2010_Guidi_AcquisizioneModellazione"
+    }
+   ],
+   "kg:score": 0.254,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Russo_Tecniche--2017_Russo_NavaleModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Russo_Tecniche"
+    },
+    {
+     "@id": "publication/2017_Russo_NavaleModeling"
+    }
+   ],
+   "kg:score": 0.289,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Russo_Tecniche--2010_Guidi_RilievoScafi",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Russo_Tecniche"
+    },
+    {
+     "@id": "publication/2010_Guidi_RilievoScafi"
+    }
+   ],
+   "kg:score": 0.345,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Russo_Tecniche--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Russo_Tecniche"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.274,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Russo_Tecniche--2005_Guidi_BoatHullModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Russo_Tecniche"
+    },
+    {
+     "@id": "publication/2005_Guidi_BoatHullModeling"
+    }
+   ],
+   "kg:score": 0.296,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2006_Guidi_Threedimensional--2005_Guidi_PlasticoRomaGrosseto",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2006_Guidi_Threedimensional"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaGrosseto"
+    }
+   ],
+   "kg:score": 0.265,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2006_Guidi_Threedimensional--2005_Guidi_PlasticoRoma3DIM",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2006_Guidi_Threedimensional"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRoma3DIM"
+    }
+   ],
+   "kg:score": 0.303,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Gaiani_Reverse--2019_Russo_CurveGenerative",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Gaiani_Reverse"
+    },
+    {
+     "@id": "publication/2019_Russo_CurveGenerative"
+    }
+   ],
+   "kg:score": 0.302,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Gaiani_Reverse--2017_Russo_NavaleModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Gaiani_Reverse"
+    },
+    {
+     "@id": "publication/2017_Russo_NavaleModeling"
+    }
+   ],
+   "kg:score": 0.316,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Gaiani_Reverse--2011_Guidi_LowCostTOF",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Gaiani_Reverse"
+    },
+    {
+     "@id": "publication/2011_Guidi_LowCostTOF"
+    }
+   ],
+   "kg:score": 0.264,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Gaiani_Reverse--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Gaiani_Reverse"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.32,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Gaiani_Reverse--2005_Guidi_BoatHullModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Gaiani_Reverse"
+    },
+    {
+     "@id": "publication/2005_Guidi_BoatHullModeling"
+    }
+   ],
+   "kg:score": 0.432,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2003_Alessandri_Prime--2002_Alessandri_Tecniche",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2003_Alessandri_Prime"
+    },
+    {
+     "@id": "publication/2002_Alessandri_Tecniche"
+    }
+   ],
+   "kg:score": 0.505,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2003_Alessandri_Prime--2005_Giunchi_TraviComposteFerraraRinasc",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2003_Alessandri_Prime"
+    },
+    {
+     "@id": "publication/2005_Giunchi_TraviComposteFerraraRinasc"
+    }
+   ],
+   "kg:score": 0.476,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2003_Alessandri_Prime--2004_Alessandri_HighTechnologyTimber",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2003_Alessandri_Prime"
+    },
+    {
+     "@id": "publication/2004_Alessandri_HighTechnologyTimber"
+    }
+   ],
+   "kg:score": 0.297,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2003_Alessandri_Prime--2003_Alessandri_WoodenCompositeBeams",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2003_Alessandri_Prime"
+    },
+    {
+     "@id": "publication/2003_Alessandri_WoodenCompositeBeams"
+    }
+   ],
+   "kg:score": 0.283,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2002_Alessandri_Tecniche--2005_Giunchi_TraviComposteFerraraRinasc",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2002_Alessandri_Tecniche"
+    },
+    {
+     "@id": "publication/2005_Giunchi_TraviComposteFerraraRinasc"
+    }
+   ],
+   "kg:score": 0.545,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2002_Alessandri_Tecniche--2004_Alessandri_HighTechnologyTimber",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2002_Alessandri_Tecniche"
+    },
+    {
+     "@id": "publication/2004_Alessandri_HighTechnologyTimber"
+    }
+   ],
+   "kg:score": 0.34,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2002_Alessandri_Tecniche--2003_Alessandri_WoodenCompositeBeams",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2002_Alessandri_Tecniche"
+    },
+    {
+     "@id": "publication/2003_Alessandri_WoodenCompositeBeams"
+    }
+   ],
+   "kg:score": 0.27,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2026_Russo_GPTTreatise--2025_Flenghi_OrdiniNeurali",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2026_Russo_GPTTreatise"
+    },
+    {
+     "@id": "publication/2025_Flenghi_OrdiniNeurali"
+    }
+   ],
+   "kg:score": 0.302,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2026_Robotti_PhotographyAI--2026_Giordano_RepresentationBoundaries",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2026_Robotti_PhotographyAI"
+    },
+    {
+     "@id": "publication/2026_Giordano_RepresentationBoundaries"
+    }
+   ],
+   "kg:score": 0.263,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2026_Robotti_PhotographyAI--2025_Flenghi_OrdiniNeurali",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2026_Robotti_PhotographyAI"
+    },
+    {
+     "@id": "publication/2025_Flenghi_OrdiniNeurali"
+    }
+   ],
+   "kg:score": 0.396,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2026_Giordano_RepresentationBoundaries--2023_Giordano_DigitalChallenges",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2026_Giordano_RepresentationBoundaries"
+    },
+    {
+     "@id": "publication/2023_Giordano_DigitalChallenges"
+    }
+   ],
+   "kg:score": 0.417,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2025_Russo_MilitaryArchitecture--2026_Russo_BastionSurvey",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2025_Russo_MilitaryArchitecture"
+    },
+    {
+     "@id": "publication/2026_Russo_BastionSurvey"
+    }
+   ],
+   "kg:score": 0.355,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2025_Russo_MilitaryArchitecture--2025_Russo_AlessandriaLuccaFORTMED",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2025_Russo_MilitaryArchitecture"
+    },
+    {
+     "@id": "publication/2025_Russo_AlessandriaLuccaFORTMED"
+    }
+   ],
+   "kg:score": 0.588,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Ippoliti_VisualLanguage--2023_Ippoliti_EsquilineRome",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Ippoliti_VisualLanguage"
+    },
+    {
+     "@id": "publication/2023_Ippoliti_EsquilineRome"
+    }
+   ],
+   "kg:score": 0.392,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Cappuccino_HBIMCatena--2024_Cappuccino_AlbergoCatenaEGA",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Cappuccino_HBIMCatena"
+    },
+    {
+     "@id": "publication/2024_Cappuccino_AlbergoCatenaEGA"
+    }
+   ],
+   "kg:score": 0.809,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Cappuccino_HBIMCatena--2022_Russo_CanossaCastle",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Cappuccino_HBIMCatena"
+    },
+    {
+     "@id": "publication/2022_Russo_CanossaCastle"
+    }
+   ],
+   "kg:score": 0.336,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Flenghi_TalkingCities--2023_Ippoliti_EsquilineRome",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Flenghi_TalkingCities"
+    },
+    {
+     "@id": "publication/2023_Ippoliti_EsquilineRome"
+    }
+   ],
+   "kg:score": 0.369,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Cavallari_StreetARt--2022_Cavallari_AugmentedStreetArt",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Cavallari_StreetARt"
+    },
+    {
+     "@id": "publication/2022_Cavallari_AugmentedStreetArt"
+    }
+   ],
+   "kg:score": 0.878,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Cavallari_StreetARt--2023_Giordano_DigitalChallenges",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Cavallari_StreetARt"
+    },
+    {
+     "@id": "publication/2023_Giordano_DigitalChallenges"
+    }
+   ],
+   "kg:score": 0.354,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Cavallari_StreetARt--2023_Russo_AugmentedGeometry",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Cavallari_StreetARt"
+    },
+    {
+     "@id": "publication/2023_Russo_AugmentedGeometry"
+    }
+   ],
+   "kg:score": 0.286,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2022_Cavallari_AugmentedStreetArt--2023_Giordano_DigitalChallenges",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2022_Cavallari_AugmentedStreetArt"
+    },
+    {
+     "@id": "publication/2023_Giordano_DigitalChallenges"
+    }
+   ],
+   "kg:score": 0.373,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2022_Cavallari_AugmentedStreetArt--2023_Russo_AugmentedGeometry",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2022_Cavallari_AugmentedStreetArt"
+    },
+    {
+     "@id": "publication/2023_Russo_AugmentedGeometry"
+    }
+   ],
+   "kg:score": 0.292,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2021_Russo_SanFedele--2020_Rossi_DipintiLegno",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2021_Russo_SanFedele"
+    },
+    {
+     "@id": "publication/2020_Rossi_DipintiLegno"
+    }
+   ],
+   "kg:score": 0.396,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2020_Giugliano_PalazzettoBorghese--2020_Giugliano_DiachronicEGA",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2020_Giugliano_PalazzettoBorghese"
+    },
+    {
+     "@id": "publication/2020_Giugliano_DiachronicEGA"
+    }
+   ],
+   "kg:score": 0.856,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Russo_JardinesEste--2018_Russo_PalazzoVerginese",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Russo_JardinesEste"
+    },
+    {
+     "@id": "publication/2018_Russo_PalazzoVerginese"
+    }
+   ],
+   "kg:score": 0.279,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Russo_JardinesEste--2019_Russo_JardinEsteAPEGA",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Russo_JardinesEste"
+    },
+    {
+     "@id": "publication/2019_Russo_JardinEsteAPEGA"
+    }
+   ],
+   "kg:score": 0.778,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Russo_JardinesEste--2018_Russo_VillaVerginese",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Russo_JardinesEste"
+    },
+    {
+     "@id": "publication/2018_Russo_VillaVerginese"
+    }
+   ],
+   "kg:score": 0.393,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Russo_CurveGenerative--2012_Russo_IntegratedReverse",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Russo_CurveGenerative"
+    },
+    {
+     "@id": "publication/2012_Russo_IntegratedReverse"
+    }
+   ],
+   "kg:score": 0.304,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2015_Russo_MultiScalar--2013_Manferdini_MultiScalar3D",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2015_Russo_MultiScalar"
+    },
+    {
+     "@id": "publication/2013_Manferdini_MultiScalar3D"
+    }
+   ],
+   "kg:score": 0.483,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2015_Guidi_MassiveDigitization--2013_Guidi_QuickTexturedMesh",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2015_Guidi_MassiveDigitization"
+    },
+    {
+     "@id": "publication/2013_Guidi_QuickTexturedMesh"
+    }
+   ],
+   "kg:score": 0.345,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2015_Guidi_MassiveDigitization--2013_Guidi_DigitizingMuseum",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2015_Guidi_MassiveDigitization"
+    },
+    {
+     "@id": "publication/2013_Guidi_DigitizingMuseum"
+    }
+   ],
+   "kg:score": 0.609,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Guidi_GGroupMyson--2013_Guidi_HinduTemplesEVA",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Guidi_GGroupMyson"
+    },
+    {
+     "@id": "publication/2013_Guidi_HinduTemplesEVA"
+    }
+   ],
+   "kg:score": 0.395,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Guidi_GGroupMyson--2013_Guidi_DigitalReconstruction3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Guidi_GGroupMyson"
+    },
+    {
+     "@id": "publication/2013_Guidi_DigitalReconstruction3DArch"
+    }
+   ],
+   "kg:score": 0.569,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Guidi_GGroupMyson--2012_Guidi_ChamArchitecture",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Guidi_GGroupMyson"
+    },
+    {
+     "@id": "publication/2012_Guidi_ChamArchitecture"
+    }
+   ],
+   "kg:score": 0.481,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Russo_RappresentazioniComplesse--2013_Russo_RappresentazioneIbrida",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Russo_RappresentazioniComplesse"
+    },
+    {
+     "@id": "publication/2013_Russo_RappresentazioneIbrida"
+    }
+   ],
+   "kg:score": 0.253,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Russo_IntegratedReverse--2010_Guidi_AcquisizioneModellazione",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Russo_IntegratedReverse"
+    },
+    {
+     "@id": "publication/2010_Guidi_AcquisizioneModellazione"
+    }
+   ],
+   "kg:score": 0.264,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Russo_IntegratedReverse--2022_Russo_SpaceGrid3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Russo_IntegratedReverse"
+    },
+    {
+     "@id": "publication/2022_Russo_SpaceGrid3DArch"
+    }
+   ],
+   "kg:score": 0.259,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Russo_IntegratedReverse--2013_Manferdini_MultiScalar3D",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Russo_IntegratedReverse"
+    },
+    {
+     "@id": "publication/2013_Manferdini_MultiScalar3D"
+    }
+   ],
+   "kg:score": 0.271,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Russo_IntegratedReverse--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Russo_IntegratedReverse"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.267,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Russo_IntegratedReverse--2005_Guidi_BoatHullModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Russo_IntegratedReverse"
+    },
+    {
+     "@id": "publication/2005_Guidi_BoatHullModeling"
+    }
+   ],
+   "kg:score": 0.319,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Russo_LaserFotogrammetria--2026_Russo_MultiLayered3DSurvey",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Russo_LaserFotogrammetria"
+    },
+    {
+     "@id": "publication/2026_Russo_MultiLayered3DSurvey"
+    }
+   ],
+   "kg:score": 0.349,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Russo_LaserFotogrammetria--2013_Manferdini_MultiScalar3D",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Russo_LaserFotogrammetria"
+    },
+    {
+     "@id": "publication/2013_Manferdini_MultiScalar3D"
+    }
+   ],
+   "kg:score": 0.279,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2012_Russo_LaserFotogrammetria--2009_Guidi_RangeSensorsMarble",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2012_Russo_LaserFotogrammetria"
+    },
+    {
+     "@id": "publication/2009_Guidi_RangeSensorsMarble"
+    }
+   ],
+   "kg:score": 0.283,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2006_Gaiani_MetodologieInnovative--2011_Russo_ReverseModelingStorica",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2006_Gaiani_MetodologieInnovative"
+    },
+    {
+     "@id": "publication/2011_Russo_ReverseModelingStorica"
+    }
+   ],
+   "kg:score": 0.382,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Giunchi_TraviComposteFerraraRinasc--2018_Russo_VillaVerginese",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Giunchi_TraviComposteFerraraRinasc"
+    },
+    {
+     "@id": "publication/2018_Russo_VillaVerginese"
+    }
+   ],
+   "kg:score": 0.261,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Giunchi_TraviComposteFerraraRinasc--2004_Alessandri_HighTechnologyTimber",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Giunchi_TraviComposteFerraraRinasc"
+    },
+    {
+     "@id": "publication/2004_Alessandri_HighTechnologyTimber"
+    }
+   ],
+   "kg:score": 0.381,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Giunchi_TraviComposteFerraraRinasc--2003_Alessandri_WoodenCompositeBeams",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Giunchi_TraviComposteFerraraRinasc"
+    },
+    {
+     "@id": "publication/2003_Alessandri_WoodenCompositeBeams"
+    }
+   ],
+   "kg:score": 0.283,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2010_Guidi_AcquisizioneModellazione--2011_Russo_IntegrazioneIndustrialDesign",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2010_Guidi_AcquisizioneModellazione"
+    },
+    {
+     "@id": "publication/2011_Russo_IntegrazioneIndustrialDesign"
+    }
+   ],
+   "kg:score": 0.389,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2026_Russo_BastionSurvey--2025_Russo_AlessandriaLuccaFORTMED",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2026_Russo_BastionSurvey"
+    },
+    {
+     "@id": "publication/2025_Russo_AlessandriaLuccaFORTMED"
+    }
+   ],
+   "kg:score": 0.325,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2026_Russo_BastionSurvey--2024_Vitali_BastionSanMaurizio",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2026_Russo_BastionSurvey"
+    },
+    {
+     "@id": "publication/2024_Vitali_BastionSanMaurizio"
+    }
+   ],
+   "kg:score": 0.339,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2026_Ulivieri_VeronaScholl--2024_Russo_SantaCaterinaVerona",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2026_Ulivieri_VeronaScholl"
+    },
+    {
+     "@id": "publication/2024_Russo_SantaCaterinaVerona"
+    }
+   ],
+   "kg:score": 0.401,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2026_Russo_MultiLayered3DSurvey--2014_Russo_IntegrationRangeBased",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2026_Russo_MultiLayered3DSurvey"
+    },
+    {
+     "@id": "publication/2014_Russo_IntegrationRangeBased"
+    }
+   ],
+   "kg:score": 0.299,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2025_Spallone_PiffettiLibrary--2023_Spallone_PiffettiCIPA",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2025_Spallone_PiffettiLibrary"
+    },
+    {
+     "@id": "publication/2023_Spallone_PiffettiCIPA"
+    }
+   ],
+   "kg:score": 0.776,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2025_Spallone_PiffettiLibrary--2023_Russo_PiffettiAcquisition",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2025_Spallone_PiffettiLibrary"
+    },
+    {
+     "@id": "publication/2023_Russo_PiffettiAcquisition"
+    }
+   ],
+   "kg:score": 0.282,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2025_Spallone_CarignanoStaircase--2025_Spallone_CarignanoAccessibility",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2025_Spallone_CarignanoStaircase"
+    },
+    {
+     "@id": "publication/2025_Spallone_CarignanoAccessibility"
+    }
+   ],
+   "kg:score": 0.385,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2025_Spallone_CarignanoAccessibility--2026_Spallone_VirtualTourCarignano",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2025_Spallone_CarignanoAccessibility"
+    },
+    {
+     "@id": "publication/2026_Spallone_VirtualTourCarignano"
+    }
+   ],
+   "kg:score": 0.303,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2025_Russo_AlessandriaLuccaFORTMED--2024_Russo_SantaCaterinaVerona",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2025_Russo_AlessandriaLuccaFORTMED"
+    },
+    {
+     "@id": "publication/2024_Russo_SantaCaterinaVerona"
+    }
+   ],
+   "kg:score": 0.251,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2025_Russo_UnderwaterPhotogrammetry--2024_Russo_AutoTagDetection",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2025_Russo_UnderwaterPhotogrammetry"
+    },
+    {
+     "@id": "publication/2024_Russo_AutoTagDetection"
+    }
+   ],
+   "kg:score": 0.513,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2025_Russo_UnderwaterPhotogrammetry--2024_Russo_MultimediaPhotogrammetry",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2025_Russo_UnderwaterPhotogrammetry"
+    },
+    {
+     "@id": "publication/2024_Russo_MultimediaPhotogrammetry"
+    }
+   ],
+   "kg:score": 0.499,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Russo_AutoTagDetection--2024_Russo_MultimediaPhotogrammetry",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Russo_AutoTagDetection"
+    },
+    {
+     "@id": "publication/2024_Russo_MultimediaPhotogrammetry"
+    }
+   ],
+   "kg:score": 0.495,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Russo_AutoTagDetection--2021_Russo_AnamorphicWater",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Russo_AutoTagDetection"
+    },
+    {
+     "@id": "publication/2021_Russo_AnamorphicWater"
+    }
+   ],
+   "kg:score": 0.279,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Russo_SalaPieta--2024_Russo_CertosaBolognaAPEGA",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Russo_SalaPieta"
+    },
+    {
+     "@id": "publication/2024_Russo_CertosaBolognaAPEGA"
+    }
+   ],
+   "kg:score": 0.628,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Ruggiero_HullSurvey--2010_Guidi_RilievoScafi",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Ruggiero_HullSurvey"
+    },
+    {
+     "@id": "publication/2010_Guidi_RilievoScafi"
+    }
+   ],
+   "kg:score": 0.257,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Cappuccino_AlbergoCatenaEGA--2022_Russo_CanossaCastle",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Cappuccino_AlbergoCatenaEGA"
+    },
+    {
+     "@id": "publication/2022_Russo_CanossaCastle"
+    }
+   ],
+   "kg:score": 0.327,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2024_Russo_SantaCaterinaVerona--2023_Russo_CanossaFORTMED",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2024_Russo_SantaCaterinaVerona"
+    },
+    {
+     "@id": "publication/2023_Russo_CanossaFORTMED"
+    }
+   ],
+   "kg:score": 0.259,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Ippoliti_EsquilineRome--2017_Carpiceci_PedestrianCyclistic",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Ippoliti_EsquilineRome"
+    },
+    {
+     "@id": "publication/2017_Carpiceci_PedestrianCyclistic"
+    }
+   ],
+   "kg:score": 0.346,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Spallone_PiffettiCIPA--2023_Russo_PiffettiAcquisition",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Spallone_PiffettiCIPA"
+    },
+    {
+     "@id": "publication/2023_Russo_PiffettiAcquisition"
+    }
+   ],
+   "kg:score": 0.296,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Spallone_PiffettiCIPA--2026_Spallone_VirtualTourCarignano",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Spallone_PiffettiCIPA"
+    },
+    {
+     "@id": "publication/2026_Spallone_VirtualTourCarignano"
+    }
+   ],
+   "kg:score": 0.252,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Russo_CanossaFORTMED--2022_Russo_CanossaCastle",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Russo_CanossaFORTMED"
+    },
+    {
+     "@id": "publication/2022_Russo_CanossaCastle"
+    }
+   ],
+   "kg:score": 0.624,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Basso_InteractiveWalkthrough--2020_Carnevali_MongeAR",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Basso_InteractiveWalkthrough"
+    },
+    {
+     "@id": "publication/2020_Carnevali_MongeAR"
+    }
+   ],
+   "kg:score": 0.3,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Giordano_DigitalChallenges--2023_Russo_AugmentedGeometry",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Giordano_DigitalChallenges"
+    },
+    {
+     "@id": "publication/2023_Russo_AugmentedGeometry"
+    }
+   ],
+   "kg:score": 0.35,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Giordano_DigitalChallenges--2020_Carnevali_MongeAR",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Giordano_DigitalChallenges"
+    },
+    {
+     "@id": "publication/2020_Carnevali_MongeAR"
+    }
+   ],
+   "kg:score": 0.253,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Russo_AugmentedGeometry--2020_Carnevali_MongeAR",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Russo_AugmentedGeometry"
+    },
+    {
+     "@id": "publication/2020_Carnevali_MongeAR"
+    }
+   ],
+   "kg:score": 0.32,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2023_Russo_AugmentedGeometry--2019_Russo_ParametricSurfaces3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2023_Russo_AugmentedGeometry"
+    },
+    {
+     "@id": "publication/2019_Russo_ParametricSurfaces3DArch"
+    }
+   ],
+   "kg:score": 0.37,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2022_Cipollone_ElasticJoinery--2004_Alessandri_HighTechnologyTimber",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2022_Cipollone_ElasticJoinery"
+    },
+    {
+     "@id": "publication/2004_Alessandri_HighTechnologyTimber"
+    }
+   ],
+   "kg:score": 0.253,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2022_Bevilacqua_3DReconVR--2006_Brevi_SalaCariatidi",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2022_Bevilacqua_3DReconVR"
+    },
+    {
+     "@id": "publication/2006_Brevi_SalaCariatidi"
+    }
+   ],
+   "kg:score": 0.28,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2022_Bevilacqua_3DReconVR--2005_Gaiani_SalaCariatidi3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2022_Bevilacqua_3DReconVR"
+    },
+    {
+     "@id": "publication/2005_Gaiani_SalaCariatidi3DArch"
+    }
+   ],
+   "kg:score": 0.283,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2022_Russo_SpaceGrid3DArch--2018_Carnevali_CloseRangeUAV",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2022_Russo_SpaceGrid3DArch"
+    },
+    {
+     "@id": "publication/2018_Carnevali_CloseRangeUAV"
+    }
+   ],
+   "kg:score": 0.365,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2022_Russo_SpaceGrid3DArch--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2022_Russo_SpaceGrid3DArch"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.276,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Russo_JardinEsteAPEGA--2018_Russo_VillaVerginese",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Russo_JardinEsteAPEGA"
+    },
+    {
+     "@id": "publication/2018_Russo_VillaVerginese"
+    }
+   ],
+   "kg:score": 0.38,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Camagni_ReverseModeling3DArch--2018_Bianchini_MassiveAcquisition",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Camagni_ReverseModeling3DArch"
+    },
+    {
+     "@id": "publication/2018_Bianchini_MassiveAcquisition"
+    }
+   ],
+   "kg:score": 0.259,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Camagni_ReverseModeling3DArch--2011_Russo_ReverseModelingStorica",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Camagni_ReverseModeling3DArch"
+    },
+    {
+     "@id": "publication/2011_Russo_ReverseModelingStorica"
+    }
+   ],
+   "kg:score": 0.434,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Carnevali_SphericalDrawing--2017_Carpiceci_PedestrianCyclistic",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Carnevali_SphericalDrawing"
+    },
+    {
+     "@id": "publication/2017_Carpiceci_PedestrianCyclistic"
+    }
+   ],
+   "kg:score": 0.25,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2019_Russo_Fotomodellazione--2017_Russo_NavaleModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2019_Russo_Fotomodellazione"
+    },
+    {
+     "@id": "publication/2017_Russo_NavaleModeling"
+    }
+   ],
+   "kg:score": 0.321,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2018_Carnevali_CloseRangeUAV--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2018_Carnevali_CloseRangeUAV"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.272,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2017_Manferdini_AbbaziaPomposaCont--2011_Russo_IntegrazioneIndustrialDesign",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2017_Manferdini_AbbaziaPomposaCont"
+    },
+    {
+     "@id": "publication/2011_Russo_IntegrazioneIndustrialDesign"
+    }
+   ],
+   "kg:score": 0.355,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2017_Russo_NavaleModeling--2005_Guidi_BoatHullModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2017_Russo_NavaleModeling"
+    },
+    {
+     "@id": "publication/2005_Guidi_BoatHullModeling"
+    }
+   ],
+   "kg:score": 0.267,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2017_Russo_SanMaurelio--2016_Russo_FacciateComplesse",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2017_Russo_SanMaurelio"
+    },
+    {
+     "@id": "publication/2016_Russo_FacciateComplesse"
+    }
+   ],
+   "kg:score": 0.251,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2017_Russo_SanMaurelio--2014_Russo_AbbaziaPomposaUID",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2017_Russo_SanMaurelio"
+    },
+    {
+     "@id": "publication/2014_Russo_AbbaziaPomposaUID"
+    }
+   ],
+   "kg:score": 0.291,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2014_Russo_IntegrationRangeBased--2013_Manferdini_MultiScalar3D",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2014_Russo_IntegrationRangeBased"
+    },
+    {
+     "@id": "publication/2013_Manferdini_MultiScalar3D"
+    }
+   ],
+   "kg:score": 0.375,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Guidi_QuickTexturedMesh--2013_Guidi_DigitizingMuseum",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Guidi_QuickTexturedMesh"
+    },
+    {
+     "@id": "publication/2013_Guidi_DigitizingMuseum"
+    }
+   ],
+   "kg:score": 0.298,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Manferdini_MultiScalar3D--2009_Guidi_RangeSensorsMarble",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Manferdini_MultiScalar3D"
+    },
+    {
+     "@id": "publication/2009_Guidi_RangeSensorsMarble"
+    }
+   ],
+   "kg:score": 0.291,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Manferdini_MultiScalar3D--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Manferdini_MultiScalar3D"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.253,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Guidi_HinduTemplesEVA--2013_Guidi_DigitalReconstruction3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Guidi_HinduTemplesEVA"
+    },
+    {
+     "@id": "publication/2013_Guidi_DigitalReconstruction3DArch"
+    }
+   ],
+   "kg:score": 0.603,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Guidi_HinduTemplesEVA--2012_Guidi_ChamArchitecture",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Guidi_HinduTemplesEVA"
+    },
+    {
+     "@id": "publication/2012_Guidi_ChamArchitecture"
+    }
+   ],
+   "kg:score": 0.4,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2013_Guidi_DigitalReconstruction3DArch--2012_Guidi_ChamArchitecture",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2013_Guidi_DigitalReconstruction3DArch"
+    },
+    {
+     "@id": "publication/2012_Guidi_ChamArchitecture"
+    }
+   ],
+   "kg:score": 0.477,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Russo_RilievoStrumentale--2011_Russo_IntegrazioneIndustrialDesign",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Russo_RilievoStrumentale"
+    },
+    {
+     "@id": "publication/2011_Russo_IntegrazioneIndustrialDesign"
+    }
+   ],
+   "kg:score": 0.339,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Russo_RoleDigitalModels--2011_Russo_IntegratedCH",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Russo_RoleDigitalModels"
+    },
+    {
+     "@id": "publication/2011_Russo_IntegratedCH"
+    }
+   ],
+   "kg:score": 0.364,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Russo_RoleDigitalModels--2011_Guidi_Diachronic3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Russo_RoleDigitalModels"
+    },
+    {
+     "@id": "publication/2011_Guidi_Diachronic3DArch"
+    }
+   ],
+   "kg:score": 0.322,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Russo_IntegratedCH--2011_Guidi_Diachronic3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Russo_IntegratedCH"
+    },
+    {
+     "@id": "publication/2011_Guidi_Diachronic3DArch"
+    }
+   ],
+   "kg:score": 0.676,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Guidi_LowCostTOF--2009_Guidi_RangeSensorsMarble",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Guidi_LowCostTOF"
+    },
+    {
+     "@id": "publication/2009_Guidi_RangeSensorsMarble"
+    }
+   ],
+   "kg:score": 0.295,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Guidi_LowCostTOF--2009_Russo_CharacterizationRange",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Guidi_LowCostTOF"
+    },
+    {
+     "@id": "publication/2009_Russo_CharacterizationRange"
+    }
+   ],
+   "kg:score": 0.504,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Guidi_LowCostTOF--2009_Guidi_ResolutionCharacterization",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Guidi_LowCostTOF"
+    },
+    {
+     "@id": "publication/2009_Guidi_ResolutionCharacterization"
+    }
+   ],
+   "kg:score": 0.892,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Guidi_LowCostTOF--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Guidi_LowCostTOF"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.589,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2011_Guidi_LowCostTOF--2005_Guidi_BoatHullModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2011_Guidi_LowCostTOF"
+    },
+    {
+     "@id": "publication/2005_Guidi_BoatHullModeling"
+    }
+   ],
+   "kg:score": 0.285,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_RangeSensorsMarble--2009_Russo_CharacterizationRange",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_RangeSensorsMarble"
+    },
+    {
+     "@id": "publication/2009_Russo_CharacterizationRange"
+    }
+   ],
+   "kg:score": 0.252,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_RangeSensorsMarble--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_RangeSensorsMarble"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.307,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_PompeiiForumCAA--2008_Guidi_LargeComplexSite",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_PompeiiForumCAA"
+    },
+    {
+     "@id": "publication/2008_Guidi_LargeComplexSite"
+    }
+   ],
+   "kg:score": 0.819,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_PompeiiForumCAA--2008_Guidi_PompeiiForumVSMM",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_PompeiiForumCAA"
+    },
+    {
+     "@id": "publication/2008_Guidi_PompeiiForumVSMM"
+    }
+   ],
+   "kg:score": 0.786,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Russo_CharacterizationRange--2009_Guidi_ResolutionCharacterization",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Russo_CharacterizationRange"
+    },
+    {
+     "@id": "publication/2009_Guidi_ResolutionCharacterization"
+    }
+   ],
+   "kg:score": 0.478,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Russo_CharacterizationRange--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Russo_CharacterizationRange"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.546,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2009_Guidi_ResolutionCharacterization--2007_Russo_LowCostScanners",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2009_Guidi_ResolutionCharacterization"
+    },
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    }
+   ],
+   "kg:score": 0.565,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2008_Guidi_LargeComplexSite--2008_Guidi_PompeiiForumVSMM",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2008_Guidi_LargeComplexSite"
+    },
+    {
+     "@id": "publication/2008_Guidi_PompeiiForumVSMM"
+    }
+   ],
+   "kg:score": 0.866,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2008_Guidi_LargeComplexSite--2007_Guidi_PlasticoDigitale",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2008_Guidi_LargeComplexSite"
+    },
+    {
+     "@id": "publication/2007_Guidi_PlasticoDigitale"
+    }
+   ],
+   "kg:score": 0.251,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Guidi_PlasticoDigitale--2006_Guidi_DigitizationCityModels",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Guidi_PlasticoDigitale"
+    },
+    {
+     "@id": "publication/2006_Guidi_DigitizationCityModels"
+    }
+   ],
+   "kg:score": 0.453,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Guidi_PlasticoDigitale--2005_Guidi_PlasticoRomaGrosseto",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Guidi_PlasticoDigitale"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaGrosseto"
+    }
+   ],
+   "kg:score": 0.324,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Guidi_PlasticoDigitale--2005_Guidi_PlasticoRoma3DIM",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Guidi_PlasticoDigitale"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRoma3DIM"
+    }
+   ],
+   "kg:score": 0.441,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Guidi_PlasticoDigitale--2005_Guidi_PlasticoRomaMIDECH",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Guidi_PlasticoDigitale"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaMIDECH"
+    }
+   ],
+   "kg:score": 0.369,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Guidi_PlasticoDigitale--2005_Guidi_VirtualizingAncientRome",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Guidi_PlasticoDigitale"
+    },
+    {
+     "@id": "publication/2005_Guidi_VirtualizingAncientRome"
+    }
+   ],
+   "kg:score": 0.3,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2007_Russo_LowCostScanners--2005_Guidi_BoatHullModeling",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2007_Russo_LowCostScanners"
+    },
+    {
+     "@id": "publication/2005_Guidi_BoatHullModeling"
+    }
+   ],
+   "kg:score": 0.398,
+   "kg:basis": "reviewed",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2006_Guidi_DigitizationCityModels--2005_Guidi_PlasticoRoma3DIM",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2006_Guidi_DigitizationCityModels"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRoma3DIM"
+    }
+   ],
+   "kg:score": 0.402,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2006_Guidi_DigitizationCityModels--2005_Guidi_PlasticoRomaMIDECH",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2006_Guidi_DigitizationCityModels"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaMIDECH"
+    }
+   ],
+   "kg:score": 0.4,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2006_Guidi_DigitizationCityModels--2005_Guidi_VirtualizingAncientRome",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2006_Guidi_DigitizationCityModels"
+    },
+    {
+     "@id": "publication/2005_Guidi_VirtualizingAncientRome"
+    }
+   ],
+   "kg:score": 0.372,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2006_Brevi_SalaCariatidi--2005_Gaiani_SalaCariatidi3DArch",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2006_Brevi_SalaCariatidi"
+    },
+    {
+     "@id": "publication/2005_Gaiani_SalaCariatidi3DArch"
+    }
+   ],
+   "kg:score": 0.486,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Guidi_PlasticoRomaGrosseto--2005_Guidi_PlasticoRoma3DIM",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaGrosseto"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRoma3DIM"
+    }
+   ],
+   "kg:score": 0.623,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Guidi_PlasticoRomaGrosseto--2005_Guidi_PlasticoRomaMIDECH",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaGrosseto"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaMIDECH"
+    }
+   ],
+   "kg:score": 0.576,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Guidi_PlasticoRomaGrosseto--2005_Guidi_VirtualizingAncientRome",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaGrosseto"
+    },
+    {
+     "@id": "publication/2005_Guidi_VirtualizingAncientRome"
+    }
+   ],
+   "kg:score": 0.276,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Guidi_PlasticoRoma3DIM--2005_Guidi_PlasticoRomaMIDECH",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Guidi_PlasticoRoma3DIM"
+    },
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaMIDECH"
+    }
+   ],
+   "kg:score": 0.802,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Guidi_PlasticoRoma3DIM--2005_Guidi_VirtualizingAncientRome",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Guidi_PlasticoRoma3DIM"
+    },
+    {
+     "@id": "publication/2005_Guidi_VirtualizingAncientRome"
+    }
+   ],
+   "kg:score": 0.383,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2005_Guidi_PlasticoRomaMIDECH--2005_Guidi_VirtualizingAncientRome",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2005_Guidi_PlasticoRomaMIDECH"
+    },
+    {
+     "@id": "publication/2005_Guidi_VirtualizingAncientRome"
+    }
+   ],
+   "kg:score": 0.327,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
+  },
+  {
+   "@id": "affinity/2004_Alessandri_HighTechnologyTimber--2003_Alessandri_WoodenCompositeBeams",
+   "@type": "kg:TextualAffinity",
+   "kg:between": [
+    {
+     "@id": "publication/2004_Alessandri_HighTechnologyTimber"
+    },
+    {
+     "@id": "publication/2003_Alessandri_WoodenCompositeBeams"
+    }
+   ],
+   "kg:score": 0.74,
+   "kg:basis": "shared keywords",
+   "kg:status": "inferred",
+   "kg:method": "multilingual-e5-small (int8 ONNX), cosine similarity on title + abstract, threshold 0.25"
   }
  ]
 }

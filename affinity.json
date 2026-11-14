@@ -1,0 +1,1231 @@
+{
+ "model": "multilingual-e5-small (int8 ONNX)",
+ "model_sha256": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193",
+ "threshold": 0.25,
+ "pairs": [
+  {
+   "a": "2026_Russo_PalazzoCarignano",
+   "b": "2025_Spallone_CarignanoStaircase",
+   "score": 0.641,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Russo_SantElena",
+   "b": "2023_Russo_SantElenaMetroArcheo",
+   "score": 0.798,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Russo_SantElena",
+   "b": "2022_Russo_LowCostSculpture",
+   "score": 0.268,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Russo_CanossaBIM",
+   "b": "2023_Russo_CanossaFORTMED",
+   "score": 0.418,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Russo_CanossaBIM",
+   "b": "2022_Russo_CanossaCastle",
+   "score": 0.437,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Ippoliti_VisualStorytelling",
+   "b": "2024_Ippoliti_VisualLanguage",
+   "score": 0.324,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Ippoliti_VisualStorytelling",
+   "b": "2024_Flenghi_TalkingCities",
+   "score": 0.294,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Ippoliti_VisualStorytelling",
+   "b": "2023_Ippoliti_EsquilineRome",
+   "score": 0.441,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Ippoliti_VisualStorytelling",
+   "b": "2017_Carpiceci_PedestrianCyclistic",
+   "score": 0.312,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Billi_MachineLearning",
+   "b": "2022_Russo_SpaceGrid3DArch",
+   "score": 0.339,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2022_Russo_CanossaUAV",
+   "b": "2018_Russo_UAVFacades",
+   "score": 0.273,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2021_Russo_AugmentedReality",
+   "b": "2023_Cavallari_StreetARt",
+   "score": 0.417,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2021_Russo_AugmentedReality",
+   "b": "2022_Cavallari_AugmentedStreetArt",
+   "score": 0.426,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2021_Russo_AugmentedReality",
+   "b": "2023_Giordano_DigitalChallenges",
+   "score": 0.462,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2021_Russo_AugmentedReality",
+   "b": "2023_Russo_AugmentedGeometry",
+   "score": 0.329,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2020_Grilli_MachineLearningITA",
+   "b": "2020_Teruggi_MachineLearningENG",
+   "score": 0.614,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2020_Grilli_MachineLearningITA",
+   "b": "2021_Russo_MachineLearningCH",
+   "score": 0.5,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2020_Teruggi_MachineLearningENG",
+   "b": "2021_Russo_MachineLearningCH",
+   "score": 0.642,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2020_Russo_CameraGiove",
+   "b": "2025_Spallone_CarignanoStaircase",
+   "score": 0.289,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2019_Carnevali_RailwayBIM",
+   "b": "2024_Cappuccino_HBIMCatena",
+   "score": 0.268,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2018_Russo_UAVFacades",
+   "b": "2018_Carnevali_CloseRangeUAV",
+   "score": 0.537,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2018_Russo_UAVFacades",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.273,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2014_Guidi_3DSurveyArchaeological",
+   "b": "2013_Russo_Rinascita",
+   "score": 0.385,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2014_Guidi_3DSurveyArchaeological",
+   "b": "2012_Guidi_GGroupMyson",
+   "score": 0.468,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2014_Guidi_3DSurveyArchaeological",
+   "b": "2012_Russo_LaserFotogrammetria",
+   "score": 0.258,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2014_Guidi_3DSurveyArchaeological",
+   "b": "2013_Guidi_HinduTemplesEVA",
+   "score": 0.542,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2014_Guidi_3DSurveyArchaeological",
+   "b": "2013_Guidi_DigitalReconstruction3DArch",
+   "score": 0.513,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2014_Guidi_3DSurveyArchaeological",
+   "b": "2012_Guidi_ChamArchitecture",
+   "score": 0.672,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2015_Manferdini_AbbaziaPomposa",
+   "b": "2011_Russo_Realitybased",
+   "score": 0.351,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2015_Manferdini_AbbaziaPomposa",
+   "b": "2017_Russo_SanMaurelio",
+   "score": 0.299,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2015_Manferdini_AbbaziaPomposa",
+   "b": "2016_Russo_FacciateComplesse",
+   "score": 0.309,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2015_Manferdini_AbbaziaPomposa",
+   "b": "2014_Russo_AbbaziaPomposaUID",
+   "score": 0.404,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Russo_Fotografia",
+   "b": "2019_Russo_MobilePhoneImaging",
+   "score": 0.28,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Russo_Rinascita",
+   "b": "2012_Guidi_GGroupMyson",
+   "score": 0.431,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Russo_Rinascita",
+   "b": "2013_Guidi_HinduTemplesEVA",
+   "score": 0.318,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Russo_Rinascita",
+   "b": "2013_Guidi_DigitalReconstruction3DArch",
+   "score": 0.346,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Russo_Rinascita",
+   "b": "2012_Guidi_ChamArchitecture",
+   "score": 0.461,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Russo_Rinascita",
+   "b": "2011_Guidi_Diachronic3DArch",
+   "score": 0.278,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Russo_Principali",
+   "b": "2012_Russo_LaserFotogrammetria",
+   "score": 0.554,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Russo_Realitybased",
+   "b": "2009_Guidi_Diachronic",
+   "score": 0.37,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Russo_Realitybased",
+   "b": "2025_Spallone_CarignanoAccessibility",
+   "score": 0.256,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Russo_Realitybased",
+   "b": "2011_Russo_IntegratedCH",
+   "score": 0.263,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2010_Guidi_Performance",
+   "b": "2011_Guidi_LowCostTOF",
+   "score": 0.519,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2010_Guidi_Performance",
+   "b": "2009_Guidi_RangeSensorsMarble",
+   "score": 0.344,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2010_Guidi_Performance",
+   "b": "2009_Russo_CharacterizationRange",
+   "score": 0.893,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2010_Guidi_Performance",
+   "b": "2009_Guidi_ResolutionCharacterization",
+   "score": 0.472,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2010_Guidi_Performance",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.587,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2010_Guidi_Performance",
+   "b": "2005_Guidi_BoatHullModeling",
+   "score": 0.288,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2009_Guidi_Diachronic",
+   "b": "2011_Russo_IntegratedCH",
+   "score": 0.461,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_Diachronic",
+   "b": "2011_Guidi_Diachronic3DArch",
+   "score": 0.423,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_Multiresolution",
+   "b": "2012_Russo_LaserFotogrammetria",
+   "score": 0.253,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_Multiresolution",
+   "b": "2009_Guidi_PompeiiForumCAA",
+   "score": 0.821,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_Multiresolution",
+   "b": "2008_Guidi_LargeComplexSite",
+   "score": 0.915,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_Multiresolution",
+   "b": "2008_Guidi_PompeiiForumVSMM",
+   "score": 0.876,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_Multiresolution",
+   "b": "2007_Guidi_PlasticoDigitale",
+   "score": 0.263,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2008_Guidi_Virtualizing",
+   "b": "2007_Guidi_PlasticoDigitale",
+   "score": 0.262,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2008_Guidi_Virtualizing",
+   "b": "2006_Guidi_DigitizationCityModels",
+   "score": 0.275,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2008_Guidi_Virtualizing",
+   "b": "2005_Guidi_PlasticoRoma3DIM",
+   "score": 0.258,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2008_Guidi_Virtualizing",
+   "b": "2005_Guidi_VirtualizingAncientRome",
+   "score": 0.827,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Russo_Tecniche",
+   "b": "2012_Russo_IntegratedReverse",
+   "score": 0.262,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Russo_Tecniche",
+   "b": "2006_Gaiani_MetodologieInnovative",
+   "score": 0.317,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Russo_Tecniche",
+   "b": "2010_Guidi_AcquisizioneModellazione",
+   "score": 0.254,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Russo_Tecniche",
+   "b": "2017_Russo_NavaleModeling",
+   "score": 0.289,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Russo_Tecniche",
+   "b": "2010_Guidi_RilievoScafi",
+   "score": 0.345,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Russo_Tecniche",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.274,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Russo_Tecniche",
+   "b": "2005_Guidi_BoatHullModeling",
+   "score": 0.296,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2006_Guidi_Threedimensional",
+   "b": "2005_Guidi_PlasticoRomaGrosseto",
+   "score": 0.265,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2006_Guidi_Threedimensional",
+   "b": "2005_Guidi_PlasticoRoma3DIM",
+   "score": 0.303,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Gaiani_Reverse",
+   "b": "2019_Russo_CurveGenerative",
+   "score": 0.302,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Gaiani_Reverse",
+   "b": "2017_Russo_NavaleModeling",
+   "score": 0.316,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Gaiani_Reverse",
+   "b": "2011_Guidi_LowCostTOF",
+   "score": 0.264,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Gaiani_Reverse",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.32,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Gaiani_Reverse",
+   "b": "2005_Guidi_BoatHullModeling",
+   "score": 0.432,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2003_Alessandri_Prime",
+   "b": "2002_Alessandri_Tecniche",
+   "score": 0.505,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2003_Alessandri_Prime",
+   "b": "2005_Giunchi_TraviComposteFerraraRinasc",
+   "score": 0.476,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2003_Alessandri_Prime",
+   "b": "2004_Alessandri_HighTechnologyTimber",
+   "score": 0.297,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2003_Alessandri_Prime",
+   "b": "2003_Alessandri_WoodenCompositeBeams",
+   "score": 0.283,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2002_Alessandri_Tecniche",
+   "b": "2005_Giunchi_TraviComposteFerraraRinasc",
+   "score": 0.545,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2002_Alessandri_Tecniche",
+   "b": "2004_Alessandri_HighTechnologyTimber",
+   "score": 0.34,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2002_Alessandri_Tecniche",
+   "b": "2003_Alessandri_WoodenCompositeBeams",
+   "score": 0.27,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2026_Russo_GPTTreatise",
+   "b": "2025_Flenghi_OrdiniNeurali",
+   "score": 0.302,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2026_Robotti_PhotographyAI",
+   "b": "2026_Giordano_RepresentationBoundaries",
+   "score": 0.263,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2026_Robotti_PhotographyAI",
+   "b": "2025_Flenghi_OrdiniNeurali",
+   "score": 0.396,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2026_Giordano_RepresentationBoundaries",
+   "b": "2023_Giordano_DigitalChallenges",
+   "score": 0.417,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2025_Russo_MilitaryArchitecture",
+   "b": "2026_Russo_BastionSurvey",
+   "score": 0.355,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2025_Russo_MilitaryArchitecture",
+   "b": "2025_Russo_AlessandriaLuccaFORTMED",
+   "score": 0.588,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Ippoliti_VisualLanguage",
+   "b": "2023_Ippoliti_EsquilineRome",
+   "score": 0.392,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Cappuccino_HBIMCatena",
+   "b": "2024_Cappuccino_AlbergoCatenaEGA",
+   "score": 0.809,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Cappuccino_HBIMCatena",
+   "b": "2022_Russo_CanossaCastle",
+   "score": 0.336,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Flenghi_TalkingCities",
+   "b": "2023_Ippoliti_EsquilineRome",
+   "score": 0.369,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Cavallari_StreetARt",
+   "b": "2022_Cavallari_AugmentedStreetArt",
+   "score": 0.878,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Cavallari_StreetARt",
+   "b": "2023_Giordano_DigitalChallenges",
+   "score": 0.354,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Cavallari_StreetARt",
+   "b": "2023_Russo_AugmentedGeometry",
+   "score": 0.286,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2022_Cavallari_AugmentedStreetArt",
+   "b": "2023_Giordano_DigitalChallenges",
+   "score": 0.373,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2022_Cavallari_AugmentedStreetArt",
+   "b": "2023_Russo_AugmentedGeometry",
+   "score": 0.292,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2021_Russo_SanFedele",
+   "b": "2020_Rossi_DipintiLegno",
+   "score": 0.396,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2020_Giugliano_PalazzettoBorghese",
+   "b": "2020_Giugliano_DiachronicEGA",
+   "score": 0.856,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2019_Russo_JardinesEste",
+   "b": "2018_Russo_PalazzoVerginese",
+   "score": 0.279,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2019_Russo_JardinesEste",
+   "b": "2019_Russo_JardinEsteAPEGA",
+   "score": 0.778,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2019_Russo_JardinesEste",
+   "b": "2018_Russo_VillaVerginese",
+   "score": 0.393,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2019_Russo_CurveGenerative",
+   "b": "2012_Russo_IntegratedReverse",
+   "score": 0.304,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2015_Russo_MultiScalar",
+   "b": "2013_Manferdini_MultiScalar3D",
+   "score": 0.483,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2015_Guidi_MassiveDigitization",
+   "b": "2013_Guidi_QuickTexturedMesh",
+   "score": 0.345,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2015_Guidi_MassiveDigitization",
+   "b": "2013_Guidi_DigitizingMuseum",
+   "score": 0.609,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Guidi_GGroupMyson",
+   "b": "2013_Guidi_HinduTemplesEVA",
+   "score": 0.395,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Guidi_GGroupMyson",
+   "b": "2013_Guidi_DigitalReconstruction3DArch",
+   "score": 0.569,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Guidi_GGroupMyson",
+   "b": "2012_Guidi_ChamArchitecture",
+   "score": 0.481,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Russo_RappresentazioniComplesse",
+   "b": "2013_Russo_RappresentazioneIbrida",
+   "score": 0.253,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2012_Russo_IntegratedReverse",
+   "b": "2010_Guidi_AcquisizioneModellazione",
+   "score": 0.264,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Russo_IntegratedReverse",
+   "b": "2022_Russo_SpaceGrid3DArch",
+   "score": 0.259,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Russo_IntegratedReverse",
+   "b": "2013_Manferdini_MultiScalar3D",
+   "score": 0.271,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Russo_IntegratedReverse",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.267,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Russo_IntegratedReverse",
+   "b": "2005_Guidi_BoatHullModeling",
+   "score": 0.319,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Russo_LaserFotogrammetria",
+   "b": "2026_Russo_MultiLayered3DSurvey",
+   "score": 0.349,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Russo_LaserFotogrammetria",
+   "b": "2013_Manferdini_MultiScalar3D",
+   "score": 0.279,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2012_Russo_LaserFotogrammetria",
+   "b": "2009_Guidi_RangeSensorsMarble",
+   "score": 0.283,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2006_Gaiani_MetodologieInnovative",
+   "b": "2011_Russo_ReverseModelingStorica",
+   "score": 0.382,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Giunchi_TraviComposteFerraraRinasc",
+   "b": "2018_Russo_VillaVerginese",
+   "score": 0.261,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2005_Giunchi_TraviComposteFerraraRinasc",
+   "b": "2004_Alessandri_HighTechnologyTimber",
+   "score": 0.381,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2005_Giunchi_TraviComposteFerraraRinasc",
+   "b": "2003_Alessandri_WoodenCompositeBeams",
+   "score": 0.283,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2010_Guidi_AcquisizioneModellazione",
+   "b": "2011_Russo_IntegrazioneIndustrialDesign",
+   "score": 0.389,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2026_Russo_BastionSurvey",
+   "b": "2025_Russo_AlessandriaLuccaFORTMED",
+   "score": 0.325,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2026_Russo_BastionSurvey",
+   "b": "2024_Vitali_BastionSanMaurizio",
+   "score": 0.339,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2026_Ulivieri_VeronaScholl",
+   "b": "2024_Russo_SantaCaterinaVerona",
+   "score": 0.401,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2026_Russo_MultiLayered3DSurvey",
+   "b": "2014_Russo_IntegrationRangeBased",
+   "score": 0.299,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2025_Spallone_PiffettiLibrary",
+   "b": "2023_Spallone_PiffettiCIPA",
+   "score": 0.776,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2025_Spallone_PiffettiLibrary",
+   "b": "2023_Russo_PiffettiAcquisition",
+   "score": 0.282,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2025_Spallone_CarignanoStaircase",
+   "b": "2025_Spallone_CarignanoAccessibility",
+   "score": 0.385,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2025_Spallone_CarignanoAccessibility",
+   "b": "2026_Spallone_VirtualTourCarignano",
+   "score": 0.303,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2025_Russo_AlessandriaLuccaFORTMED",
+   "b": "2024_Russo_SantaCaterinaVerona",
+   "score": 0.251,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2025_Russo_UnderwaterPhotogrammetry",
+   "b": "2024_Russo_AutoTagDetection",
+   "score": 0.513,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2025_Russo_UnderwaterPhotogrammetry",
+   "b": "2024_Russo_MultimediaPhotogrammetry",
+   "score": 0.499,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Russo_AutoTagDetection",
+   "b": "2024_Russo_MultimediaPhotogrammetry",
+   "score": 0.495,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Russo_AutoTagDetection",
+   "b": "2021_Russo_AnamorphicWater",
+   "score": 0.279,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2024_Russo_SalaPieta",
+   "b": "2024_Russo_CertosaBolognaAPEGA",
+   "score": 0.628,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Ruggiero_HullSurvey",
+   "b": "2010_Guidi_RilievoScafi",
+   "score": 0.257,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Cappuccino_AlbergoCatenaEGA",
+   "b": "2022_Russo_CanossaCastle",
+   "score": 0.327,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2024_Russo_SantaCaterinaVerona",
+   "b": "2023_Russo_CanossaFORTMED",
+   "score": 0.259,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Ippoliti_EsquilineRome",
+   "b": "2017_Carpiceci_PedestrianCyclistic",
+   "score": 0.346,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Spallone_PiffettiCIPA",
+   "b": "2023_Russo_PiffettiAcquisition",
+   "score": 0.296,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Spallone_PiffettiCIPA",
+   "b": "2026_Spallone_VirtualTourCarignano",
+   "score": 0.252,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Russo_CanossaFORTMED",
+   "b": "2022_Russo_CanossaCastle",
+   "score": 0.624,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Basso_InteractiveWalkthrough",
+   "b": "2020_Carnevali_MongeAR",
+   "score": 0.3,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2023_Giordano_DigitalChallenges",
+   "b": "2023_Russo_AugmentedGeometry",
+   "score": 0.35,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2023_Giordano_DigitalChallenges",
+   "b": "2020_Carnevali_MongeAR",
+   "score": 0.253,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Russo_AugmentedGeometry",
+   "b": "2020_Carnevali_MongeAR",
+   "score": 0.32,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2023_Russo_AugmentedGeometry",
+   "b": "2019_Russo_ParametricSurfaces3DArch",
+   "score": 0.37,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2022_Cipollone_ElasticJoinery",
+   "b": "2004_Alessandri_HighTechnologyTimber",
+   "score": 0.253,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2022_Bevilacqua_3DReconVR",
+   "b": "2006_Brevi_SalaCariatidi",
+   "score": 0.28,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2022_Bevilacqua_3DReconVR",
+   "b": "2005_Gaiani_SalaCariatidi3DArch",
+   "score": 0.283,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2022_Russo_SpaceGrid3DArch",
+   "b": "2018_Carnevali_CloseRangeUAV",
+   "score": 0.365,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2022_Russo_SpaceGrid3DArch",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.276,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2019_Russo_JardinEsteAPEGA",
+   "b": "2018_Russo_VillaVerginese",
+   "score": 0.38,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2019_Camagni_ReverseModeling3DArch",
+   "b": "2018_Bianchini_MassiveAcquisition",
+   "score": 0.259,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2019_Camagni_ReverseModeling3DArch",
+   "b": "2011_Russo_ReverseModelingStorica",
+   "score": 0.434,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2019_Carnevali_SphericalDrawing",
+   "b": "2017_Carpiceci_PedestrianCyclistic",
+   "score": 0.25,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2019_Russo_Fotomodellazione",
+   "b": "2017_Russo_NavaleModeling",
+   "score": 0.321,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2018_Carnevali_CloseRangeUAV",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.272,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2017_Manferdini_AbbaziaPomposaCont",
+   "b": "2011_Russo_IntegrazioneIndustrialDesign",
+   "score": 0.355,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2017_Russo_NavaleModeling",
+   "b": "2005_Guidi_BoatHullModeling",
+   "score": 0.267,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2017_Russo_SanMaurelio",
+   "b": "2016_Russo_FacciateComplesse",
+   "score": 0.251,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2017_Russo_SanMaurelio",
+   "b": "2014_Russo_AbbaziaPomposaUID",
+   "score": 0.291,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2014_Russo_IntegrationRangeBased",
+   "b": "2013_Manferdini_MultiScalar3D",
+   "score": 0.375,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Guidi_QuickTexturedMesh",
+   "b": "2013_Guidi_DigitizingMuseum",
+   "score": 0.298,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Manferdini_MultiScalar3D",
+   "b": "2009_Guidi_RangeSensorsMarble",
+   "score": 0.291,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Manferdini_MultiScalar3D",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.253,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Guidi_HinduTemplesEVA",
+   "b": "2013_Guidi_DigitalReconstruction3DArch",
+   "score": 0.603,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Guidi_HinduTemplesEVA",
+   "b": "2012_Guidi_ChamArchitecture",
+   "score": 0.4,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2013_Guidi_DigitalReconstruction3DArch",
+   "b": "2012_Guidi_ChamArchitecture",
+   "score": 0.477,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Russo_RilievoStrumentale",
+   "b": "2011_Russo_IntegrazioneIndustrialDesign",
+   "score": 0.339,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Russo_RoleDigitalModels",
+   "b": "2011_Russo_IntegratedCH",
+   "score": 0.364,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Russo_RoleDigitalModels",
+   "b": "2011_Guidi_Diachronic3DArch",
+   "score": 0.322,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Russo_IntegratedCH",
+   "b": "2011_Guidi_Diachronic3DArch",
+   "score": 0.676,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Guidi_LowCostTOF",
+   "b": "2009_Guidi_RangeSensorsMarble",
+   "score": 0.295,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Guidi_LowCostTOF",
+   "b": "2009_Russo_CharacterizationRange",
+   "score": 0.504,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Guidi_LowCostTOF",
+   "b": "2009_Guidi_ResolutionCharacterization",
+   "score": 0.892,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Guidi_LowCostTOF",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.589,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2011_Guidi_LowCostTOF",
+   "b": "2005_Guidi_BoatHullModeling",
+   "score": 0.285,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2009_Guidi_RangeSensorsMarble",
+   "b": "2009_Russo_CharacterizationRange",
+   "score": 0.252,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_RangeSensorsMarble",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.307,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_PompeiiForumCAA",
+   "b": "2008_Guidi_LargeComplexSite",
+   "score": 0.819,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_PompeiiForumCAA",
+   "b": "2008_Guidi_PompeiiForumVSMM",
+   "score": 0.786,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Russo_CharacterizationRange",
+   "b": "2009_Guidi_ResolutionCharacterization",
+   "score": 0.478,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Russo_CharacterizationRange",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.546,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2009_Guidi_ResolutionCharacterization",
+   "b": "2007_Russo_LowCostScanners",
+   "score": 0.565,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2008_Guidi_LargeComplexSite",
+   "b": "2008_Guidi_PompeiiForumVSMM",
+   "score": 0.866,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2008_Guidi_LargeComplexSite",
+   "b": "2007_Guidi_PlasticoDigitale",
+   "score": 0.251,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Guidi_PlasticoDigitale",
+   "b": "2006_Guidi_DigitizationCityModels",
+   "score": 0.453,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Guidi_PlasticoDigitale",
+   "b": "2005_Guidi_PlasticoRomaGrosseto",
+   "score": 0.324,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Guidi_PlasticoDigitale",
+   "b": "2005_Guidi_PlasticoRoma3DIM",
+   "score": 0.441,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Guidi_PlasticoDigitale",
+   "b": "2005_Guidi_PlasticoRomaMIDECH",
+   "score": 0.369,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Guidi_PlasticoDigitale",
+   "b": "2005_Guidi_VirtualizingAncientRome",
+   "score": 0.3,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2007_Russo_LowCostScanners",
+   "b": "2005_Guidi_BoatHullModeling",
+   "score": 0.398,
+   "basis": "reviewed"
+  },
+  {
+   "a": "2006_Guidi_DigitizationCityModels",
+   "b": "2005_Guidi_PlasticoRoma3DIM",
+   "score": 0.402,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2006_Guidi_DigitizationCityModels",
+   "b": "2005_Guidi_PlasticoRomaMIDECH",
+   "score": 0.4,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2006_Guidi_DigitizationCityModels",
+   "b": "2005_Guidi_VirtualizingAncientRome",
+   "score": 0.372,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2006_Brevi_SalaCariatidi",
+   "b": "2005_Gaiani_SalaCariatidi3DArch",
+   "score": 0.486,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Guidi_PlasticoRomaGrosseto",
+   "b": "2005_Guidi_PlasticoRoma3DIM",
+   "score": 0.623,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Guidi_PlasticoRomaGrosseto",
+   "b": "2005_Guidi_PlasticoRomaMIDECH",
+   "score": 0.576,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Guidi_PlasticoRomaGrosseto",
+   "b": "2005_Guidi_VirtualizingAncientRome",
+   "score": 0.276,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Guidi_PlasticoRoma3DIM",
+   "b": "2005_Guidi_PlasticoRomaMIDECH",
+   "score": 0.802,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Guidi_PlasticoRoma3DIM",
+   "b": "2005_Guidi_VirtualizingAncientRome",
+   "score": 0.383,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2005_Guidi_PlasticoRomaMIDECH",
+   "b": "2005_Guidi_VirtualizingAncientRome",
+   "score": 0.327,
+   "basis": "shared keywords"
+  },
+  {
+   "a": "2004_Alessandri_HighTechnologyTimber",
+   "b": "2003_Alessandri_WoodenCompositeBeams",
+   "score": 0.74,
+   "basis": "shared keywords"
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 """Excel -> Knowledge Graph (JSON-LD + Turtle + data for the web viewer).
 
-Usage:  python build_kg.py <excel.xlsx> <out_dir>
+Usage:  python build_kg.py <excel.xlsx> <out_dir> [base_iri] [affinity.json]
 Rules: the `notes` column is never exported; `not in source` abstracts become empty.
 """
 import sys, re, json, unicodedata
@@ -159,11 +159,27 @@ for k in kw_v:
 
 graph += list(venues.values()) + list(places.values())
 
+# --- inferred textual affinity (optional, from build_affinity.py) ---------
+AFF = Path(sys.argv[4]) if len(sys.argv) > 4 else None
+n_aff = 0
+if AFF and AFF.exists():
+    aff = json.loads(AFF.read_text(encoding='utf-8'))
+    pids = {f'publication/{p["publication_id"]}' for p in pubs}
+    for k, x in enumerate(aff['pairs']):
+        a, b = f'publication/{x["a"]}', f'publication/{x["b"]}'
+        if a not in pids or b not in pids: continue
+        graph.append({'@id': f'affinity/{x["a"]}--{x["b"]}', '@type': 'kg:TextualAffinity',
+                      'kg:between': [{'@id': a}, {'@id': b}], 'kg:score': x['score'], 'kg:basis': x['basis'],
+                      'kg:status': 'inferred', 'kg:method': f'{aff["model"]}, cosine similarity on title + abstract, threshold {aff["threshold"]}'})
+        links.append(dict(source=a, target=b, rel='affinity', score=x['score']))
+        n_aff += 1
+    print(f'affinity pairs={n_aff}')
+
 # --- dataset description -------------------------------------------------
 dataset = {'@id': 'dataset', '@type': 'Dataset',
            'name': 'Knowledge Graph of the publications of Michele Russo',
            'creator': {'@id': 'person/russo-michele'},
-           'description': 'Publications (journal articles, book chapters, conference papers, monographs) with authors, keywords, macro-themes, venues, case-study places and scales. Abstracts are included for open-access publications only.',
+           'description': 'Publications (journal articles, book chapters, conference papers, monographs) with authors, keywords, macro-themes, venues, case-study places and scales. Abstracts are included for open-access publications only. kg:TextualAffinity items are inferred relations (similarity of title + abstract, computed offline; only scores are published, not texts): basis "shared keywords" = corroborated by at least one common keyword, "reviewed" = approved by the author.',
            'license': 'https://creativecommons.org/licenses/by/4.0/'}
 context = {'@vocab': 'https://schema.org/', 'skos': 'http://www.w3.org/2004/02/skos/core#',
            'kg': BASE + 'vocab#', '@base': BASE}

@@ -83,6 +83,8 @@ ol.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
 ol.list li{padding:7px 0;border-bottom:1px solid var(--rule);font-size:13px}
 ol.list .y{font-family:var(--f-mono);color:var(--muted);font-size:12px;margin-right:6px;font-variant-numeric:tabular-nums}
 .note{font-size:12px;color:var(--muted)}
+.aff{margin-top:10px;border-top:1px solid var(--rule);padding-top:8px}
+.aff summary{cursor:pointer;color:var(--accent);font-size:13px;font-weight:500}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -157,9 +159,11 @@ const TYPES = [...new Set(pubs.map(p=>p.ptype))];
 const TYPECOL = {'Journal article':'#1f5fa8','Conference paper':'#2a9d8f','Book chapter':'#c2410c','Monograph':'#7c3aed'};
 const themeNodes = DATA.nodes.filter(n=>n.kind==='theme').map(n=>n.label).sort();
 const THEMECOL = d3.scaleOrdinal(themeNodes, ['#4e79a7','#f28e2b','#e15759','#76b7b2','#59a14f','#edc948','#b07aa1','#ff9da7','#9c755f','#8c8c8c','#2f4b7c','#a05195','#d45087','#665191']);
-const KIND = {publication:{lab:'Pubblicazioni',col:'#1f5fa8'},keyword:{lab:'Keyword',col:'#9aa5b0'},theme:{lab:'Macro-temi',col:'#444'},author:{lab:'Autori',col:'#8a6d3b'},venue:{lab:'Riviste e volumi',col:'#6b7280'},place:{lab:'Luoghi dei casi studio',col:'#15803d'}};
+const KIND = {affinity:{lab:'Affinità dai testi (inferite)',col:'#334155'},publication:{lab:'Pubblicazioni',col:'#1f5fa8'},keyword:{lab:'Keyword',col:'#9aa5b0'},theme:{lab:'Macro-temi',col:'#444'},author:{lab:'Autori',col:'#8a6d3b'},venue:{lab:'Riviste e volumi',col:'#6b7280'},place:{lab:'Luoghi dei casi studio',col:'#15803d'}};
 const state = {q:'', types:new Set(TYPES), y0:YMIN, y1:YMAX, layers:new Set(['keyword','theme','place']), theme:null, selected:null};
-const adj = new Map(); DATA.links.forEach(l=>{[l.source,l.target].forEach((a,i)=>{const b=i?l.source:l.target; if(!adj.has(a))adj.set(a,new Set()); adj.get(a).add(b);});});
+const HASAFF = DATA.links.some(l=>l.rel==='affinity');
+const AFF = new Map(); DATA.links.forEach(l=>{ if(l.rel!=='affinity') return; [[l.source,l.target],[l.target,l.source]].forEach(([a,b])=>{ if(!AFF.has(a)) AFF.set(a,[]); AFF.get(a).push({id:b,score:l.score}); }); });
+const adj = new Map(); DATA.links.forEach(l=>{ if(l.rel==='affinity') return; [l.source,l.target].forEach((a,i)=>{const b=i?l.source:l.target; if(!adj.has(a))adj.set(a,new Set()); adj.get(a).add(b);});});
 const esc = s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 // ---------- controls ----------
@@ -167,7 +171,7 @@ const typesEl=document.getElementById('types');
 TYPES.forEach(t=>{const id='t_'+t.replace(/\W/g,''); typesEl.insertAdjacentHTML('beforeend',`<label for="${id}"><input id="${id}" type="checkbox" checked><span class="sw" style="background:${TYPECOL[t]||'#888'}"></span>${esc(t)} <span class="note">(${pubs.filter(p=>p.ptype===t).length})</span></label>`);
   document.getElementById(id).addEventListener('change',e=>{e.target.checked?state.types.add(t):state.types.delete(t); update();});});
 const layersEl=document.getElementById('layers');
-['keyword','theme','author','venue','place'].forEach(k=>{const id='l_'+k; layersEl.insertAdjacentHTML('beforeend',`<label for="${id}"><input id="${id}" type="checkbox" ${state.layers.has(k)?'checked':''}><span class="sw" style="background:${KIND[k].col}"></span>${KIND[k].lab}</label>`);
+['keyword','theme','author','venue','place'].concat(HASAFF?['affinity']:[]).forEach(k=>{const id='l_'+k; layersEl.insertAdjacentHTML('beforeend',`<label for="${id}"><input id="${id}" type="checkbox" ${state.layers.has(k)?'checked':''}><span class="sw" style="background:${KIND[k].col}"></span>${KIND[k].lab}</label>`);
   document.getElementById(id).addEventListener('change',e=>{e.target.checked?state.layers.add(k):state.layers.delete(k); update();});});
 const y0=document.getElementById('y0'), y1=document.getElementById('y1');
 [y0,y1].forEach(el=>{el.min=YMIN; el.max=YMAX; el.step=1;}); y0.value=YMIN; y1.value=YMAX;
@@ -212,8 +216,9 @@ function update(){
   DATA.links.forEach(l=>{ if(vpIds.has(l.source)){const t=nodeById.get(l.target); if(state.layers.has(t.kind)) keep.add(l.target);} });
   if(state.layers.has('theme')) DATA.links.forEach(l=>{ if(l.rel==='broader'&&keep.has(l.source)) keep.add(l.target); });
   const nodes=[...keep].map(id=>{ if(!simNodes.has(id)) simNodes.set(id,Object.assign({},nodeById.get(id))); return simNodes.get(id); });
-  const links=DATA.links.filter(l=>keep.has(l.source)&&keep.has(l.target)).map(l=>({source:simNodes.get(l.source),target:simNodes.get(l.target),rel:l.rel}));
-  linkSel=linkSel.data(links,d=>d.source.id+'>'+d.target.id).join('line').attr('stroke','var(--muted)').attr('stroke-width',d=>d.rel==='broader'?1.2:.6);
+  const linkOK=l=>keep.has(l.source)&&keep.has(l.target)&&(l.rel!=='affinity'||state.layers.has('affinity'));
+  const links=DATA.links.filter(linkOK).map(l=>({source:simNodes.get(l.source),target:simNodes.get(l.target),rel:l.rel}));
+  linkSel=linkSel.data(links,d=>d.source.id+'>'+d.target.id).join('line').attr('stroke',d=>d.rel==='affinity'?'#334155':'var(--muted)').attr('stroke-width',d=>d.rel==='broader'?1.2:d.rel==='affinity'?1.1:.6).attr('stroke-dasharray',d=>d.rel==='affinity'?'4 3':null);
   nodeSel=nodeSel.data(nodes,d=>d.id).join(en=>en.append('circle').attr('stroke','var(--panel)').attr('stroke-width',1)
       .on('click',(e,d)=>{e.stopPropagation(); select(d.id);})
       .call(d3.drag().on('start',(e,d)=>{if(!e.active)sim.alphaTarget(.2).restart(); d.fx=d.x; d.fy=d.y;}).on('drag',(e,d)=>{d.fx=e.x; d.fy=e.y;}).on('end',(e,d)=>{if(!e.active)sim.alphaTarget(0); d.fx=null; d.fy=null;}))
@@ -223,8 +228,8 @@ function update(){
   const labelled=nodes.filter(d=>d.kind==='theme'||d.kind==='keyword'||d.kind==='place');
   labelSel=labelSel.data(labelled,d=>d.id).join('text').attr('class',d=>'lbl '+(d.kind==='theme'?'theme':'kw')).attr('dx',d=>radius(d)+3).attr('dy',4).text(d=>d.label);
   const k=d3.zoomTransform(svg.node()).k; g.selectAll('text.kw').style('display',k>1.3?null:'none');
-  sim.nodes(nodes); sim.force('link',d3.forceLink(links).distance(d=>d.rel==='broader'?70:34).strength(d=>d.rel==='broader'?.6:.35)); sim.alpha(.6).restart();
-  current={ids:[...keep], links:DATA.links.filter(l=>keep.has(l.source)&&keep.has(l.target))};
+  sim.nodes(nodes); sim.force('link',d3.forceLink(links).distance(d=>d.rel==='broader'?70:d.rel==='affinity'?80:34).strength(d=>d.rel==='broader'?.6:d.rel==='affinity'?.03:.35)); sim.alpha(.6).restart();
+  current={ids:[...keep], links:DATA.links.filter(linkOK)};
   if(g3d) feed3d();
   highlight(); stats(vp); if(!state.selected && detailEl.classList.contains('open')) listView(vp);
 }
@@ -232,7 +237,7 @@ let current={ids:[],links:[]}, g3d=null, rot=null;
 const LIB3D='https://cdn.jsdelivr.net/npm/3d-force-graph@1.79.1/dist/3d-force-graph.min.js';
 function feed3d(){
   const nodes=current.ids.map(id=>{const n=nodeById.get(id); return {id, label:n.kind==='publication'?`${n.year} · ${n.label}`:n.label, kind:n.kind, col:color(n), val:n.kind==='theme'?8:n.kind==='publication'?1.5:Math.max(1,radius(n)/3)};});
-  g3d.graphData({nodes, links:current.links.map(l=>({source:l.source,target:l.target}))});
+  g3d.graphData({nodes, links:current.links.map(l=>({source:l.source,target:l.target,rel:l.rel}))});
 }
 let dist3d=900;
 function startRotate(){ const c=g3d.cameraPosition(); let a=Math.atan2(c.x,c.z); stopRotate(); rot=setInterval(()=>{ a+=Math.PI/900; g3d.cameraPosition({x:dist3d*Math.sin(a), y:c.y*0, z:dist3d*Math.cos(a)}); },30); }
@@ -241,7 +246,7 @@ function init3d(){
   const el=document.getElementById('g3d'); const css=getComputedStyle(document.documentElement);
   g3d=ForceGraph3D()(el).backgroundColor(css.getPropertyValue('--paper').trim()||'#f6f7f4')
     .nodeLabel('label').nodeColor('col').nodeVal('val').nodeOpacity(.95)
-    .linkColor(()=>css.getPropertyValue('--muted').trim()||'#888').linkOpacity(.25)
+    .linkColor(l=>l.rel==='affinity'?'#334155':(css.getPropertyValue('--muted').trim()||'#888')).linkOpacity(.25)
     .onNodeClick(n=>{stopRotate(); select(n.id);}).showNavInfo(false).cooldownTicks(120);
   let first=true;
   g3d.onEngineStop(()=>{ if(!first) return; first=false;
@@ -278,7 +283,7 @@ sim.on('end',()=>{ if(!fitted){ fitted=true; fit(); } });
 svg.on('click',()=>{state.selected=null; highlight(); closeDetail(); filtersEl.classList.remove('open');});
 function highlight(){
   const q=state.q, sel=state.selected; let on=null;
-  if(sel){ on=new Set([sel,...(adj.get(sel)||[])]); }
+  if(sel){ on=new Set([sel,...(adj.get(sel)||[])]); if(state.layers.has('affinity')) (AFF.get(sel)||[]).forEach(x=>on.add(x.id)); }
   else if(q){ on=new Set(pubs.filter(p=>pubVisible(p)&&matches(p)).map(p=>p.id)); pubs.forEach(p=>{if(on.has(p.id)) (adj.get(p.id)||[]).forEach(x=>on.add(x));}); }
   nodeSel.attr('opacity',d=>!on||on.has(d.id)?1:.12).attr('stroke',d=>d.id===sel?'var(--hl)':'var(--panel)').attr('stroke-width',d=>d.id===sel?2.5:1);
   linkSel.attr('opacity',d=>!on||(on.has(d.source.id)&&on.has(d.target.id))?1:.08);
@@ -295,6 +300,8 @@ function bindLinks(){ det.querySelectorAll('[data-close]').forEach(b=>b.addEvent
 function listView(vp){
   const shown=vp.filter(matches).sort((a,b)=>b.year-a.year||a.label.localeCompare(b.label));
   det.innerHTML=CLOSE+`<div><h2>${state.q?'Risultati della ricerca':'Pubblicazioni visibili'} (${shown.length})</h2><ol class="list">${shown.map(pubLink).join('')}</ol></div>`; bindLinks(); }
+function affBlock(id){ const a=(AFF.get(id)||[]).slice().sort((x,y)=>y.score-x.score); if(!a.length) return '';
+  return `<details class="aff"><summary>Connessioni possibili (${a.length})</summary><p class="note">Pubblicazioni vicine per contenuto, calcolate da titolo e abstract: relazioni inferite, non citazioni.</p><ol class="list">${a.map(x=>{const p=nodeById.get(x.id); return `<li><span class="y">${p.year}</span><button class="link" data-id="${esc(p.id)}">${esc(p.label)}</button> <span class="note">· ${x.score.toFixed(2)}</span></li>`;}).join('')}</ol></details>`; }
 function select(id){
   state.selected=id; openDetail(); const d=nodeById.get(id); highlight();
   if(d.kind==='publication'){
@@ -312,6 +319,7 @@ function select(id){
         ${(d.scale||[]).length?`<dt>Scala</dt><dd>${esc(d.scale.join(', '))}</dd>`:''}
       </dl>
       <div class="chips">${(d.keywords||[]).map(k=>{const n=nodeById.get(keywordId(k)); return `<button class="chip" data-id="${esc(keywordId(k))}"><span class="sw" style="background:${THEMECOL(n&&n.theme||'')}"></span>${esc(k)}</button>`;}).join('')}</div>
+      ${affBlock(d.id)}
       ${d.abstract?`<div class="abs">${esc(d.abstract)}</div>`:(d.oa?'<p class="note">Abstract non disponibile nella pubblicazione.</p>':'<p class="note">Abstract disponibile presso l\'editore (pubblicazione non open access).</p>')}
     </article>`;
   } else {
