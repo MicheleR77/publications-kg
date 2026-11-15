@@ -330,7 +330,7 @@ function select(id){
       ps.push(...set); extra=`<div class="chips">${kws.map(k=>`<button class="chip" data-id="${esc(k.id)}">${esc(k.label)}</button>`).join('')}</div>`; }
     if(d.kind==='author'){ const co=new Map(); ps.forEach(p=>(p.authors||[]).forEach(a=>{if(a!==d.label) co.set(a,(co.get(a)||0)+1);}));
       extra=`<h2>Coautori</h2><div class="chips">${[...co].sort((a,b)=>b[1]-a[1]).slice(0,30).map(([a,c])=>`<button class="chip" data-id="${esc('person/'+slug(a))}">${esc(a)} <span class="note">${c}</span></button>`).join('')}</div>`; }
-    const uniq=[...new Map(ps.map(p=>[p.id,p])).values()].sort((a,b)=>b.year-a.year);
+    const uniq=[...new Map(ps.map(p=>[p.id,p])).values()].sort((a,b)=>b.year-a.year||a.label.localeCompare(b.label));
     det.innerHTML=CLOSE+`<div class="card"><p class="meta"><span class="badge">${KIND[d.kind].lab}</span></p><h3>${esc(d.label)}</h3>${d.theme?`<p class="meta">Macro-tema: <button class="link" data-id="theme/${slug(d.theme)}">${esc(d.theme)}</button></p>`:''}${extra}
       <h2 style="margin-top:12px">Pubblicazioni (${uniq.length})</h2><ol class="list">${uniq.map(pubLink).join('')}</ol></div>`;
   }
