@@ -1657,6 +1657,8 @@
     kg:conference [ :location "Bari, Apulia, Italy" ;
             :name "Congresso sulla documentazione online dei Beni Culturali – Il rilievo dell'architettura" ;
             :year "2004" ] ;
+    kg:irisCode "04a-001" ;
+    kg:irisTypology "04a Atto di comunicazione a congresso" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -1673,6 +1675,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2006_Russo_RappresentazioneRiconfigurata> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "02a-003" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -1692,6 +1696,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2009_Russo_RilievoNautico> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "02a-004" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -1715,6 +1721,8 @@
     kg:conference [ :location "Williamsburg, Virginia, USA" ;
             :name "37th International Conference on Computer Applications and Quantitative Methods in Archaeology (CAA 2009)" ;
             :year "2009" ] ;
+    kg:irisCode "04b-016" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -1730,12 +1738,14 @@
     :sameAs "https://iris.uniroma1.it/handle/11573/905485" ;
     :url "http://www.caa2009.org/articles/Russo_Arya_Paper.pdf" .
 
-<https://micheler77.github.io/publications-kg/publication/2011_Russo_ModellazioneRealityBased> a :Chapter ;
+<https://micheler77.github.io/publications-kg/publication/2011_Russo_ModellazioneRealityBased> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
     kg:conference [ :location "Milan, Lombardy, Italy" ;
             :name "Giornata del Disegno – La Ricerca nel Disegno di Design" ;
             :year "2010" ] ;
-    kg:publicationType "Book chapter" ;
+    kg:irisCode "04b-020" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/reality-based-modelling> ;
@@ -1755,6 +1765,8 @@
     kg:conference [ :location "Naples, Campania, Italy" ;
             :name "Workshop Internazionale – Diagnosi, conservazione e valorizzazione del Patrimonio Culturale" ;
             :year "2012" ] ;
+    kg:irisCode "04b-025" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -1775,6 +1787,8 @@
     kg:conference [ :location "Marseille, Provence-Alpes-Côte d'Azur, France" ;
             :name "IEEE International Conference on Digital Heritage 2013" ;
             :year "2013" ] ;
+    kg:irisCode "04b-028" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-84896771409" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -1793,12 +1807,14 @@
     :url "https://ieeexplore.ieee.org/document/6744760" ;
     :volumeNumber "2" .
 
-<https://micheler77.github.io/publications-kg/publication/2013_Russo_ReverseModelingUID> a :Chapter ;
+<https://micheler77.github.io/publications-kg/publication/2013_Russo_ReverseModelingUID> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
     kg:conference [ :location "Matera, Basilicata, Italy" ;
             :name "X Congresso UID" ;
             :year "2013" ] ;
-    kg:publicationType "Book chapter" ;
+    kg:irisCode "04b-029" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/reverse-modelling> ;
@@ -1809,13 +1825,16 @@
     :isPartOf <https://micheler77.github.io/publications-kg/venue/linea-di-ricerca-nell-area-del-disegno-approfondimento-dalle-tesi-di-dottorato> ;
     :isbn "9788854864825" ;
     :name "Rilievo di forme complesse tramite Reverse Modeling integrato" ;
-    :pagination "155-160" .
+    :pagination "155-160" ;
+    :sameAs "https://iris.uniroma1.it/handle/11573/905487" .
 
 <https://micheler77.github.io/publications-kg/publication/2014_Iarossi_RilievoUrbanoMilano> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/urban> ;
     kg:conference [ :location "Parma, Emilia-Romagna, Italy" ;
             :name "XI Congresso UID – Italian Survey & International Experience" ;
             :year "2015" ] ;
+    kg:irisCode "04b-035" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -1834,6 +1853,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2014_Rossi_ImmagineCitta> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/urban> ;
+    kg:irisCode "02a-011" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/iconographic-analysis>,
@@ -1854,6 +1875,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2015_Guidi_CertosaPavia> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-015" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -1878,6 +1901,8 @@
     kg:conference [ :location "Dublin, Leinster, Ireland" ;
             :name "VSMM 2017 – International Conference on Virtual Systems and Multimedia" ;
             :year "2017" ] ;
+    kg:irisCode "04b-041" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85063737130" ;
     kg:wosId "000441374100030" ;
@@ -1901,6 +1926,8 @@
     kg:conference [ :location "Naples, Campania, Italy" ;
             :name "XIII Conferenza del Colore" ;
             :year "2017" ] ;
+    kg:irisCode "04b-038" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/color-analysis>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -1920,6 +1947,8 @@
     kg:conference [ :location "Milan, Lombardy, Italy" ;
             :name "XV Congresso UID – Rappresentazione/Materiale/Immateriale" ;
             :year "2018" ] ;
+    kg:irisCode "04b-043" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -1932,13 +1961,16 @@
     :isbn "9788849236514" ;
     :name "Analisi di opere non realizzate: rinascita virtuale di una architettura di Pier Luigi Nervi" ;
     :pagination "397-404" ;
-    :publisher "Gangemi Editore" .
+    :publisher "Gangemi Editore" ;
+    :sameAs "https://iris.uniroma1.it/handle/11573/1146804" .
 
 <https://micheler77.github.io/publications-kg/publication/2018_Carnevali_RossoPompeiano> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
     kg:conference [ :location "Florence, Tuscany, Italy" ;
             :name "XIV Conferenza del Colore" ;
             :year "2018" ] ;
+    kg:irisCode "04b-044" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/color-analysis>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage> ;
@@ -1957,6 +1989,8 @@
     kg:conference [ :location "Granada, Andalusia, Spain" ;
             :name "FORTMED 2020 – International Society for Mediterranean Fortifications" ;
             :year "2020" ] ;
+    kg:irisCode "04b-049" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -1975,6 +2009,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2020_Russo_Fotomodellazione> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-019" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -1991,12 +2027,14 @@
     :sameAs "https://iris.uniroma1.it/handle/11573/1396487" ;
     :url "https://iris.uniroma1.it/handle/11573/1396487" .
 
-<https://micheler77.github.io/publications-kg/publication/2021_Russo_ImagingArchaeologyAPEGA> a :ScholarlyArticle ;
+<https://micheler77.github.io/publications-kg/publication/2021_Russo_ImagingArchaeologyAPEGA> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
     kg:conference [ :location "La Laguna, Tenerife, Spain" ;
             :name "XV Congreso Internacional de Expresión Gráfica aplicada a la Edificación (APEGA 2021)" ;
             :year "2021" ] ;
-    kg:publicationType "Conference paper" ;
+    kg:irisCode "02a-023" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
+    kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/photogrammetry>,
@@ -2014,6 +2052,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2023_Cavallari_ARBicycle> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "02a-026" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/augmented-reality>,
@@ -2032,6 +2072,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2024_Avdonina_VRFeedback> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "02a-028" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -2052,6 +2094,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2025_Bevilacqua_FortifiedTreatises> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-032" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/bim>,
@@ -2075,6 +2119,8 @@
     kg:conference [ :location "Rome, Lazio, Italy" ;
             :name "Workshop 3DModeling&BIM – Proliferazioni" ;
             :year "2025" ] ;
+    kg:irisCode "04b-075" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/bim>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -2095,6 +2141,8 @@
     kg:conference [ :location "Faro, Algarve, Portugal" ;
             :name "EPIA 2025" ;
             :year "2025" ] ;
+    kg:irisCode "04b-071" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/artificial-intelligence>,
@@ -2122,6 +2170,8 @@
     kg:conference [ :location "Ancona, Marche, Italy" ;
             :name "3DARCH 2026" ;
             :year "2026" ] ;
+    kg:irisCode "04h-012" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -2149,6 +2199,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "01a-030" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/architectural-survey>,
         <https://micheler77.github.io/publications-kg/keyword/architectural-taxonomy>,
@@ -2177,6 +2229,8 @@
     kg:conference [ :location "Ancona, Marche, Italy" ;
             :name "3DARCH 2026" ;
             :year "2026" ] ;
+    kg:irisCode "04h-014" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/baroque-architecture>,
@@ -2654,6 +2708,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "01a-011" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:wosId "000219322000008" ;
@@ -2678,6 +2734,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2011_Russo_RilievoStrumentale> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-005" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey> ;
@@ -2695,6 +2753,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2012_Russo_RappresentazioniComplesse> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-008" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/algorithmic-modelling>,
@@ -2716,6 +2776,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-013" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:publicationType "Journal article" ;
     kg:wosId "000219904300019" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -2736,12 +2798,14 @@
     :url "http://disegnarecon.unibo.it/article/view/3874/3437" ;
     :volumeNumber "12" .
 
-<https://micheler77.github.io/publications-kg/publication/2013_Russo_RappresentazioneIbrida> a :Chapter ;
+<https://micheler77.github.io/publications-kg/publication/2013_Russo_RappresentazioneIbrida> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
     kg:conference [ :location "Milan, Lombardy, Italy" ;
             :name "Giornata di Studi – Verso l'era post-digitale" ;
             :year "2012" ] ;
-    kg:publicationType "Book chapter" ;
+    kg:irisCode "04b-032" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/visual-storytelling> ;
@@ -2758,6 +2822,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2015_Russo_MultiScalar> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-013" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     kg:scopusId "2-s2.0-84957081523" ;
@@ -2779,9 +2845,11 @@
         "https://iris.uniroma1.it/handle/11573/905451" ;
     :url "https://doi.org/10.4018/978-1-4666-8379-2.ch011" .
 
-<https://micheler77.github.io/publications-kg/publication/2017_Manferdini_AbbaziaPomposaCont> a :Chapter ;
+<https://micheler77.github.io/publications-kg/publication/2017_Manferdini_AbbaziaPomposaCont> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
-    kg:publicationType "Book chapter" ;
+    kg:irisCode "04b-040" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -2803,6 +2871,8 @@
     kg:conference [ :location "San Francisco, California, USA" ;
             :name "Digital Heritage 2018 – New Realities: Authenticity & Automation in the Digital Age" ;
             :year "2018" ] ;
+    kg:irisCode "04b-045" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85072406134" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -2821,6 +2891,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2018_Russo_PalazzoVerginese> a :Book ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "03a-002" ;
+    kg:irisTypology "03a Saggio, Trattato Scientifico" ;
     kg:openAccess "yes" ;
     kg:publicationType "Monograph" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -2845,6 +2917,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-019" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:wosId "000674296300036" ;
@@ -2875,6 +2949,8 @@
     kg:conference [ :location "Alghero, Sardinia, Italy" ;
             :name "GRAFICHE/GRAPHICS – Convegno internazionale su immagine e immaginazione" ;
             :year "2019" ] ;
+    kg:irisCode "04b-048" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85083987534" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -2894,6 +2970,8 @@
     kg:conference [ :location "Perugia, Umbria, Italy" ;
             :name "XVI Congresso UID – 41° Convegno Internazionale dei Docenti della Rappresentazione" ;
             :year "2019" ] ;
+    kg:irisCode "04b-047" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/photogrammetry>,
@@ -2915,6 +2993,8 @@
     kg:conference [ :location "Strasbourg, Alsace, France" ;
             :name "LowCost3D 2019 – International Workshop on Low-Cost 3D Sensors" ;
             :year "2019" ] ;
+    kg:irisCode "04h-004" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85078138933" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -2938,6 +3018,8 @@
     kg:conference [ :location "Bergamo, Lombardy, Italy" ;
             :name "3D-ARCH 2019 – 8th International Workshop on 3D Virtual Reconstruction and Visualization of Complex Architectures" ;
             :year "2019" ] ;
+    kg:irisCode "04h-002" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85065428093" ;
     kg:wosId "000466553500092" ;
@@ -2961,6 +3043,8 @@
     kg:conference [ :location "Zaragoza, Aragon, Spain" ;
             :name "XVIII Congreso Internacional de Expresión Gráfica Arquitectónica (EGA 2020)" ;
             :year "2020" ] ;
+    kg:irisCode "04b-050" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/diachronic-models>,
@@ -2974,10 +3058,12 @@
     :isbn "9788413401614" ;
     :name "Diachronic Models of the Façade of Palazzetto Baschenis Borghese in Rome" ;
     :pagination "267-270" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/1399230" .
+    :sameAs "https://iris.uniroma1.it/handle/11573/1441156" .
 
 <https://micheler77.github.io/publications-kg/publication/2020_Giugliano_PalazzettoBorghese> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-020" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -2997,12 +3083,14 @@
         "https://iris.uniroma1.it/handle/11573/1399230" ;
     :url "https://doi.org/10.1007/978-3-030-47979-4_53" .
 
-<https://micheler77.github.io/publications-kg/publication/2020_Rossi_DipintiLegno> a :Chapter ;
+<https://micheler77.github.io/publications-kg/publication/2020_Rossi_DipintiLegno> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
     kg:conference [ :location "Florence, Tuscany, Italy" ;
             :name "IV Convegno Internazionale sul Quadraturismo" ;
             :year "2020" ] ;
-    kg:publicationType "Book chapter" ;
+    kg:irisCode "04b-051" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/iconographic-analysis>,
         <https://micheler77.github.io/publications-kg/keyword/perspective>,
@@ -3022,6 +3110,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-020" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "no" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-85087436260" ;
@@ -3049,6 +3139,8 @@
     kg:conference [ :location "Reggio Calabria, Calabria, Italy" ;
             :name "42° Convegno Internazionale dei Docenti delle Discipline della Rappresentazione (UID 2021 – Connettere)" ;
             :year "2021" ] ;
+    kg:irisCode "04b-053" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/anamorphosis>,
         <https://micheler77.github.io/publications-kg/keyword/perspective> ;
@@ -3066,6 +3158,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2021_Russo_SanFedele> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-021" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/iconographic-analysis>,
@@ -3090,6 +3184,8 @@
     kg:conference [ :location "Lisbon, Lisbon, Portugal" ;
             :name "REDES2022 – International Research & Education in Design Conference" ;
             :year "2022" ] ;
+    kg:irisCode "04b-055" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/product-design>,
@@ -3106,6 +3202,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-024" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-85174298368" ;
@@ -3137,6 +3235,8 @@
     kg:conference [ :location "Würzburg, Bavaria, Germany" ;
             :name "LowCost3D 2022 – 7th International Workshop LowCost 3D" ;
             :year "2022" ] ;
+    kg:irisCode "04h-006" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85144330752" ;
@@ -3164,6 +3264,8 @@
     kg:conference [ :location "Pisa, Tuscany, Italy" ;
             :name "FORTMED 2023 – International Conference on Fortifications of the Mediterranean Coast" ;
             :year "2023" ] ;
+    kg:irisCode "04b-060" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/fortifications>,
         <https://micheler77.github.io/publications-kg/keyword/virtual-reality>,
@@ -3185,6 +3287,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-025" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-85156143537" ;
@@ -3216,6 +3320,8 @@
     kg:conference [ :location "Rome, Lazio, Italy" ;
             :name "MetroArcheo 2023 – IMEKO International Conference on Metrology for Archaeology and Cultural Heritage" ;
             :year "2023" ] ;
+    kg:irisCode "04b-062" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -3237,6 +3343,8 @@
     kg:conference [ :location "Padua, Veneto, Italy | Venice, Veneto, Italy" ;
             :name "45° Convegno Internazionale dei Docenti delle Discipline della Rappresentazione (UID 2024) – Misura/Dismisura" ;
             :year "2024" ] ;
+    kg:irisCode "04b-066" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -3262,6 +3370,8 @@
     kg:conference [ :location "Cuenca, Castilla-La Mancha, Spain" ;
             :name "APEGA 2023 – XVI International Conference APEGA" ;
             :year "2023" ] ;
+    kg:irisCode "04b-065" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -3287,6 +3397,8 @@
     kg:conference [ :location "Padua, Veneto, Italy | Venice, Veneto, Italy" ;
             :name "45° Convegno Internazionale dei Docenti delle Discipline della Rappresentazione (UID 2024) – Misura/Dismisura" ;
             :year "2024" ] ;
+    kg:irisCode "04b-067" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -3313,6 +3425,8 @@
     kg:conference [ :location "Tirana, Tirana, Albania" ;
             :name "FORTMED 2024 – International Conference on Modern Age Fortifications of the Mediterranean Coast" ;
             :year "2024" ] ;
+    kg:irisCode "04b-064" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/baroque-architecture>,
@@ -3335,6 +3449,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2026_Russo_GPTTreatise> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-035" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -3358,6 +3474,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-029" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/algorithmic-modelling>,
@@ -3386,6 +3504,8 @@
     kg:conference [ :location "Rome, Lazio, Italy" ;
             :name "FORTMED 2026 – Fortification of the Mediterranean Coast" ;
             :year "2026" ] ;
+    kg:irisCode "04b-076" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/fortifications>,
@@ -3941,6 +4061,8 @@
     kg:conference [ :location "Venice, Veneto, Italy" ;
             :name "3D-ARCH 2005 – 1st International Workshop on 3D Virtual Reconstruction and Visualization of Complex Architectures" ;
             :year "2005" ] ;
+    kg:irisCode "04c-001" ;
+    kg:irisTypology "04c Atto di convegno in rivista" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -3958,9 +4080,11 @@
     :url "http://www.isprs.org/proceedings/XXXVI/5-W17/pdf/29.pdf" ;
     :volumeNumber "XXXVI 5/W17" .
 
-<https://micheler77.github.io/publications-kg/publication/2006_Brevi_SalaCariatidi> a :Chapter ;
+<https://micheler77.github.io/publications-kg/publication/2006_Brevi_SalaCariatidi> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
-    kg:publicationType "Book chapter" ;
+    kg:irisCode "04b-008" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/reality-based-modelling>,
         <https://micheler77.github.io/publications-kg/keyword/virtual-reality> ;
@@ -3978,6 +4102,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2006_Gaiani_MetodologieInnovative> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "02a-002" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -3999,6 +4125,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "01a-004" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "no" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-33750543600" ;
@@ -4023,12 +4151,14 @@
     :url "https://doi.org/10.1007/s00138-006-0029-z" ;
     :volumeNumber "17" .
 
-<https://micheler77.github.io/publications-kg/publication/2010_Guidi_RilievoScafi> a :Chapter ;
+<https://micheler77.github.io/publications-kg/publication/2010_Guidi_RilievoScafi> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
     kg:conference [ :location "Venice, Veneto, Italy" ;
             :name "The Future Boat & Yacht 2009 Venice Convention" ;
             :year "2009" ] ;
-    kg:publicationType "Book chapter" ;
+    kg:irisCode "04b-019" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/nautical-design>,
         <https://micheler77.github.io/publications-kg/keyword/reverse-modelling> ;
@@ -4045,6 +4175,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2011_Russo_ReverseModelingStorica> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-006" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -4066,6 +4198,8 @@
     kg:conference [ :location "Capri, Campania, Italy" ;
             :name "IX International Forum Le Vie dei Mercanti – S.A.V.E. Heritage" ;
             :year "2011" ] ;
+    kg:irisCode "04b-024" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -4085,6 +4219,8 @@
     kg:conference [ :location "Marseille, Provence-Alpes-Côte d'Azur, France" ;
             :name "IEEE International Conference on Digital Heritage 2013" ;
             :year "2013" ] ;
+    kg:irisCode "04b-030" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-84896799913" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -4107,6 +4243,8 @@
     kg:conference [ :location "Milan, Lombardy, Italy" ;
             :name "International Conference on Built Heritage 2013 (BH2013)" ;
             :year "2013" ] ;
+    kg:irisCode "04b-031" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -4128,6 +4266,8 @@
     kg:conference [ :location "Parma, Emilia-Romagna, Italy" ;
             :name "XI Congresso UID – Italian Survey & International Experience" ;
             :year "2015" ] ;
+    kg:irisCode "04b-034" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -4145,14 +4285,16 @@
     :publisher "Gangemi Editore" ;
     :sameAs "https://iris.uniroma1.it/handle/11573/905476" .
 
-<https://micheler77.github.io/publications-kg/publication/2014_Russo_IntegrationRangeBased> a :ScholarlyArticle ;
+<https://micheler77.github.io/publications-kg/publication/2014_Russo_IntegrationRangeBased> a :Chapter ;
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
     kg:conference [ :location "Riva del Garda, Trentino, Italy" ;
             :name "ISPRS Technical Commission V Symposium" ;
             :year "2014" ] ;
-    kg:publicationType "Conference paper" ;
+    kg:irisCode "02a-012" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
+    kg:publicationType "Book chapter" ;
     kg:scopusId "2-s2.0-84983204131" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -4174,6 +4316,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2015_Guidi_MassiveDigitization> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "02a-014" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     kg:scopusId "2-s2.0-84947578935" ;
@@ -4200,6 +4344,8 @@
     kg:conference [ :location "Florence, Tuscany, Italy" ;
             :name "XIII Congresso UID – Le ragioni del Disegno" ;
             :year "2016" ] ;
+    kg:irisCode "04b-036" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -4223,6 +4369,8 @@
     kg:conference [ :location "Bergamo, Lombardy, Italy" ;
             :name "3D-ARCH 2019 – 8th International Workshop on 3D Virtual Reconstruction and Visualization of Complex Architectures" ;
             :year "2019" ] ;
+    kg:irisCode "04h-003" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85065428756" ;
     kg:wosId "000466553500027" ;
@@ -4244,6 +4392,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2019_Russo_CurveGenerative> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-017" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/generative-curves>,
@@ -4267,6 +4417,8 @@
     kg:conference [ :location "Seville, Andalusia, Spain" ;
             :name "XIV Congreso Internacional de Expresión Gráfica aplicada a la Edificación (APEGA 2019)" ;
             :year "2019" ] ;
+    kg:irisCode "04b-046" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/iconographic-analysis>,
@@ -4286,6 +4438,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-022" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/machine-learning>,
@@ -4310,6 +4464,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-021" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-85090017553" ;
@@ -4336,6 +4492,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2021_Russo_MachineLearningCH> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-022" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -4363,6 +4521,8 @@
     kg:conference [ :location "Virtual Event" ;
             :name "2022 IEEE Conference on Virtual Reality and 3D User Interfaces Workshops (VRW)" ;
             :year "2022" ] ;
+    kg:irisCode "04b-054" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85129605794" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -4383,6 +4543,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-027" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -4411,6 +4573,8 @@
     kg:conference [ :location "Florence, Tuscany, Italy" ;
             :name "CIPA 2023 – Documenting, Understanding, Preserving Cultural Heritage" ;
             :year "2023" ] ;
+    kg:irisCode "04h-007" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85164724467" ;
@@ -4438,6 +4602,8 @@
     kg:conference [ :location "A Coruña, Galicia, Spain | Porto, Norte, Portugal" ;
             :name "XX Congreso Internacional EGA – Horizontes Gráficos" ;
             :year "2024" ] ;
+    kg:irisCode "04b-068" ;
+    kg:irisTypology "04b Atto di convegno in volume (prevista, non ancora su IRIS)" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -4459,6 +4625,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2024_Flenghi_TalkingCities> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/urban> ;
+    kg:irisCode "02a-029" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -4480,6 +4648,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2024_Ippoliti_VisualLanguage> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-027" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -4503,6 +4673,8 @@
     kg:conference [ :location "Siena, Tuscany, Italy" ;
             :name "3D-ARCH 2024 – 10th International Workshop on 3D Virtual Reconstruction and Visualization of Complex Architectures" ;
             :year "2024" ] ;
+    kg:irisCode "04h-009" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85186957736" ;
@@ -4528,6 +4700,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "no" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "01a-028" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/accessibility>,
@@ -4556,6 +4730,8 @@
     kg:conference [ :location "Rome, Lazio, Italy" ;
             :name "46° Convegno Internazionale dei Docenti delle Discipline della Rappresentazione (UID 2025) – ÉKPHRASIS" ;
             :year "2025" ] ;
+    kg:irisCode "04b-070" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/deep-learning>,
@@ -4578,6 +4754,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2025_Russo_MilitaryArchitecture> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-031" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -4606,6 +4784,8 @@
     kg:conference [ :location "Vienna, Vienna, Austria" ;
             :name "3D Underwater Mapping from Above and Below – 3rd International Workshop" ;
             :year "2025" ] ;
+    kg:irisCode "04h-011" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -4631,6 +4811,8 @@
     kg:conference [ :location "Berlin, Germany" ;
             :name "EVA Berlin 2025" ;
             :year "2025" ] ;
+    kg:irisCode "04b-074" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/accessibility>,
@@ -4654,6 +4836,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2026_Giordano_RepresentationBoundaries> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-033" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/augmented-reality>,
@@ -4674,6 +4858,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2026_Robotti_PhotographyAI> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-034" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-photography>,
@@ -4700,6 +4886,8 @@
     kg:conference [ :location "Ancona, Marche, Italy" ;
             :name "3DARCH 2026" ;
             :year "2026" ] ;
+    kg:irisCode "04h-013" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -4726,6 +4914,8 @@
     kg:conference [ :location "Berlin (CINIQ @ Fraunhofer HHI)" ;
             :name "EVA Berlin 2026 - Electronic Media and Visual Arts" ;
             :year "2026" ] ;
+    kg:irisCode "04b-078" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/accessibility>,
         <https://micheler77.github.io/publications-kg/keyword/digital-heritage>,
@@ -4981,6 +5171,8 @@
     kg:conference [ :location "Limassol, Limassol, Cyprus" ;
             :name "VSMM 2008 – Conference in Virtual Systems and Multimedia Dedicated to Digital Heritage" ;
             :year "2008" ] ;
+    kg:irisCode "04b-013" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -5001,6 +5193,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-007" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:wosId "000219852800007" ;
@@ -5029,6 +5223,8 @@
     kg:conference [ :location "Williamsburg, Virginia, USA" ;
             :name "37th International Conference on Computer Applications and Quantitative Methods in Archaeology (CAA 2009)" ;
             :year "2009" ] ;
+    kg:irisCode "04b-015" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -5049,6 +5245,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2010_Guidi_AcquisizioneModellazione> a :Book ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "03a-001" ;
+    kg:irisTypology "03a Saggio, Trattato Scientifico" ;
     kg:openAccess "no" ;
     kg:publicationType "Monograph" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -5072,6 +5270,8 @@
     kg:conference [ :location "Milan, Lombardy, Italy" ;
             :name "Seminario sulla Realtà, simulazione e progetto – il ruolo del modello" ;
             :year "2011" ] ;
+    kg:irisCode "04b-023" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/reality-based-modelling>,
@@ -5092,6 +5292,8 @@
     kg:conference [ :location "Milan, Lombardy, Italy" ;
             :name "5th INTBAU International Annual Event – Putting Tradition into Practice: Heritage, Place and Design" ;
             :year "2017" ] ;
+    kg:irisCode "04b-042" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85048359324" ;
     kg:wosId "000450402900092" ;
@@ -5114,6 +5316,8 @@
     kg:conference [ :location "Naples, Campania, Italy" ;
             :name "XIV Congresso UID – Territori e frontiere della Rappresentazione" ;
             :year "2017" ] ;
+    kg:irisCode "04b-037" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey> ;
@@ -5136,6 +5340,8 @@
     kg:conference [ :location "Riva del Garda, Trentino, Italy" ;
             :name "ISPRS TC II Mid-Term Symposium 2018" ;
             :year "2018" ] ;
+    kg:irisCode "04h-001" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85048359324" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -5158,6 +5364,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/urban> ;
+    kg:irisCode "01a-018" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "no" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-85042934542" ;
@@ -5185,6 +5393,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2018_Russo_VillaVerginese> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-016" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/reconstructive-drawing> ;
@@ -5202,6 +5412,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2019_Russo_JardinesEste> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/territorial> ;
+    kg:irisCode "02a-018" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -5226,6 +5438,8 @@
     kg:conference [ :location "Florence, Tuscany, Italy" ;
             :name "1st ArCo – Art Collections / Digital Heritage (ARCO 2020)" ;
             :year "2020" ] ;
+    kg:irisCode "04b-052" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/augmented-reality>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -5246,6 +5460,8 @@
     kg:conference [ :location "Pisa, Tuscany, Italy" ;
             :name "FORTMED 2023 – International Conference on Fortifications of the Mediterranean Coast" ;
             :year "2023" ] ;
+    kg:irisCode "04b-058" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -5272,6 +5488,8 @@
     kg:conference [ :location "Florence, Tuscany, Italy" ;
             :name "CIPA 2023 – Documenting, Understanding, Preserving Cultural Heritage" ;
             :year "2023" ] ;
+    kg:irisCode "04h-008" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85164729993" ;
@@ -5297,6 +5515,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2024_Cappuccino_HBIMCatena> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-030" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -5324,6 +5544,8 @@
     kg:conference [ :location "Brescia, Lombardy, Italy" ;
             :name "Optical 3D Metrology (O3DM) 2024" ;
             :year "2024" ] ;
+    kg:irisCode "04h-010" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -5349,6 +5571,8 @@
     kg:conference [ :location "Tirana, Tirana, Albania" ;
             :name "FORTMED 2024 – International Conference on Modern Age Fortifications of the Mediterranean Coast" ;
             :year "2024" ] ;
+    kg:irisCode "04b-063" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -5374,6 +5598,8 @@
     kg:conference [ :location "Caserta, Campania, Italy" ;
             :name "FORTMED 2025 – International Conference on Fortification of the Mediterranean Coast" ;
             :year "2025" ] ;
+    kg:irisCode "04b-069" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -5399,6 +5625,8 @@
     kg:conference [ :location "Alghero, Sardinia, Italy" ;
             :name "DAI 2025 – Il Disegno dell’Accessibilità e dell’Inclusione" ;
             :year "2025" ] ;
+    kg:irisCode "04b-072" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/accessibility>,
@@ -5425,6 +5653,8 @@
     kg:conference [ :location "Vicenza, Veneto, Italy" ;
             :name "NEXUS 2025" ;
             :year "2025" ] ;
+    kg:irisCode "04b-073" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/algorithmic-modelling>,
         <https://micheler77.github.io/publications-kg/keyword/baroque-architecture>,
@@ -5448,6 +5678,8 @@
     kg:conference [ :location "Rome, Lazio, Italy" ;
             :name "FORTMED 2026 – Fortification of the Mediterranean Coast" ;
             :year "2026" ] ;
+    kg:irisCode "04b-077" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -5611,6 +5843,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "01a-001" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/composite-beams>,
         <https://micheler77.github.io/publications-kg/keyword/numerical-simulation>,
@@ -5632,6 +5866,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "01a-002" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/composite-beams>,
         <https://micheler77.github.io/publications-kg/keyword/numerical-simulation>,
@@ -5654,6 +5890,8 @@
     kg:conference [ :location "Madrid, Community of Madrid, Spain" ;
             :name "First International Congress on Construction History" ;
             :year "2004" ] ;
+    kg:irisCode "04b-001" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage> ;
     :author ( <https://micheler77.github.io/publications-kg/person/alessandri-claudio> <https://micheler77.github.io/publications-kg/person/fabbri-rita> <https://micheler77.github.io/publications-kg/person/giunchi-erica> <https://micheler77.github.io/publications-kg/person/malvezzi-roberto> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
@@ -5673,6 +5911,8 @@
     kg:conference [ :location "Braga, Braga, Portugal" ;
             :name "VAST 2008 – 9th International Symposium on Virtual Reality, Archaeology and Cultural Heritage" ;
             :year "2008" ] ;
+    kg:irisCode "04b-012" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -5693,6 +5933,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "01a-006" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -5719,6 +5961,8 @@
     kg:conference [ :location "San Jose, California, USA" ;
             :name "IS&T/SPIE Electronic Imaging – 3D Imaging Metrology" ;
             :year "2009" ] ;
+    kg:irisCode "04b-018" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-63549084866" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -5741,7 +5985,9 @@
     kg:conference [ :location "Trento, Trentino, Italy" ;
             :name "3D-ARCH 2011 – 4th International Workshop on 3D Virtual Reconstruction and Visualization of Complex Architectures" ;
             :year "2011" ] ;
-    kg:publicationType "Conference paper" ;
+    kg:irisCode "01a-012" ;
+    kg:irisTypology "01a Articolo in rivista" ;
+    kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-84924721906" ;
     kg:wosId "000358299000051" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -5765,6 +6011,8 @@
     kg:conference [ :location "Amman, Amman, Jordan" ;
             :name "DMACH 2011 – Digital Media and its Applications in Cultural Heritage" ;
             :year "2011" ] ;
+    kg:irisCode "04b-021" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -5784,6 +6032,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "01a-010" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "no" ;
     kg:publicationType "Journal article" ;
     kg:wosId "000421386500005" ;
@@ -5809,6 +6059,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-017" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-85051133227" ;
@@ -5836,6 +6088,8 @@
     kg:conference [ :location "Rome, Lazio, Italy" ;
             :name "3DModeling&BIM Workshop – Progettazione, Design e Proposte per la Ricostruzione" ;
             :year "2017" ] ;
+    kg:irisCode "04b-039" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/nautical-design>,
@@ -5854,6 +6108,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "01a-023" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-85112666971" ;
@@ -5881,6 +6137,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2022_Cavallari_AugmentedStreetArt> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-024" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/augmented-reality>,
@@ -5897,7 +6155,7 @@
     :pagination "81-88" ;
     :publisher "FrancoAngeli" ;
     :sameAs "https://doi.org/10.3280/oa-845-c198",
-        "https://iris.uniroma1.it/handle/11573/1654526" ;
+        "https://iris.uniroma1.it/handle/11573/1661940" ;
     :url "https://doi.org/10.3280/oa-845-c198" .
 
 <https://micheler77.github.io/publications-kg/publication/2022_Russo_CanossaCastle> a :ScholarlyArticle ;
@@ -5905,6 +6163,8 @@
     kg:conference [ :location "Rende, Calabria, Italy" ;
             :name "2022 IMEKO TC-4 International Conference on Metrology for Archaeology and Cultural Heritage (MetroArcheo)" ;
             :year "2022" ] ;
+    kg:irisCode "04b-057" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85150608601" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -5929,6 +6189,8 @@
     kg:conference [ :location "Mantua, Lombardy, Italy" ;
             :name "3D-ARCH 2022 – 9th International Workshop on 3D Virtual Reconstruction and Visualization of Complex Architectures" ;
             :year "2022" ] ;
+    kg:irisCode "04h-005" ;
+    kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85126390873" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -5947,6 +6209,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2023_Cavallari_StreetARt> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/urban> ;
+    kg:irisCode "02a-025" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/augmented-reality>,
@@ -5970,6 +6234,8 @@
     kg:conference [ :location "L'Aquila, Abruzzo, Italy" ;
             :name "IMG2023 – 4th International and Interdisciplinary Conference on Image and Imagination" ;
             :year "2023" ] ;
+    kg:irisCode "04b-061" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/augmented-reality>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -5992,6 +6258,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/urban> ;
+    kg:irisCode "01a-026" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-85184867086" ;
@@ -6097,9 +6365,11 @@
         "Pupi, E." ;
     :name "Pupi, Enrico" .
 
-<https://micheler77.github.io/publications-kg/publication/2004_Alessandri_HighTechnologyTimber> a :Chapter ;
+<https://micheler77.github.io/publications-kg/publication/2004_Alessandri_HighTechnologyTimber> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
-    kg:publicationType "Book chapter" ;
+    kg:irisCode "04b-002" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage> ;
     :author ( <https://micheler77.github.io/publications-kg/person/alessandri-claudio> <https://micheler77.github.io/publications-kg/person/fabbri-rita> <https://micheler77.github.io/publications-kg/person/giunchi-erica> <https://micheler77.github.io/publications-kg/person/malvezzi-roberto> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/ferrara-emilia-romagna-italy> ;
@@ -6118,6 +6388,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "01a-003" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -6139,6 +6411,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2005_Giunchi_TraviComposteFerraraRinasc> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "02a-001" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/composite-beams>,
@@ -6160,6 +6434,8 @@
     kg:conference [ :location "Grosseto, Tuscany, Italy" ;
             :name "Paesaggi Archeologici e Tecnologie Digitali: GPS e Laser Scanner" ;
             :year "2005" ] ;
+    kg:irisCode "04b-003" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -6182,6 +6458,8 @@
     kg:conference [ :location "Milan, Lombardy, Italy" ;
             :name "MIDECH'05 – Multimedia Information@Design for Cultural Heritage" ;
             :year "2005" ] ;
+    kg:irisCode "04b-004" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -6204,6 +6482,8 @@
     kg:conference [ :location "Florence, Tuscany, Italy" ;
             :name "XI International Seminar Forum of UNESCO University and Heritage" ;
             :year "2006" ] ;
+    kg:irisCode "04b-009" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -6223,6 +6503,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/urban> ;
+    kg:irisCode "01a-008" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "no" ;
     kg:publicationType "Journal article" ;
     kg:wosId "000212794500004" ;
@@ -6250,6 +6532,8 @@
     kg:conference [ :location "Vienna, Vienna, Austria" ;
             :name "9th Conference on Optical 3-D Measurement Techniques" ;
             :year "2009" ] ;
+    kg:irisCode "04b-014" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -6269,6 +6553,8 @@
     kg:conference [ :location "Milan, Lombardy, Italy" ;
             :name "VSMM 2012 – Virtual Systems and Multimedia" ;
             :year "2012" ] ;
+    kg:irisCode "04b-026" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-84872023858" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -6288,6 +6574,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2012_Guidi_GGroupMyson> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "02a-007" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -6314,7 +6602,9 @@
     kg:conference [ :location "Trento, Trentino, Italy" ;
             :name "3D-ARCH 2013 – 5th International Workshop on 3D Virtual Reconstruction and Visualization of Complex Architectures" ;
             :year "2013" ] ;
-    kg:publicationType "Conference paper" ;
+    kg:irisCode "01a-015" ;
+    kg:irisTypology "01a Articolo in rivista" ;
+    kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-84924264772" ;
     kg:wosId "000358300800015" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -6339,6 +6629,8 @@
     kg:conference [ :location "Florence, Tuscany, Italy" ;
             :name "EVA 2013 Florence – Electronic Imaging & the Visual Arts" ;
             :year "2013" ] ;
+    kg:irisCode "04b-027" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -6424,6 +6716,8 @@
     kg:conference [ :location "San Jose, California, USA" ;
             :name "SPIE Electronic Imaging 2005 – Videometrics VIII" ;
             :year "2005" ] ;
+    kg:irisCode "04b-007" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-21944450605" ;
     kg:wosId "000228789200013" ;
@@ -6450,6 +6744,8 @@
     kg:conference [ :location "San Diego, California, USA" ;
             :name "SPIE Optics + Photonics – Videometrics, Range Imaging, and Applications X" ;
             :year "2009" ] ;
+    kg:irisCode "04b-017" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-70350418765" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -6470,6 +6766,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "01a-009" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-77957226974" ;
@@ -6493,6 +6791,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2012_Russo_LaserFotogrammetria> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
+    kg:irisCode "02a-010" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -6516,6 +6816,8 @@
     kg:conference [ :location "Marseille, Provence-Alpes-Côte d'Azur, France" ;
             :name "IEEE International Conference on Digital Heritage 2013" ;
             :year "2013" ] ;
+    kg:irisCode "04b-033" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-84896771543" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -6538,6 +6840,8 @@
     kg:anvurClassA "yes" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-014" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-84926181951" ;
     kg:wosId "000333005500010" ;
@@ -6564,6 +6868,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
+    kg:irisCode "01a-016" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-84895651464" ;
@@ -6587,9 +6893,11 @@
     :url "http://hdl.handle.net/11311/864950" ;
     :volumeNumber "1" .
 
-<https://micheler77.github.io/publications-kg/publication/2023_Giordano_DigitalChallenges> a :Chapter ;
+<https://micheler77.github.io/publications-kg/publication/2023_Giordano_DigitalChallenges> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
-    kg:publicationType "Book chapter" ;
+    kg:irisCode "04b-056" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/bim>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey> ;
@@ -6609,6 +6917,8 @@
     kg:conference [ :location "Valencia, Valencian Community, Spain" ;
             :name "INTED 2023 – 17th International Technology, Education and Development Conference" ;
             :year "2023" ] ;
+    kg:irisCode "04b-059" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/accessibility>,
         <https://micheler77.github.io/publications-kg/keyword/augmented-reality> ;
@@ -6667,6 +6977,8 @@
     kg:conference [ :location "San Jose, California, USA" ;
             :name "SPIE Electronic Imaging 2005 – Videometrics VIII" ;
             :year "2005" ] ;
+    kg:irisCode "04b-005" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-21944438755" ;
     kg:wosId "000228789200004" ;
@@ -6691,6 +7003,8 @@
     kg:conference [ :location "Ottawa, Ontario, Canada" ;
             :name "3DIM 2005 – 5th International Conference on 3-D Digital Imaging and Modeling" ;
             :year "2005" ] ;
+    kg:irisCode "04b-006" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-46749144236" ;
     kg:wosId "000230405400071" ;
@@ -6716,6 +7030,8 @@
     kg:anvurClassA "no" ;
     kg:anvurScientificArea08 "yes" ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "01a-005" ;
+    kg:irisTypology "01a Articolo in rivista" ;
     kg:openAccess "no" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -6738,6 +7054,8 @@
     kg:conference [ :location "San Francisco, California, USA" ;
             :name "SPIE Electronic Imaging – Three-Dimensional Imaging, Interaction, and Measurement" ;
             :year "2011" ] ;
+    kg:irisCode "04b-022" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-79951597569" ;
     kg:wosId "000291691300012" ;
@@ -6758,6 +7076,8 @@
 
 <https://micheler77.github.io/publications-kg/publication/2012_Russo_IntegratedReverse> a :Chapter ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
+    kg:irisCode "02a-009" ;
+    kg:irisTypology "02a Capitolo o Articolo" ;
     kg:openAccess "no" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -6803,6 +7123,8 @@
     kg:conference [ :location "Ancona, Marche, Italy" ;
             :name "eArcom 2007" ;
             :year "2007" ] ;
+    kg:irisCode "04b-011" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/reality-based-modelling>,
@@ -6897,6 +7219,8 @@
     kg:conference [ :location "San Jose, California, USA" ;
             :name "SPIE Electronic Imaging 2007 – Videometrics IX" ;
             :year "2007" ] ;
+    kg:irisCode "04b-010" ;
+    kg:irisTypology "04b Atto di convegno in volume" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-34249084386" ;
     kg:wosId "000245861400005" ;

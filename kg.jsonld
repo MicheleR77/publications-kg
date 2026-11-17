@@ -2492,6 +2492,8 @@
    "name": "Geometric Studies and Algorithmic Modeling of the Double Staircase of Palazzo Carignano",
    "datePublished": "2026",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-029",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -2560,6 +2562,8 @@
    "name": "Sculptures for a tactile fruition: The head of Sant'Elena",
    "datePublished": "2024",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-028",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -2628,6 +2632,8 @@
    "name": "Il Castello di Canossa: Interpretazione di una fortificazione misteriosa",
    "datePublished": "2023",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-027",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -2695,6 +2701,8 @@
    "name": "Visual storytelling to promote stratification and hybridisation of Cultural Heritage",
    "datePublished": "2023",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-026",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -2761,6 +2769,8 @@
    "name": "Machine Learning and Deep Learning for the Built Heritage Analysis: Laser Scanning and UAV-Based Surveying Applications on a Complex Spatial Grid Structure",
    "datePublished": "2023",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-025",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -2843,6 +2853,8 @@
    "name": "Ultralight UAV for steep-hill archaeological 3D survey",
    "datePublished": "2022",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-024",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -2915,6 +2927,8 @@
    "name": "AR in the Architecture Domain: State of the Art",
    "datePublished": "2021",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-023",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -2974,6 +2988,8 @@
    "name": "Approccio gerarchico di machine learning per la segmentazione semantica di nuvole di punti 3D",
    "datePublished": "2020",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-022",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3040,6 +3056,8 @@
    "name": "A Hierarchical Machine Learning Approach for Multi-Level and Multi-Resolution 3D Point Cloud Classification",
    "datePublished": "2020",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-021",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3114,6 +3132,8 @@
    "name": "The Illusory Architecture of the Camera di Giove in Sassuolo",
    "datePublished": "2020",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-020",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3176,6 +3196,8 @@
    "name": "Built Information Modeling for the 3D Reconstruction of Modern Railway Stations",
    "datePublished": "2019",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-019",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3245,6 +3267,8 @@
    "name": "Modelling and Deterioration Mapping of Façades in Historical Urban context by Close Range Ultra-Lightweight UAVs Photogrammetry",
    "datePublished": "2018",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-018",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3320,6 +3344,8 @@
    "name": "3D Survey and Virtual Reconstruction of Archaeological Sites",
    "datePublished": "2014",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-016",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3383,6 +3409,8 @@
    "name": "Dal rilievo alle rappresentazioni ad alta risoluzione dello spazio architettonico continuo. Il caso di studio del complesso dell'Abbazia di Pomposa",
    "datePublished": "2015",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-017",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3444,6 +3472,8 @@
    "name": "La fotografia per la mappatura del quadro fessurativo del patrimonio architettonico in situazioni di emergenza",
    "datePublished": "2013",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-013",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3507,6 +3537,8 @@
    "name": "La rinascita dell'architettura Cham: un percorso di ricostruzione virtuale di architetture scomparse",
    "datePublished": "2013",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-014",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3567,6 +3599,8 @@
    "name": "Principali tecniche e strumenti per il rilievo tridimensionale in ambito archeologico",
    "datePublished": "2011",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-011",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3629,6 +3663,8 @@
    "name": "Reality-based and reconstructive models: digital media for cultural heritage valorization",
    "datePublished": "2011",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-010",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3683,6 +3719,8 @@
    "name": "Performance Evaluation of Triangulation Based Range Sensors",
    "datePublished": "2010",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-009",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3739,6 +3777,8 @@
    "name": "Diachronic representation of ancient buildings: studies on the “San Giovanni in Conca” Basilica in Milan",
    "datePublished": "2009",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-007",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3799,6 +3839,8 @@
    "name": "A Multi-Resolution Methodology for the 3D Modeling of Large and Complex Archeological Areas",
    "datePublished": "2009",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-008",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3870,6 +3912,8 @@
    "name": "Virtualizing ancient Imperial Rome: from Gismondi's physical model to a new virtual reality application",
    "datePublished": "2008",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-006",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3939,6 +3983,8 @@
    "name": "Tecniche di acquisizione digitale di superfici mediante processi di reverse-modeling",
    "datePublished": "2007",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-005",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -3993,6 +4039,8 @@
    "name": "Three-dimensional acquisition of large and detailed cultural heritage objects",
    "datePublished": "2006",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-004",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -4068,6 +4116,8 @@
    "name": "Reverse modeling per la nautica: rilievo dello scafo di un gommone con sistemi di scansione 3D a basso costo",
    "datePublished": "2005",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-003",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -4129,6 +4179,8 @@
    "name": "Prime indagini sul comportamento statico di travi composte ferraresi: il contributo della simulazione numerica",
    "datePublished": "2003",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-002",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -4190,6 +4242,8 @@
    "name": "Tecniche moderne per la riscoperta di tecnologie antiche: il caso delle travi composte in legno a Ferrara",
    "datePublished": "2002",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-001",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -4251,6 +4305,8 @@
    "name": "GPT for Treatise Image Creation: a critical overview",
    "datePublished": "2026",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-035",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4304,6 +4360,8 @@
    "name": "The language of photography in the age of AI",
    "datePublished": "2026",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-034",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4357,6 +4415,8 @@
    "name": "Representation Across Boundaries: New Paradigms in the Age of AI and XR",
    "datePublished": "2026",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-033",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4407,6 +4467,8 @@
    "name": "INformation Models for the Fruition of Constructive Knowledge in FORtified Architecture TREATises (16th-18th Century)",
    "datePublished": "2025",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-032",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4462,6 +4524,8 @@
    "name": "Digital Survey Techniques for the Documentation of Military Architecture. The Case of the Citadel of Alessandria and Santa Croce Bastion of Lucca",
    "datePublished": "2025",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-031",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4534,6 +4598,8 @@
    "name": "VR Feedback System for Product Design Service",
    "datePublished": "2024",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-028",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4581,6 +4647,8 @@
    "name": "The role of visual language between Multiculturalism and Cultural Heritage",
    "datePublished": "2024",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-027",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4639,6 +4707,8 @@
    "name": "3D Acquisition and HBIM Modeling of Medieval Architectures in Rome: The Albergo of the Catena",
    "datePublished": "2024",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-030",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4697,6 +4767,8 @@
    "name": "Talking City. Voices of Hidden History in the Architecture and Urban Places of Rome",
    "datePublished": "2024",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-029",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4758,6 +4830,8 @@
    "name": "AR-Bicycle: Smart AR Component Recognition to Support Bicycle's Second Life",
    "datePublished": "2023",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-026",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4801,6 +4875,8 @@
    "name": "Street-ARt. Communication of Street Art Works Through Augmented Reality",
    "datePublished": "2023",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-025",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4858,6 +4934,8 @@
    "name": "Augmented Street Art: a critical contents and application overview",
    "datePublished": "2022",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-024",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4882,7 +4960,7 @@
    "url": "https://doi.org/10.3280/oa-845-c198",
    "sameAs": [
     "https://doi.org/10.3280/oa-845-c198",
-    "https://iris.uniroma1.it/handle/11573/1654526"
+    "https://iris.uniroma1.it/handle/11573/1661940"
    ],
    "kg:openAccess": "yes",
    "isPartOf": {
@@ -4912,6 +4990,8 @@
    "name": "Machine Learning for Cultural Heritage Classification",
    "datePublished": "2021",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-022",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -4980,6 +5060,8 @@
    "name": "Lo spazio prospettico del coro di San Fedele",
    "datePublished": "2021",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-021",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5029,6 +5111,8 @@
    "name": "Diachronic Models of the Façade of Palazzetto Baschenis Borghese in Rome",
    "datePublished": "2020",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-020",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5084,6 +5168,8 @@
    "name": "La fotomodellazione in ambito archeologico: limiti, potenzialità e prospettive",
    "datePublished": "2020",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-019",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5126,6 +5212,8 @@
    "name": "Los jardines renacentistas de la Familia Este: un diseño arquitectónico a escala territorial",
    "datePublished": "2019",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-018",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5177,6 +5265,8 @@
    "name": "Il ruolo delle curve generative nel Design Nautico",
    "datePublished": "2019",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-017",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5221,6 +5311,8 @@
    "name": "Tecniche di rilievo e rappresentazione per una lettura integrata di un bene complesso",
    "datePublished": "2015",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-015",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5290,6 +5382,8 @@
    "name": "Integrated multi-scalar approach for 3D Cultural Heritage acquisitions",
    "datePublished": "2015",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-013",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5344,6 +5438,8 @@
    "name": "Massive 3D Digitization of Museum Contents",
    "datePublished": "2015",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-014",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5406,6 +5502,8 @@
    "name": "L'immagine della città: frammenti e percorsi nell'iconografia urbana",
    "datePublished": "2014",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-011",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5457,6 +5555,8 @@
    "name": "3D Survey and Virtual Reconstruction of the G-Group",
    "datePublished": "2012",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-007",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5514,6 +5614,8 @@
    "name": "Rappresentazioni complesse: sistemi continui e sistemi discreti",
    "datePublished": "2012",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-008",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5557,6 +5659,8 @@
    "name": "Integrated Reverse Modeling techniques for the survey of complex shapes in Industrial Design",
    "datePublished": "2012",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-009",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5604,6 +5708,8 @@
    "name": "Laser Scanning e Fotogrammetria: strumenti e metodi di rilievo tridimensionali per l'archeologia",
    "datePublished": "2012",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-010",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5653,6 +5759,8 @@
    "name": "Il rilievo nautico: dal filo a piombo all'acquisizione digitale tridimensionale - Le applicazioni",
    "datePublished": "2009",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-004",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5699,6 +5807,8 @@
    "name": "Gli strumenti e i metodi di misura e Casi di Studio - Reverse Modeling di prodotti industriali finiti",
    "datePublished": "2006",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-003",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5742,6 +5852,8 @@
    "name": "Fasi, attivita e metodo della ricerca. Casi di studio",
    "datePublished": "2006",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-002",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5791,6 +5903,8 @@
    "name": "Travi composte in legno nella Ferrara rinascimentale: indagini conoscitive e proposte d'intervento",
    "datePublished": "2005",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-001",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -5843,6 +5957,8 @@
    "name": "Il Palazzo del Verginese: una Delizia Estense nascosta",
    "datePublished": "2018",
    "kg:publicationType": "Monograph",
+   "kg:irisCode": "03a-002",
+   "kg:irisTypology": "03a Saggio, Trattato Scientifico",
    "author": {
     "@list": [
      {
@@ -5895,6 +6011,8 @@
    "name": "Acquisizione 3D e modellazione poligonale",
    "datePublished": "2010",
    "kg:publicationType": "Monograph",
+   "kg:irisCode": "03a-001",
+   "kg:irisTypology": "03a Saggio, Trattato Scientifico",
    "author": {
     "@list": [
      {
@@ -5947,6 +6065,8 @@
    "name": "Bastion survey protocol: operational activity framework for multi-scale surveys of fortified walls",
    "datePublished": "2026",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-077",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6000,6 +6120,8 @@
    "name": "Critical comparison of von Sholl's never-built plans for the Verona bridgehead",
    "datePublished": "2026",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-076",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6061,6 +6183,8 @@
    "name": "A Scan-to-HBIM Workflow to Trace the Level of Modelling Accuracy. The Case of Palazzo Carignano in Turin",
    "datePublished": "2026",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-014",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -6136,6 +6260,8 @@
    "name": "Multi-Layered 3D Survey Process to Represent Visible and Invisible Data",
    "datePublished": "2026",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-013",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -6203,6 +6329,8 @@
    "name": "From Fragmented Repertoires to a Property Graph: A Queryable Atlas of Byzantine Geometric Mosaic Bands for Architectural Heritage",
    "datePublished": "2026",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-012",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -6275,6 +6403,8 @@
    "name": "Visualising Piffetti's library in Villa della Regina museum: an interdisciplinary digital project for knowledge accessibility",
    "datePublished": "2025",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-074",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6353,6 +6483,8 @@
    "name": "Standard catalografici come guida dall’acquisizione al BIM dei beni culturali / Cataloguing standards as a guide from acquisition to BIM of cultural assets",
    "datePublished": "2025",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-075",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6405,6 +6537,8 @@
    "name": "The double staircase of Palazzo Carignano: geometric studies among drawings, survey, and algorithmic modelling",
    "datePublished": "2025",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-073",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6471,6 +6605,8 @@
    "name": "Digital and tangible tools for physical and cognitive accessibility of Palazzo Carignano staircase",
    "datePublished": "2025",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-072",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6549,6 +6685,8 @@
    "name": "AI-Driven Adaptive Photogrammetry for Built Heritage Information Modelling",
    "datePublished": "2025",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-071",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6613,6 +6751,8 @@
    "name": "Allucinazione eidomatica degli ordini architettonici nell'era delle Reti Neurali",
    "datePublished": "2025",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-070",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6672,6 +6812,8 @@
    "name": "Survey experiences of city walls of Alessandria and Lucca: an overview",
    "datePublished": "2025",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-069",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6744,6 +6886,8 @@
    "name": "Automated marker detection and time series analysis for through-water photogrammetry",
    "datePublished": "2025",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-011",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -6808,6 +6952,8 @@
    "name": "Automatic tag detection in multimedia survey condition",
    "datePublished": "2024",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-010",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -6872,6 +7018,8 @@
    "name": "La misura dello spazio funerario. La Sala della Pietà nella Certosa di Bologna / The measure of funerary space. The Hall of Piety in the Charterhouse of Bologna",
    "datePublished": "2024",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-067",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6936,6 +7084,8 @@
    "name": "Rilievo e modellazione di carene: potenzialità vs necessità / Hull Survey and Modeling: Potential vs. Necessity",
    "datePublished": "2024",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-066",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -6992,6 +7142,8 @@
    "name": "Survey and representation of funerary architectures: the evangelical cloister in the charterhouse of Bologna",
    "datePublished": "2024",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-065",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7055,6 +7207,8 @@
    "name": "Integrated 3D survey and modeling techniques for medieval architectures: The Albergo of the Catena in Rome",
    "datePublished": "2024",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-068",
+   "kg:irisTypology": "04b Atto di convegno in volume (prevista, non ancora su IRIS)",
    "author": {
     "@list": [
      {
@@ -7117,6 +7271,8 @@
    "name": "Virtual reconstruction of destroyed fortifications: the case study of Santa Caterina in Verona",
    "datePublished": "2024",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-063",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7183,6 +7339,8 @@
    "name": "Study and representation of the bastion of San Maurizio in Turin: an educational experience",
    "datePublished": "2024",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-064",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7255,6 +7413,8 @@
    "name": "Multimedia photogrammetry 2.0. A first step for underwater cultural heritage application",
    "datePublished": "2024",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-009",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -7329,6 +7489,8 @@
    "name": "Rediscovering stratified urban context by visual pathways: the Esquiline of Rome",
    "datePublished": "2023",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-061",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7393,6 +7555,8 @@
    "name": "Reconstructive 3D modelling and interactive visualization for accessibility of Piffetti's library in the Villa della Regina museum (Turin)",
    "datePublished": "2023",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-008",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -7472,6 +7636,8 @@
    "name": "Integrated 3D acquisition of complex wooden artefacts: The Piffetti's library in Quirinale palace (Rome)",
    "datePublished": "2023",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-007",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -7545,6 +7711,8 @@
    "name": "Phygital sculptures for archaeological dissemination: The head of Sant'Elena",
    "datePublished": "2023",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-062",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7607,6 +7775,8 @@
    "name": "A 3D integrated survey of fortified architectures: the medieval Canossa castle",
    "datePublished": "2023",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-058",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7675,6 +7845,8 @@
    "name": "Drawing and interactive architectural walkthrough to communicate complex spaces",
    "datePublished": "2023",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-060",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7724,11 +7896,13 @@
   },
   {
    "@id": "publication/2023_Giordano_DigitalChallenges",
-   "@type": "Chapter",
+   "@type": "ScholarlyArticle",
    "identifier": "2023_Giordano_DigitalChallenges",
    "name": "Digital Challenges for Representation",
    "datePublished": "2023",
-   "kg:publicationType": "Book chapter",
+   "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-056",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7776,6 +7950,8 @@
    "name": "Augmented geometry in university education",
    "datePublished": "2023",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-059",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7840,6 +8016,8 @@
    "name": "Low-cost 3D techniques for real sculptural twins in the museum domain",
    "datePublished": "2022",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-006",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -7904,6 +8082,8 @@
    "name": "Ready-to-(dis)assemble: experimentations on elastic joinery for engaging and environmentally friendly furniture",
    "datePublished": "2022",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-055",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -7956,6 +8136,8 @@
    "name": "3D Reconstruction, Digital Twinning, and Virtual Reality: Architectural Heritage Applications",
    "datePublished": "2022",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-054",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8012,6 +8194,8 @@
    "name": "Medieval cultural heritage, from 3D survey to data management: the castle of Canossa",
    "datePublished": "2023",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-057",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8078,6 +8262,8 @@
    "name": "Geometric analysis of a space grid structure by an integrated 3D survey approach",
    "datePublished": "2022",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-005",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -8132,6 +8318,8 @@
    "name": "La prospettiva curiosa in acqua: un nuovo linguaggio anamorfico / The curious perspective in water: a new anamorphic language",
    "datePublished": "2021",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-053",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8171,11 +8359,13 @@
   },
   {
    "@id": "publication/2021_Russo_ImagingArchaeologyAPEGA",
-   "@type": "ScholarlyArticle",
+   "@type": "Chapter",
    "identifier": "2021_Russo_ImagingArchaeologyAPEGA",
    "name": "Imaging for archaeology: an instrument of reading and interpretation complex architecture",
    "datePublished": "2021",
-   "kg:publicationType": "Conference paper",
+   "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-023",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -8225,6 +8415,8 @@
    "name": "CH representation between Monge's projections and Augmented Reality",
    "datePublished": "2020",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-052",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8269,11 +8461,13 @@
   },
   {
    "@id": "publication/2020_Rossi_DipintiLegno",
-   "@type": "Chapter",
+   "@type": "ScholarlyArticle",
    "identifier": "2020_Rossi_DipintiLegno",
    "name": "Dipinti di legno. Le tarsie prospettiche del coro di Santa Maria alla Scala in San Fedele a Milano",
    "datePublished": "2020",
-   "kg:publicationType": "Book chapter",
+   "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-051",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8330,6 +8524,8 @@
    "name": "Diachronic Models of the Façade of Palazzetto Baschenis Borghese in Rome",
    "datePublished": "2020",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-050",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8347,7 +8543,7 @@
    "pagination": "267-270",
    "isbn": "9788413401614",
    "sameAs": [
-    "https://iris.uniroma1.it/handle/11573/1399230"
+    "https://iris.uniroma1.it/handle/11573/1441156"
    ],
    "isPartOf": {
     "@id": "venue/xviii-congreso-internacional-de-expresion-grafica-arquitectonica-ega-2020"
@@ -8386,6 +8582,8 @@
    "name": "The ancient Roman gate along Appian way: San Sebastiano Gate",
    "datePublished": "2020",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-049",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8443,6 +8641,8 @@
    "name": "Mobile phone imaging for CH façade modelling",
    "datePublished": "2019",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-004",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -8500,6 +8700,8 @@
    "name": "El jardín renacentista de la familia Este: iconografía histórica y lectura del territorio",
    "datePublished": "2019",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-046",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8550,6 +8752,8 @@
    "name": "Reverse modeling of cultural heritage: pipeline and bottlenecks",
    "datePublished": "2019",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-003",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -8610,6 +8814,8 @@
    "name": "Parametric surfaces for augmented architecture representation",
    "datePublished": "2019",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-002",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -8667,6 +8873,8 @@
    "name": "Spherical drawing for understanding urban spaces",
    "datePublished": "2019",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-048",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8721,6 +8929,8 @@
    "name": "Fotomodellazione 2020: viaggio di sola andata?",
    "datePublished": "2019",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-047",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8766,6 +8976,8 @@
    "name": "La villa del Verginese. Un esempio unico di villa estense rinascimentale",
    "datePublished": "2018",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-016",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -8809,6 +9021,8 @@
    "name": "Massive 3D acquisition of CH",
    "datePublished": "2018",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-045",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8861,6 +9075,8 @@
    "name": "Close range mini UAVs photogrammetry for architecture survey",
    "datePublished": "2018",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04h-001",
+   "kg:irisTypology": "04h Atto di convegno in rivista scientifica o di classe A",
    "author": {
     "@list": [
      {
@@ -8929,6 +9145,8 @@
    "name": "Il Rosso Pompeiano per la visibilità? Il caso delle Case Cantoniere",
    "datePublished": "2018",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-044",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -8980,6 +9198,8 @@
    "name": "Analisi di opere non realizzate: rinascita virtuale di una architettura di Pier Luigi Nervi",
    "datePublished": "2018",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-043",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9003,6 +9223,9 @@
    "pagination": "397-404",
    "isbn": "9788849236514",
    "publisher": "Gangemi Editore",
+   "sameAs": [
+    "https://iris.uniroma1.it/handle/11573/1146804"
+   ],
    "isPartOf": {
     "@id": "venue/rappresentazione-materiale-immateriale-drawing-as-in-tangible-representation"
    },
@@ -9035,6 +9258,8 @@
    "name": "The digital model of the S. Zenone chapel inside Santa Prassede in Rome. A case study for the morphological analysis",
    "datePublished": "2017",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-041",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9089,11 +9314,13 @@
   },
   {
    "@id": "publication/2017_Manferdini_AbbaziaPomposaCont",
-   "@type": "Chapter",
+   "@type": "ScholarlyArticle",
    "identifier": "2017_Manferdini_AbbaziaPomposaCont",
    "name": "Lo spazio continuo. Rilievo digitale tridimensionale ad alta risoluzione del complesso dell'Abbazia di Pomposa",
    "datePublished": "2017",
-   "kg:publicationType": "Book chapter",
+   "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-040",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9146,6 +9373,8 @@
    "name": "Metodologie di modellazione digitale per l'ottimizzazione del processo produttivo navale",
    "datePublished": "2017",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-039",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9191,6 +9420,8 @@
    "name": "Il ruolo del colore nella conoscenza dei Beni Archeologici",
    "datePublished": "2017",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-038",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9236,6 +9467,8 @@
    "name": "Rilievo e rappresentazione speditiva della chiesa di San Maurelio in Ferrara",
    "datePublished": "2017",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-037",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9284,6 +9517,8 @@
    "name": "Representation tools for pedestrian and cyclistic fruition of urban area",
    "datePublished": "2018",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-042",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9333,6 +9568,8 @@
    "name": "La rappresentazione di facciate complesse come strumento di analisi compositiva e materica: il caso del Duomo di Monza",
    "datePublished": "2016",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-036",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9384,6 +9621,8 @@
    "name": "Metodiche integrate di rilievo 3D per l'analisi di architetture complesse. Il caso dell'Abbazia di Pomposa",
    "datePublished": "2014",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-034",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9441,6 +9680,8 @@
    "name": "Il rilievo urbano per la comunicazione via web. Un'esperienza milanese",
    "datePublished": "2014",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-035",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9490,11 +9731,13 @@
   },
   {
    "@id": "publication/2014_Russo_IntegrationRangeBased",
-   "@type": "ScholarlyArticle",
+   "@type": "Chapter",
    "identifier": "2014_Russo_IntegrationRangeBased",
    "name": "Integration of image and range-based techniques for surveying complex architectures",
    "datePublished": "2014",
-   "kg:publicationType": "Conference paper",
+   "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-012",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -9559,6 +9802,8 @@
    "name": "Quick textured mesh generation in Cultural Heritage digitization",
    "datePublished": "2013",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-031",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9620,6 +9865,8 @@
    "name": "A multidisciplinary approach to 3D survey and reconstruction of historical buildings",
    "datePublished": "2013",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-028",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9680,6 +9927,8 @@
    "name": "Multi-scalar 3D digitization of Cultural Heritage using a low-cost integrated approach",
    "datePublished": "2013",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-033",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9734,6 +9983,8 @@
    "name": "3D Digitizing a whole museum: a metadata centered workflow",
    "datePublished": "2013",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-030",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9789,11 +10040,13 @@
   },
   {
    "@id": "publication/2013_Russo_ReverseModelingUID",
-   "@type": "Chapter",
+   "@type": "ScholarlyArticle",
    "identifier": "2013_Russo_ReverseModelingUID",
    "name": "Rilievo di forme complesse tramite Reverse Modeling integrato",
    "datePublished": "2013",
-   "kg:publicationType": "Book chapter",
+   "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-029",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9804,6 +10057,9 @@
    "inLanguage": "ITA",
    "pagination": "155-160",
    "isbn": "9788854864825",
+   "sameAs": [
+    "https://iris.uniroma1.it/handle/11573/905487"
+   ],
    "isPartOf": {
     "@id": "venue/linea-di-ricerca-nell-area-del-disegno-approfondimento-dalle-tesi-di-dottorato"
    },
@@ -9836,6 +10092,8 @@
    "name": "Integrating Real 3D Data and Historical Sources for the Digital Reconstruction of Five Hindu Temples",
    "datePublished": "2013",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-027",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -9894,7 +10152,9 @@
    "identifier": "2013_Guidi_DigitalReconstruction3DArch",
    "name": "Digital reconstruction of an archaeological site based on the integration of 3D data and historical sources",
    "datePublished": "2013",
-   "kg:publicationType": "Conference paper",
+   "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-015",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -9955,11 +10215,13 @@
   },
   {
    "@id": "publication/2013_Russo_RappresentazioneIbrida",
-   "@type": "Chapter",
+   "@type": "ScholarlyArticle",
    "identifier": "2013_Russo_RappresentazioneIbrida",
    "name": "Rappresentazione ibrida per un ritorno al futuro",
    "datePublished": "2013",
-   "kg:publicationType": "Book chapter",
+   "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-032",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10006,6 +10268,8 @@
    "name": "Tecniche di 3D modeling: valutazione comparativa di metodologie di rilievo di un monumento funebre in legno",
    "datePublished": "2012",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-025",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10060,6 +10324,8 @@
    "name": "A virtual connection between past and present: the digital revival of Cham's Architecture (Vietnam)",
    "datePublished": "2012",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-026",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10121,6 +10387,8 @@
    "name": "Il Rilievo strumentale",
    "datePublished": "2011",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-005",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -10160,6 +10428,8 @@
    "name": "Il reverse modeling come strumento di analisi e conoscenza all'architettura storica",
    "datePublished": "2011",
    "kg:publicationType": "Book chapter",
+   "kg:irisCode": "02a-006",
+   "kg:irisTypology": "02a Capitolo o Articolo",
    "author": {
     "@list": [
      {
@@ -10205,6 +10475,8 @@
    "name": "Integrazione di tecniche di rilievo 3D per l'acquisizione di forme complesse nell'ambito dell'Industrial Design",
    "datePublished": "2011",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-023",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10251,6 +10523,8 @@
    "name": "The role of digital models in cultural heritage preservation",
    "datePublished": "2011",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-024",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10299,6 +10573,8 @@
    "name": "Integrated Cultural Heritage reconstruction in space and time",
    "datePublished": "2011",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-021",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10351,7 +10627,9 @@
    "identifier": "2011_Guidi_Diachronic3DArch",
    "name": "Diachronic 3D reconstruction for lost cultural Heritage",
    "datePublished": "2011",
-   "kg:publicationType": "Conference paper",
+   "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-012",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -10411,6 +10689,8 @@
    "name": "Low cost characterization of TOF range sensors resolution",
    "datePublished": "2011",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-022",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10462,11 +10742,13 @@
   },
   {
    "@id": "publication/2011_Russo_ModellazioneRealityBased",
-   "@type": "Chapter",
+   "@type": "ScholarlyArticle",
    "identifier": "2011_Russo_ModellazioneRealityBased",
    "name": "La modellazione digitale reality-based ed interpretativa per la valorizzazione del patrimonio culturale",
    "datePublished": "2011",
-   "kg:publicationType": "Book chapter",
+   "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-020",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10511,11 +10793,13 @@
   },
   {
    "@id": "publication/2010_Guidi_RilievoScafi",
-   "@type": "Chapter",
+   "@type": "ScholarlyArticle",
    "identifier": "2010_Guidi_RilievoScafi",
    "name": "Il rilievo digitale tridimensionale degli scafi come ausilio alla progettazione",
    "datePublished": "2010",
-   "kg:publicationType": "Book chapter",
+   "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-019",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10568,6 +10852,8 @@
    "name": "Range sensors on marble surfaces: quantitative evaluation of artifacts",
    "datePublished": "2009",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-017",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10624,6 +10910,8 @@
    "name": "Time constraints effects in 3D acquisition and data processing: the case of 'Villa delle Vignacce'",
    "datePublished": "2009",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-016",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10679,6 +10967,8 @@
    "name": "Digitizing the Pompeii Forum",
    "datePublished": "2009",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-015",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10743,6 +11033,8 @@
    "name": "Characterization and Evaluation of Range Cameras",
    "datePublished": "2009",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-014",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10797,6 +11089,8 @@
    "name": "Resolution Characterization of 3D cameras",
    "datePublished": "2009",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-018",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10850,6 +11144,8 @@
    "name": "3D modeling of large and complex site using multi-sensor integration and multi-resolution data",
    "datePublished": "2008",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-012",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10915,6 +11211,8 @@
    "name": "A multi-resolution methodology for archeological survey: the Pompeii forum",
    "datePublished": "2008",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-013",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -10989,6 +11287,8 @@
    "name": "L'interrogazione digitale di plastici urbani",
    "datePublished": "2007",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-011",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11046,6 +11346,8 @@
    "name": "Low cost characterization of 3D laser scanners",
    "datePublished": "2007",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-010",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11101,6 +11403,8 @@
    "name": "Digitization of city models",
    "datePublished": "2006",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-009",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11145,11 +11449,13 @@
   },
   {
    "@id": "publication/2006_Brevi_SalaCariatidi",
-   "@type": "Chapter",
+   "@type": "ScholarlyArticle",
    "identifier": "2006_Brevi_SalaCariatidi",
    "name": "Realtà virtuale e restauro: il caso della Sala delle Cariatidi",
    "datePublished": "2006",
-   "kg:publicationType": "Book chapter",
+   "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-008",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11208,6 +11514,8 @@
    "name": "Digitalizzazione tridimensionale del 'Plastico di Roma Antica'",
    "datePublished": "2005",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-003",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11280,6 +11588,8 @@
    "name": "The monuments restoration yard: a virtualization method and the case of study of Sala delle Cariatidi in Palazzo Reale, Milan",
    "datePublished": "2005",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04c-001",
+   "kg:irisTypology": "04c Atto di convegno in rivista",
    "author": {
     "@list": [
      {
@@ -11340,6 +11650,8 @@
    "name": "3D Digitization of a Large Model of Imperial Rome",
    "datePublished": "2005",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-006",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11416,6 +11728,8 @@
    "name": "3D acquisition and modeling of a large plaster of ancient Rome",
    "datePublished": "2005",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-004",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11488,6 +11802,8 @@
    "name": "Virtualizing Ancient Rome: 3D acquisition and modeling of a large plaster-of-Paris model of Imperial Rome",
    "datePublished": "2005",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-007",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11567,6 +11883,8 @@
    "name": "Boat's hull modeling with low cost triangulation scanners",
    "datePublished": "2005",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-005",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11623,6 +11941,8 @@
    "name": "Il rilievo digitale di complessi architettonico-scultorei come base per il progetto di restauro – L'esperienza della Sala delle Cariatidi al Palazzo Reale di Milano",
    "datePublished": "2004",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04a-001",
+   "kg:irisTypology": "04a Atto di comunicazione a congresso",
    "author": {
     "@list": [
      {
@@ -11670,11 +11990,13 @@
   },
   {
    "@id": "publication/2004_Alessandri_HighTechnologyTimber",
-   "@type": "Chapter",
+   "@type": "ScholarlyArticle",
    "identifier": "2004_Alessandri_HighTechnologyTimber",
    "name": "High Technology and Structural Insight in the Wooden Composite Beams of the Renaissance Architecture in Ferrara",
    "datePublished": "2004",
-   "kg:publicationType": "Book chapter",
+   "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-002",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11728,6 +12050,8 @@
    "name": "Wooden composite beams: a new technique in the Renaissance of Ferrara",
    "datePublished": "2003",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-001",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {
@@ -11785,6 +12109,8 @@
    "name": "Cultural overfitting: the architectural canon behind algorithmic survey",
    "datePublished": "2026",
    "kg:publicationType": "Journal article",
+   "kg:irisCode": "01a-030",
+   "kg:irisTypology": "01a Articolo in rivista",
    "author": {
     "@list": [
      {
@@ -11838,6 +12164,8 @@
    "name": "Virtual Tour for Heritage Accessibility: The Case of Palazzo Carignano Museum",
    "datePublished": "2026",
    "kg:publicationType": "Conference paper",
+   "kg:irisCode": "04b-078",
+   "kg:irisTypology": "04b Atto di convegno in volume",
    "author": {
     "@list": [
      {

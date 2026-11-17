@@ -310,7 +310,7 @@ function select(id){
       <p class="meta"><span class="badge">${esc(d.ptype)}</span>${d.classA?'<span class="badge">ANVUR Classe A</span>':''}<span class="badge">${esc(d.lang||'')}</span></p>
       <h3>${esc(d.label)}</h3>
       <p class="meta">${(d.authors||[]).map(nameLink).join('; ')}</p>
-      <dl class="kv"><dt>Anno</dt><dd>${d.year}</dd>
+      <dl class="kv">${d.code?`<dt>Codice</dt><dd>${esc(d.code)}</dd>`:''}<dt>Anno</dt><dd>${d.year}</dd>
         ${d.venue?`<dt>In</dt><dd>${esc(d.venue)}</dd>`:''}
         ${d.pages?`<dt>Pagine</dt><dd>${esc(d.pages)}</dd>`:''}
         ${d.doi?`<dt>DOI</dt><dd><a href="https://doi.org/${esc(d.doi)}">${esc(d.doi)}</a></dd>`:(d.url?`<dt>Link</dt><dd><a href="${esc(d.url)}">${esc(d.url)}</a></dd>`:'')}

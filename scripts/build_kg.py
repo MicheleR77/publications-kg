@@ -88,6 +88,9 @@ for p in pubs:
     t = p['pub_type']
     item = {'@id': pid, '@type': TYPE.get(t, 'CreativeWork'), 'identifier': p['publication_id'],
             'name': p['title'], 'datePublished': str(p['year']), 'kg:publicationType': LABEL_TYPE.get(t, t)}
+    # stable code = IRIS Sapienza typology + progressive number per typology (same code used in the CV)
+    if clean(p.get('iris_code')): item['kg:irisCode'] = clean(p['iris_code'])
+    if clean(p.get('iris_typology')): item['kg:irisTypology'] = clean(p['iris_typology'])
     au = split(p['authors'])
     item['author'] = {'@list': [{'@id': f'person/{slug(a)}'} for a in au]}
     oa = clean(p.get('open_access')) == 'yes'
@@ -141,7 +144,7 @@ for p in pubs:
     vnode(pid, p['title'], 'publication', year=p['year'], ptype=LABEL_TYPE.get(t, t),
           authors=au, venue=vname, pages=clean(p.get('pages')), doi=clean(p.get('doi')),
           url=clean(p.get('full_text_url')), iris=clean(p.get('iris_url')), abstract=clean(p.get('abstract')) if oa else None, oa=oa, lang=clean(p.get('language')),
-          keywords=kws, scale=sc, places=pl, classA=clean(p.get('anvur_class_a')) == 'yes')
+          keywords=kws, scale=sc, places=pl, classA=clean(p.get('anvur_class_a')) == 'yes', code=clean(p.get('iris_code')))
     for a in au:
         aid = f'person/{slug(a)}'
         vnode(aid, a, 'author')
