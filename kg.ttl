@@ -1903,6 +1903,7 @@
             :year "2017" ] ;
     kg:irisCode "04b-041" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85063737130" ;
     kg:wosId "000441374100030" ;
@@ -1991,10 +1992,12 @@
             :year "2020" ] ;
     kg:irisCode "04b-049" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/fortifications> ;
+    :abstract "The application of integrated survey techniques and 3D modelling methodologies for Cultural Heritage analysis is now considered a consolidated process, while preserving and suggesting continuous research lines. This article describes analysis of one of Rome's largest and best-preserved gates located within the Aurelian walls: Porta San Sebastiano. The original name was Porta Appia, transformed in the Middle Ages into San Sebastiano after a Christian martyr buried in the Basilica on Via Appia, just outside the walls. The current aspect results from many architectural changes over centuries, as well as transformation happened in the twentieth century which has led it to residential use, a unique example of its kind. Through integration of different survey techniques, a geometric analysis of the complex building was completed, highlighting the construction complexity and spatial articulation. A parametric model of a portion of the building was then suggested, aimed at understanding the logic underlying the definition of a HBIM model of an existing artefact." ;
     :author ( <https://micheler77.github.io/publications-kg/person/carnevali-laura> <https://micheler77.github.io/publications-kg/person/lanfranchi-fabio> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/rome-lazio-italy> ;
     :datePublished "2020" ;
@@ -2096,12 +2099,13 @@
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
     kg:irisCode "02a-032" ;
     kg:irisTypology "02a Capitolo o Articolo" ;
-    kg:openAccess "no" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/bim>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/fortifications>,
         <https://micheler77.github.io/publications-kg/keyword/hbim> ;
+    :abstract "Nowadays, digital models enhance documentation and conservation of Cultural Heritage. The INFORTREAT project makes knowledge accessible through open-source digital information models of early-modern fortifications from 16th-18th century Italian and European military architecture treatises. Using Building Information Modeling (BIM) techniques, the project creates 2D and 3D digital representations for consultation in an open-access web platform, supporting research, conservation, restoration projects, maintenance planning, and higher education activities." ;
     :author ( <https://micheler77.github.io/publications-kg/person/bevilacqua-marco-giorgio> <https://micheler77.github.io/publications-kg/person/spallone-roberta> <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/giordano-andrea> ) ;
     :datePublished "2025" ;
     :identifier "2025_Bevilacqua_FortifiedTreatises" ;
@@ -2121,10 +2125,12 @@
             :year "2025" ] ;
     kg:irisCode "04b-075" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/bim>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/hbim> ;
+    :abstract "Adottando criteri catalografici durante l'applicazione di un processo BIM ai beni culturali, scalabilità, iterabilità e tracciabilità dipendono da variabili presenti nello stadio della modellazione, ma anche nelle fasi di acquisizione e gestione. Questo contributo analizza un caso studio ad hoc. / When we consider a BIM process applied to cultural assets and adopting cataloguing criteria, scalability, repeatability, and retrievability depend on variables present in the modelling stage, but also in the acquisition and management phases. In this case study, we explore this topic in depth." ;
     :author ( <https://micheler77.github.io/publications-kg/person/martelli-luca> <https://micheler77.github.io/publications-kg/person/flenghi-giulia> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :datePublished "2025" ;
     :identifier "2025_Martelli_CatalogBIM" ;
@@ -2201,12 +2207,14 @@
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
     kg:irisCode "01a-030" ;
     kg:irisTypology "01a Articolo in rivista" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/architectural-survey>,
         <https://micheler77.github.io/publications-kg/keyword/architectural-taxonomy>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-overfitting>,
         <https://micheler77.github.io/publications-kg/keyword/deep-learning>,
         <https://micheler77.github.io/publications-kg/keyword/heritage-datasets> ;
+    :abstract "Architectural survey is a process of knowledge that combines interpretation, established methods of data collection and analysis, and the critical representation of results. Advances in instruments and 3D data management have already profoundly altered this process; the introduction of algorithms for automated or semi-automated classification now risks weakening the link between survey, interpretation and understanding of architecture. Every classification presupposes a theory of architecture: a set of categories, a canon of reference buildings, a definition of the boundaries between elements and materials. This article argues that the main epistemological risk of algorithmic survey lies less in the accuracy of models than in the narrowness of the architectural knowledge they embed, a condition defined here as cultural overfitting. It distinguishes four levels of the phenomenon (corpus, taxonomy, morphological canon, stratification over time), with attention to what taxonomies fail to represent, such as designed voids and transformations. A critical reading of the main public datasets reveals a prevalence of European religious and monumental architecture and formal taxonomies shared across datasets; fortified architecture, virtually absent, is discussed as a limit case. The article concludes with principles for culturally situated models that preserve the relationship between architecture and knowledge." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :datePublished "2026" ;
     :identifier "2026_Russo_CulturalOverfitting" ;
@@ -2778,12 +2786,14 @@
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
     kg:irisCode "01a-013" ;
     kg:irisTypology "01a Articolo in rivista" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:wosId "000219904300019" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/deterioration-mapping>,
         <https://micheler77.github.io/publications-kg/keyword/digital-photography>,
         <https://micheler77.github.io/publications-kg/keyword/emergency-documentation> ;
+    :abstract "The digital photography represents not only an immediate medium aimed at data communication, but also an effective instrument for surveying and monitoring the architectural buildings. The application of digital photography is particularly effective for surveying crack patterns in emergency conditions, such as immediately after a seismic event. The article presents a procedure for acquiring, organizing, and restituting photographic images used in surveying the crack patterns of Palazzo Renata di Francia in Ferrara, severely damaged by seismic events in May 2012." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/paterno-di-sessa-maria> <https://micheler77.github.io/publications-kg/person/ercolin-luca> <https://micheler77.github.io/publications-kg/person/russo-paolo> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/ferrara-emilia-romagna-italy> ;
     :datePublished "2013" ;
@@ -2995,12 +3005,14 @@
             :year "2019" ] ;
     kg:irisCode "04h-004" ;
     kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85078138933" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/photogrammetry>,
         <https://micheler77.github.io/publications-kg/keyword/structure-from-motion> ;
+    :abstract "The use of digital images as a source of data for analysis and knowledge of the built environment has seen a significant increase in the last fifteen years. This paper investigates whether metric data derived from smartphone image acquisition and processing proves dependable for analysing and representing built structures. Using a church façade in Rome as a test case, the study assesses the reliability of data acquired from a smartphone for architectural analysis and deterioration mapping, addressing the practical question of whether smartphones' portability and constant availability make their cameras legitimate instruments for professional architectural documentation and conservation work." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/giugliano-alessandra-marina> <https://micheler77.github.io/publications-kg/person/asciutti-michele> ) ;
     :datePublished "2019" ;
     :identifier "2019_Russo_MobilePhoneImaging" ;
@@ -3020,12 +3032,14 @@
             :year "2019" ] ;
     kg:irisCode "04h-002" ;
     kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85065428093" ;
     kg:wosId "000466553500092" ;
     :about <https://micheler77.github.io/publications-kg/keyword/algorithmic-modelling>,
         <https://micheler77.github.io/publications-kg/keyword/augmented-reality>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage> ;
+    :abstract "The paper examines how parametric surfaces can improve 3D modelling for augmented reality (AR) applications in architecture, exploring the construction of basic geometries for 3D model generation and highlighting the relationship between geometry and topology, fundamental for a consistent normal distribution. The study uses Villa del Verginese as a case study to demonstrate topological challenges in architectural modelling, proposing best practices for constructing 3D models that can prevent or minimise topological issues and make AR technology more accessible to architectural representation professionals." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/menconero-sofia> <https://micheler77.github.io/publications-kg/person/baglioni-leonardo> ) ;
     :datePublished "2019" ;
     :identifier "2019_Russo_ParametricSurfaces3DArch" ;
@@ -3112,7 +3126,7 @@
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
     kg:irisCode "01a-020" ;
     kg:irisTypology "01a Articolo in rivista" ;
-    kg:openAccess "no" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-85087436260" ;
     kg:wosId "000545065700001" ;
@@ -3120,6 +3134,7 @@
         <https://micheler77.github.io/publications-kg/keyword/perspective>,
         <https://micheler77.github.io/publications-kg/keyword/survey-of-vaulted-systems>,
         <https://micheler77.github.io/publications-kg/keyword/virtual-reality> ;
+    :abstract "The prospective illusionism of vaulted systems is a research field in which the study of geometry, survey, and architectural representation converge. The painting defines a precise scale and orientation relationship with the observer, while the morphology of the vaulted system increases the architecture's spatiality. Therefore, the study of quadrature framed in vaulted surfaces implies investigating systems based on stratifications of real and ephemeral information. The present research examines the Camera di Giove, a vaulted room located in the Ducal Palace of Sassuolo, an important residence of the Este family. The chamber represents a typical Baroque example of an extension of spatial perception, thanks to the relationship with the nearby rooms and the vertical perspective of the vaulted painting. The research suggests a path of analysis that highlights the geometric-mathematical relationships existing between the quadrature, the vault, and the architectural space." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/giugliano-alessandra-marina> <https://micheler77.github.io/publications-kg/person/carnevali-laura> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/sassuolo-modena-italy> ;
     :datePublished "2020" ;
@@ -3141,9 +3156,11 @@
             :year "2021" ] ;
     kg:irisCode "04b-053" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/anamorphosis>,
         <https://micheler77.github.io/publications-kg/keyword/perspective> ;
+    :abstract "La rappresentazione delle forme geometriche nell'acqua e la loro percezione visiva è un tema complesso, che coinvolge conoscenze che spaziano dalla geometria alla percezione delle immagini, dalla fisica all'ottica. La deformazione geometrica generata dall'acqua, pur essendo legata al fenomeno fisico della rifrazione, presenta diverse analogie con le immagini anamorfiche: da un lato la dinamica variazione della forma in funzione del punto di vista, dall'altro la ricerca della corretta visione della realtà e il ruolo che essa assume dal punto di vista comunicativo. Attraverso un percorso di analisi critica sullo sviluppo delle immagini anamorfiche nella storia fino ai giorni nostri, questa ricerca pone le prime basi per uno studio sui criteri geometrici di trasformazione delle forme geometriche piane nell'acqua. Partendo da una sperimentazione basata sulla simulazione e l'osservazione della deformazione, ne viene analizzato il principio geometrico, proponendo la costruzione di immagini che prevedano l'effetto deformante dell'acqua da un particolare punto di vista. La finalità della ricerca è quella di definire sperimentalmente un metodo di costruzione di immagini anamorfiche in acqua, mostrando l'integrazione del fenomeno fisico e percettivo, aprendo nuovi scenari di ricerca trans-disciplinari." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :datePublished "2021" ;
     :identifier "2021_Russo_AnamorphicWater" ;
@@ -3266,10 +3283,12 @@
             :year "2023" ] ;
     kg:irisCode "04b-060" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/fortifications>,
         <https://micheler77.github.io/publications-kg/keyword/virtual-reality>,
         <https://micheler77.github.io/publications-kg/keyword/visual-storytelling> ;
+    :abstract "The communication of Cultural Heritage based on interactive tools and heterogeneous data is a current research topic. The article investigates different ways of using 3D point clouds to improve the communication of complex artifacts. It evaluates a communication system based on an active and exploratory experience that triggers new cognitive processes and proposes a virtual place for learning about complex architectures. The case study analyzed is Porta San Sebastiano, one of the historical Roman gates. The representation of orthogonal projections is the first necessary step to explaining the whole building, but it is insufficient to provide a comprehensive overview of its complexity. The introduction of interactive 3D data navigation based on point clouds and linked 2D images allows for broader and more dynamic exploration. It serves as a complementary and integrative tool for the understanding complex asset." ;
     :author ( <https://micheler77.github.io/publications-kg/person/basso-alessandro> <https://micheler77.github.io/publications-kg/person/meschini-alessandra> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :datePublished "2023" ;
     :identifier "2023_Basso_InteractiveWalkthrough" ;
@@ -4294,6 +4313,7 @@
             :year "2014" ] ;
     kg:irisCode "02a-012" ;
     kg:irisTypology "02a Capitolo o Articolo" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     kg:scopusId "2-s2.0-84983204131" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -4301,6 +4321,7 @@
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/photogrammetry>,
         <https://micheler77.github.io/publications-kg/keyword/sensor-integration> ;
+    :abstract "3D laser scanning and photogrammetry have deeply benefited Cultural Heritage documentation, though earlier adoption faced barriers including high costs and complex workflows. Recent technological improvements have made these approaches more accessible and automated. The researchers present a case study of the Santa Maria di Pomposa survey project to investigate how 3D digital technologies can deliver comprehensive, multi-scale information about complex structures, emphasising the comparison of results from different surveying approaches to evaluate and select the most reliable and suitable solutions." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/manferdini-anna-maria> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/codigoro-emilia-romagna-italy> ;
     :datePublished "2014" ;
@@ -4371,6 +4392,7 @@
             :year "2019" ] ;
     kg:irisCode "04h-003" ;
     kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85065428756" ;
     kg:wosId "000466553500027" ;
@@ -4378,6 +4400,7 @@
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/reality-based-modelling>,
         <https://micheler77.github.io/publications-kg/keyword/reverse-modelling> ;
+    :abstract "This paper is a contribution to the debate on Reverse Modelling (RM) in the Cultural Heritage field, focusing on testing its limitations when applied to ecclesiastical architecture. The mathematical reconstruction of architectural models represents an overlaid result of anthropic and natural transformations framed inside a complex process of shape simplification and surface generation. The methodology integrates comprehensive 3D survey techniques with an analytical evaluation of acquired data and mathematical 3D model generation, aimed at choosing the best acquisition technique to obtain reliable 3D data while reaching a suitable level of architectural knowledge." ;
     :author ( <https://micheler77.github.io/publications-kg/person/camagni-flavia> <https://micheler77.github.io/publications-kg/person/colaceci-sara> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :datePublished "2019" ;
     :identifier "2019_Camagni_ReverseModeling3DArch" ;
@@ -4523,11 +4546,13 @@
             :year "2022" ] ;
     kg:irisCode "04b-054" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85129605794" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/reconstructive-bim-modelling>,
         <https://micheler77.github.io/publications-kg/keyword/virtual-reality> ;
+    :abstract "Virtual Reality proposes different innovative solutions for the fruition of tangible, intangible, or no longer existing Cultural Heritage. The representation of architectural artefacts through virtual 3D models framed in immersive and interactive virtual environments allows building new paths of knowledge. This kind of narrative feeds the fruition, understanding, and involvement of the user. The article presents different examples of VR applied in the CH field, highlighting VR capacities and foreshadowing possible future developments. The case studies describe the reconstructive digital modelling and prototype VR application for the interior space of the first Italian Parliament hall in Palazzo Carignano (Turin), two VR experiences for the Charterhouse of Pisa in Calci, and the representation of the Cathedral of Carpi through an interoperable BIM model and a 'Digital Twin during time' combining VR and AR." ;
     :author ( <https://micheler77.github.io/publications-kg/person/bevilacqua-marco-giorgio> <https://micheler77.github.io/publications-kg/person/giordano-andrea> <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/spallone-roberta> ) ;
     :datePublished "2022" ;
     :identifier "2022_Bevilacqua_3DReconVR" ;
@@ -4756,13 +4781,14 @@
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
     kg:irisCode "02a-031" ;
     kg:irisTypology "02a Capitolo o Articolo" ;
-    kg:openAccess "no" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/fortifications>,
         <https://micheler77.github.io/publications-kg/keyword/photogrammetry>,
         <https://micheler77.github.io/publications-kg/keyword/sensor-integration> ;
+    :abstract "The survey of fortified walls outlines a broad research domain, highlighting different elements of complexity. These artefacts require careful survey planning and experimental approaches to preserve their original shape. Within this process, data traceability is essential to controlling the overall accuracy and obtaining reliable metric information for interpretive purposes. The activity described here is devoted to surveying a portion of the walls of the Citadel of Alessandria and Lucca." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/caroti-gabriella> <https://micheler77.github.io/publications-kg/person/piemonte-andrea> <https://micheler77.github.io/publications-kg/person/piccoli-edoardo> <https://micheler77.github.io/publications-kg/person/bertoncini-sabatini-paolo> <https://micheler77.github.io/publications-kg/person/casciola-martina> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/alessandria-piedmont-italy>,
         <https://micheler77.github.io/publications-kg/place/lucca-tuscany-italy> ;
@@ -5342,12 +5368,14 @@
             :year "2018" ] ;
     kg:irisCode "04h-001" ;
     kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85048359324" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/photogrammetry>,
         <https://micheler77.github.io/publications-kg/keyword/uav-survey> ;
+    :abstract "The paper addresses challenges in surveying historical building façades, including geometric complexity, decorative elements, and environmental obstacles that limit ground-based acquisition. The integration of TLS and close-range photogrammetry allows to overcome such issues, not eliminating the shadows effect due to the ground point of view. The research demonstrates an application using a lightweight unmanned aerial platform (under 300g) equipped with an affordable camera for close-range photographic documentation of a historical Bologna façade, evaluating system precision and detail capture capabilities while validating the emerging technology within architectural survey workflows." ;
     :author ( <https://micheler77.github.io/publications-kg/person/carnevali-laura> <https://micheler77.github.io/publications-kg/person/ippoliti-elena> <https://micheler77.github.io/publications-kg/person/lanfranchi-fabio> <https://micheler77.github.io/publications-kg/person/menconero-sofia> <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/russo-valentina> ) ;
     :datePublished "2018" ;
     :identifier "2018_Carnevali_CloseRangeUAV" ;
@@ -5395,9 +5423,11 @@
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
     kg:irisCode "02a-016" ;
     kg:irisTypology "02a Capitolo o Articolo" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Book chapter" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/reconstructive-drawing> ;
+    :abstract "Lo studio si inserisce all'interno di un quadro di interesse nazionale sugli aspetti di tutela e promozione del patrimonio culturale del territorio ferrarese in riferimento alla storia degli Este. Il rinnovato interesse per questa rete culturale diffusa, dichiarata patrimonio mondiale dell’UNESCO nel 1999, è alla base della scelta di un caso studio significativo appartenente a questo sistema, la Villa del Verginese, esempio emblematico per la sua relazione con il territorio, la storia e lo stato di conservazione, sul quale è stato avviato un percorso di analisi finalizzato non solo alla conoscenza del Bene stesso, ma anche del sistema culturale e architettonico nel quale è inserito." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/codigoro-emilia-romagna-italy> ;
     :datePublished "2018" ;
@@ -5440,10 +5470,12 @@
             :year "2020" ] ;
     kg:irisCode "04b-052" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/augmented-reality>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/perspective> ;
+    :abstract "The representation of complex architectures presents a strong connection with the increasingly massive use of 3D acquisition systems and virtual representations. These tools have changed the relationship between researchers and Cultural Heritage artefacts, deeply affecting their analysis and representation. In this evolutive framework, may orthogonal projections still play an effective role in the study of buildings, or are they can be entirely replaced by 3D virtual models? May these firsts be compared with the communication powerful shown in the field of Augmented Reality? Starting from a critical review on the concepts of \"representation\" and \"complexity\", the article aims to provide a possible answer to these questions, through the description of some case studies characterized by a similar spatial and functional complexity." ;
     :author ( <https://micheler77.github.io/publications-kg/person/carnevali-laura> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :datePublished "2020" ;
     :identifier "2020_Carnevali_MongeAR" ;
@@ -5462,11 +5494,13 @@
             :year "2023" ] ;
     kg:irisCode "04b-058" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/fortifications>,
         <https://micheler77.github.io/publications-kg/keyword/uav-survey> ;
+    :abstract "Castles are complex fortified systems based on a solid relationship between the territory and the built architecture. The former defines the context of development, access, and defense conditions. The latter adapts to the context, proposing fortified structures in continuity with the orography of the territory. Both factors are crucial to understanding castles’ historical evolution and social roles over time. In this knowledge path, the survey process assumes a primary role as a tool to analyze and interpret the built environment through bibliographic and iconographic analysis and the study of reality. Within the castle domain became essential to manage multiple scales of knowledge, acquisition, and representation, deepening the territory and the fortress systems. The case study analyzed is the Castle of Canossa, the epicenter of some critical events in medieval times. The authors describe an integrated survey process between active and passive techniques at architectural and territorial scales. Several geometrical validation steps have been introduced to verify the geometrical reliability. The pipeline highlights also the crucial relationship between territory and buildings, laying the groundwork for a more articulated analysis of the entire architectural complex. At the end, a superimposition between the geometrical model and a historical mock-up is suggested, collecting helpful information for the next reconstruction step." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/panarotto-federico> <https://micheler77.github.io/publications-kg/person/flenghi-giulia> <https://micheler77.github.io/publications-kg/person/rossi-elvira> <https://micheler77.github.io/publications-kg/person/pellegrinelli-alberto> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/canossa-emilia-romagna-italy> ;
     :datePublished "2023" ;
@@ -5935,12 +5969,14 @@
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
     kg:irisCode "01a-006" ;
     kg:irisTypology "01a Articolo in rivista" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/interpretive-reconstruction>,
         <https://micheler77.github.io/publications-kg/keyword/sensor-integration>,
         <https://micheler77.github.io/publications-kg/keyword/virtual-reality> ;
+    :abstract "From 1997 to 2007 an international effort involving research groups in the US and Italy developed a virtual model of ancient Rome as it appeared in 320 AD. The primary purpose of the project was to visually present theories and hypotheses about how the capital of the Roman Empire appeared at the peak of its development. The model is therefore a representation of the state of our knowledge about the urban topography of ancient Rome. In order to create the model, several topographic and historical sources were used. For most of the vernacular architecture, the virtual model was inspired by the famous 1:250 physical model 'Plastico di Roma Antica' conserved at the Museo della Civiltà Romana in Rome, which was surveyed at high resolution and transformed into a digital model suitable for virtual reality applications. The paper describes the process from the physical to the digital representation of the city." ;
     :author ( <https://micheler77.github.io/publications-kg/person/guidi-gabriele> <https://micheler77.github.io/publications-kg/person/frischer-bernard> <https://micheler77.github.io/publications-kg/person/lucenti-ignazio> <https://micheler77.github.io/publications-kg/person/donno-janez> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/rome-lazio-italy> ;
     :datePublished "2008" ;
@@ -5963,6 +5999,7 @@
             :year "2009" ] ;
     kg:irisCode "04b-018" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-63549084866" ;
     :about <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
@@ -5987,12 +6024,14 @@
             :year "2011" ] ;
     kg:irisCode "01a-012" ;
     kg:irisTypology "01a Articolo in rivista" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-84924721906" ;
     kg:wosId "000358299000051" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/diachronic-models>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey> ;
+    :abstract "Cultural Heritage artefacts can often be underestimated for their hidden presence in the landscape. A virtual presentation can greatly help in explaining the evolution of a site's status. The paper proposes an integrated methodology that starts from high-resolution digital survey of ancient buildings and develops a coherent virtual reconstruction from different historical sources, suggesting a scalable method suitable to be re-used for generating a 4D (geometry + time) model of the artefact. This approach has been experimented on the Basilica di San Giovanni in Conca in Milan, a significant example of a complex historic site combining evident historical values with an invisible presence inside the city." ;
     :author ( <https://micheler77.github.io/publications-kg/person/guidi-gabriele> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/my-son-quang-nam-vietnam> ;
     :datePublished "2011" ;
@@ -6191,12 +6230,14 @@
             :year "2022" ] ;
     kg:irisCode "04h-005" ;
     kg:irisTypology "04h Atto di convegno in rivista scientifica o di classe A" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-85126390873" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/reality-based-modelling>,
         <https://micheler77.github.io/publications-kg/keyword/sensor-integration> ;
+    :abstract "The paper addresses the challenge of surveying and modelling spatial grid structures, which involves numerous technical difficulties due to geometrical and material complexity, scale variation, shadows effects, and low accessibility. The researchers employed a combined methodology utilising terrestrial laser scanning (TLS) and drone-based photogrammetry, creating a comprehensive point cloud that captures the complete structure. A significant aspect involved validating the collected data and comparing the actual built structure against the original design specifications, as well as classifying individual structural components according to their geometric and dimensional characteristics." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/russo-valentina> ) ;
     :datePublished "2022" ;
     :identifier "2022_Russo_SpaceGrid3DArch" ;
@@ -6236,11 +6277,13 @@
             :year "2023" ] ;
     kg:irisCode "04b-061" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/augmented-reality>,
         <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/visual-storytelling> ;
+    :abstract "Visual communication allows promoting territories to rediscover urban contexts. The stratification and hybridization of cultures, societies, and palimpsests, can be highlighted by visual paths, which offer possible keys of interpretation. The article suggests two visual paths created during a CIVIS Summer School to read the Esquiline neighbourhood in Rome, a crossroads of cultures and transformations. The results allow evaluating critically the visual description of complex urban contexts." ;
     :author ( <https://micheler77.github.io/publications-kg/person/ippoliti-elena> <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/tomasella-noemi> <https://micheler77.github.io/publications-kg/person/flenghi-giulia> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/rome-lazio-italy> ;
     :datePublished "2023" ;
@@ -6555,6 +6598,7 @@
             :year "2012" ] ;
     kg:irisCode "04b-026" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-84872023858" ;
     :about <https://micheler77.github.io/publications-kg/keyword/cultural-heritage>,
@@ -6604,6 +6648,7 @@
             :year "2013" ] ;
     kg:irisCode "01a-015" ;
     kg:irisTypology "01a Articolo in rivista" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Journal article" ;
     kg:scopusId "2-s2.0-84924264772" ;
     kg:wosId "000358300800015" ;
@@ -6611,6 +6656,7 @@
         <https://micheler77.github.io/publications-kg/keyword/digital-survey>,
         <https://micheler77.github.io/publications-kg/keyword/interpretive-reconstruction>,
         <https://micheler77.github.io/publications-kg/keyword/virtual-archaeology> ;
+    :abstract "The paper presents a methodology for creating three-dimensional digital reconstructions of archaeological sites by combining surveyed 3D data with historical documentation. The approach begins with a reality-based model, which, together with ancient drawings and documents, is used for generating the first reconstructive step. Researchers then engage in iterative refinement, where archaeologists and digital modellers collaborate to progressively improve reconstruction hypotheses through archaeological considerations confronted with geometrical constraints. The methodology was tested on five temple ruins at Vietnam's My Son archaeological site (UNESCO World Heritage)." ;
     :author ( <https://micheler77.github.io/publications-kg/person/guidi-gabriele> <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/angheleddu-davide> ) ;
     :contentLocation <https://micheler77.github.io/publications-kg/place/my-son-quang-nam-vietnam> ;
     :datePublished "2013" ;
@@ -6718,6 +6764,7 @@
             :year "2005" ] ;
     kg:irisCode "04b-007" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-21944450605" ;
     kg:wosId "000228789200013" ;
@@ -6746,6 +6793,7 @@
             :year "2009" ] ;
     kg:irisCode "04b-017" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-70350418765" ;
     :about <https://micheler77.github.io/publications-kg/keyword/3d-laser-scanning>,
@@ -6919,9 +6967,11 @@
             :year "2023" ] ;
     kg:irisCode "04b-059" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "yes" ;
     kg:publicationType "Conference paper" ;
     :about <https://micheler77.github.io/publications-kg/keyword/accessibility>,
         <https://micheler77.github.io/publications-kg/keyword/augmented-reality> ;
+    :abstract "The research explores augmented reality applications in university geometry education. AR generates an innovative synergic correlation between orthogonal and perspective projections while merging plane and spatial representation methods. The work presents an interactive teaching approach that personalizes student learning paths and simplifies geometric concept comprehension. AR implementation with mobile systems for education is well-established scientifically. This scalable proposal can extend beyond geometry to any discipline requiring three-dimensional representation for understanding content." ;
     :author ( <https://micheler77.github.io/publications-kg/person/russo-michele> <https://micheler77.github.io/publications-kg/person/giugliano-alessandra-marina> <https://micheler77.github.io/publications-kg/person/flenghi-giulia> <https://micheler77.github.io/publications-kg/person/carnevali-laura> <https://micheler77.github.io/publications-kg/person/martone-maria> <https://micheler77.github.io/publications-kg/person/marrella-andrea> <https://micheler77.github.io/publications-kg/person/sapio-francesco> ) ;
     :datePublished "2023" ;
     :identifier "2023_Russo_AugmentedGeometry" ;
@@ -6979,6 +7029,7 @@
             :year "2005" ] ;
     kg:irisCode "04b-005" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-21944438755" ;
     kg:wosId "000228789200004" ;
@@ -7005,6 +7056,7 @@
             :year "2005" ] ;
     kg:irisCode "04b-006" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-46749144236" ;
     kg:wosId "000230405400071" ;
@@ -7056,6 +7108,7 @@
             :year "2011" ] ;
     kg:irisCode "04b-022" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-79951597569" ;
     kg:wosId "000291691300012" ;
@@ -7221,6 +7274,7 @@
             :year "2007" ] ;
     kg:irisCode "04b-010" ;
     kg:irisTypology "04b Atto di convegno in volume" ;
+    kg:openAccess "no" ;
     kg:publicationType "Conference paper" ;
     kg:scopusId "2-s2.0-34249084386" ;
     kg:wosId "000245861400005" ;

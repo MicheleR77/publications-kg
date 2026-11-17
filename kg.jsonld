@@ -3147,6 +3147,7 @@
      }
     ]
    },
+   "abstract": "The prospective illusionism of vaulted systems is a research field in which the study of geometry, survey, and architectural representation converge. The painting defines a precise scale and orientation relationship with the observer, while the morphology of the vaulted system increases the architecture's spatiality. Therefore, the study of quadrature framed in vaulted surfaces implies investigating systems based on stratifications of real and ephemeral information. The present research examines the Camera di Giove, a vaulted room located in the Ducal Palace of Sassuolo, an important residence of the Este family. The chamber represents a typical Baroque example of an extension of spatial perception, thanks to the relationship with the nearby rooms and the vertical perspective of the vaulted painting. The research suggests a path of analysis that highlights the geometric-mathematical relationships existing between the quadrature, the vault, and the architectural space.",
    "inLanguage": "ENG",
    "pagination": "1155-1173",
    "issn": "1522-4600",
@@ -3158,7 +3159,7 @@
    ],
    "kg:scopusId": "2-s2.0-85087436260",
    "kg:wosId": "000545065700001",
-   "kg:openAccess": "no",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "yes",
    "isPartOf": {
@@ -3490,6 +3491,7 @@
      }
     ]
    },
+   "abstract": "The digital photography represents not only an immediate medium aimed at data communication, but also an effective instrument for surveying and monitoring the architectural buildings. The application of digital photography is particularly effective for surveying crack patterns in emergency conditions, such as immediately after a seismic event. The article presents a procedure for acquiring, organizing, and restituting photographic images used in surveying the crack patterns of Palazzo Renata di Francia in Ferrara, severely damaged by seismic events in May 2012.",
    "inLanguage": "ITA",
    "pagination": "1-12",
    "issn": "1828-5961",
@@ -3500,6 +3502,7 @@
     "https://iris.uniroma1.it/handle/11573/905437"
    ],
    "kg:wosId": "000219904300019",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "no",
    "isPartOf": {
@@ -3933,6 +3936,7 @@
      }
     ]
    },
+   "abstract": "From 1997 to 2007 an international effort involving research groups in the US and Italy developed a virtual model of ancient Rome as it appeared in 320 AD. The primary purpose of the project was to visually present theories and hypotheses about how the capital of the Roman Empire appeared at the peak of its development. The model is therefore a representation of the state of our knowledge about the urban topography of ancient Rome. In order to create the model, several topographic and historical sources were used. For most of the vernacular architecture, the virtual model was inspired by the famous 1:250 physical model 'Plastico di Roma Antica' conserved at the Museo della Civiltà Romana in Rome, which was surveyed at high resolution and transformed into a digital model suitable for virtual reality applications. The paper describes the process from the physical to the digital representation of the city.",
    "inLanguage": "ENG",
    "pagination": "240-252",
    "issn": "1753-5212",
@@ -3943,6 +3947,7 @@
     "https://doi.org/10.1504/IJDCET.2008.021410",
     "https://iris.uniroma1.it/handle/11573/905438"
    ],
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "no",
    "isPartOf": {
@@ -4485,6 +4490,7 @@
      }
     ]
    },
+   "abstract": "Nowadays, digital models enhance documentation and conservation of Cultural Heritage. The INFORTREAT project makes knowledge accessible through open-source digital information models of early-modern fortifications from 16th-18th century Italian and European military architecture treatises. Using Building Information Modeling (BIM) techniques, the project creates 2D and 3D digital representations for consultation in an open-access web platform, supporting research, conservation, restoration projects, maintenance planning, and higher education activities.",
    "inLanguage": "ENG",
    "pagination": "13-19",
    "isbn": "9788899586546",
@@ -4493,7 +4499,7 @@
    "sameAs": [
     "https://iris.uniroma1.it/handle/11573/1746782"
    ],
-   "kg:openAccess": "no",
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/early-modern-age-fortifications-knowledge-for-management-conservation-and-valori"
    },
@@ -4548,6 +4554,7 @@
      }
     ]
    },
+   "abstract": "The survey of fortified walls outlines a broad research domain, highlighting different elements of complexity. These artefacts require careful survey planning and experimental approaches to preserve their original shape. Within this process, data traceability is essential to controlling the overall accuracy and obtaining reliable metric information for interpretive purposes. The activity described here is devoted to surveying a portion of the walls of the Citadel of Alessandria and Lucca.",
    "inLanguage": "ENG",
    "pagination": "67-74",
    "isbn": "9788899586546",
@@ -4556,7 +4563,7 @@
    "sameAs": [
     "https://iris.uniroma1.it/handle/11573/1746667"
    ],
-   "kg:openAccess": "no",
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/early-modern-age-fortifications-knowledge-for-management-conservation-and-valori"
    },
@@ -6498,6 +6505,7 @@
      }
     ]
    },
+   "abstract": "Adottando criteri catalografici durante l'applicazione di un processo BIM ai beni culturali, scalabilità, iterabilità e tracciabilità dipendono da variabili presenti nello stadio della modellazione, ma anche nelle fasi di acquisizione e gestione. Questo contributo analizza un caso studio ad hoc. / When we consider a BIM process applied to cultural assets and adopting cataloguing criteria, scalability, repeatability, and retrievability depend on variables present in the modelling stage, but also in the acquisition and management phases. In this case study, we explore this topic in depth.",
    "inLanguage": "ITA",
    "pagination": "228-242",
    "isbn": "9788899586591",
@@ -6505,6 +6513,7 @@
    "sameAs": [
     "https://iris.uniroma1.it/handle/11573/1758526"
    ],
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/proliferazioni-3dmodeling-bim"
    },
@@ -7507,6 +7516,7 @@
      }
     ]
    },
+   "abstract": "Visual communication allows promoting territories to rediscover urban contexts. The stratification and hybridization of cultures, societies, and palimpsests, can be highlighted by visual paths, which offer possible keys of interpretation. The article suggests two visual paths created during a CIVIS Summer School to read the Esquiline neighbourhood in Rome, a crossroads of cultures and transformations. The results allow evaluating critically the visual description of complex urban contexts.",
    "inLanguage": "ENG",
    "pagination": "170-177",
    "isbn": "9788899586324",
@@ -7515,6 +7525,7 @@
    "sameAs": [
     "https://iris.uniroma1.it/handle/11573/1685020"
    ],
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/4th-international-and-interdisciplinary-conference-on-images-and-imagination-img"
    },
@@ -7796,6 +7807,7 @@
      }
     ]
    },
+   "abstract": "Castles are complex fortified systems based on a solid relationship between the territory and the built architecture. The former defines the context of development, access, and defense conditions. The latter adapts to the context, proposing fortified structures in continuity with the orography of the territory. Both factors are crucial to understanding castles’ historical evolution and social roles over time. In this knowledge path, the survey process assumes a primary role as a tool to analyze and interpret the built environment through bibliographic and iconographic analysis and the study of reality. Within the castle domain became essential to manage multiple scales of knowledge, acquisition, and representation, deepening the territory and the fortress systems. The case study analyzed is the Castle of Canossa, the epicenter of some critical events in medieval times. The authors describe an integrated survey process between active and passive techniques at architectural and territorial scales. Several geometrical validation steps have been introduced to verify the geometrical reliability. The pipeline highlights also the crucial relationship between territory and buildings, laying the groundwork for a more articulated analysis of the entire architectural complex. At the end, a superimposition between the geometrical model and a historical mock-up is suggested, collecting helpful information for the next reconstruction step.",
    "inLanguage": "ENG",
    "pagination": "1147-1154",
    "isbn": "9788833397979",
@@ -7805,6 +7817,7 @@
     "https://doi.org/10.12871/9788833397948144",
     "https://iris.uniroma1.it/handle/11573/1669791"
    ],
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/international-conference-on-fortifications-of-the-mediterranean-coast-fortmed-20"
    },
@@ -7860,6 +7873,7 @@
      }
     ]
    },
+   "abstract": "The communication of Cultural Heritage based on interactive tools and heterogeneous data is a current research topic. The article investigates different ways of using 3D point clouds to improve the communication of complex artifacts. It evaluates a communication system based on an active and exploratory experience that triggers new cognitive processes and proposes a virtual place for learning about complex architectures. The case study analyzed is Porta San Sebastiano, one of the historical Roman gates. The representation of orthogonal projections is the first necessary step to explaining the whole building, but it is insufficient to provide a comprehensive overview of its complexity. The introduction of interactive 3D data navigation based on point clouds and linked 2D images allows for broader and more dynamic exploration. It serves as a complementary and integrative tool for the understanding complex asset.",
    "inLanguage": "ENG",
    "pagination": "1005-1012",
    "isbn": "9788833397979",
@@ -7869,6 +7883,7 @@
     "https://doi.org/10.12871/9788833397948127",
     "https://iris.uniroma1.it/handle/11573/1676719"
    ],
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/international-conference-on-fortifications-of-the-mediterranean-coast-fortmed-20"
    },
@@ -7977,6 +7992,7 @@
      }
     ]
    },
+   "abstract": "The research explores augmented reality applications in university geometry education. AR generates an innovative synergic correlation between orthogonal and perspective projections while merging plane and spatial representation methods. The work presents an interactive teaching approach that personalizes student learning paths and simplifies geometric concept comprehension. AR implementation with mobile systems for education is well-established scientifically. This scalable proposal can extend beyond geometry to any discipline requiring three-dimensional representation for understanding content.",
    "inLanguage": "ENG",
    "pagination": "1787-1796",
    "isbn": "9788409490264",
@@ -7987,6 +8003,7 @@
     "https://doi.org/10.21125/inted.2023.0506",
     "https://iris.uniroma1.it/handle/11573/1675982"
    ],
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/17th-international-technology-education-and-development-conference-inted-2023"
    },
@@ -8154,6 +8171,7 @@
      }
     ]
    },
+   "abstract": "Virtual Reality proposes different innovative solutions for the fruition of tangible, intangible, or no longer existing Cultural Heritage. The representation of architectural artefacts through virtual 3D models framed in immersive and interactive virtual environments allows building new paths of knowledge. This kind of narrative feeds the fruition, understanding, and involvement of the user. The article presents different examples of VR applied in the CH field, highlighting VR capacities and foreshadowing possible future developments. The case studies describe the reconstructive digital modelling and prototype VR application for the interior space of the first Italian Parliament hall in Palazzo Carignano (Turin), two VR experiences for the Charterhouse of Pisa in Calci, and the representation of the Cathedral of Carpi through an interoperable BIM model and a 'Digital Twin during time' combining VR and AR.",
    "inLanguage": "ENG",
    "pagination": "92-96",
    "url": "https://ieeexplore.ieee.org/document/9757457",
@@ -8162,6 +8180,7 @@
     "https://iris.uniroma1.it/handle/11573/1630249"
    ],
    "kg:scopusId": "2-s2.0-85129605794",
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/2022-ieee-conference-on-virtual-reality-and-3d-user-interfaces-workshops-vrw"
    },
@@ -8274,6 +8293,7 @@
      }
     ]
    },
+   "abstract": "The paper addresses the challenge of surveying and modelling spatial grid structures, which involves numerous technical difficulties due to geometrical and material complexity, scale variation, shadows effects, and low accessibility. The researchers employed a combined methodology utilising terrestrial laser scanning (TLS) and drone-based photogrammetry, creating a comprehensive point cloud that captures the complete structure. A significant aspect involved validating the collected data and comparing the actual built structure against the original design specifications, as well as classifying individual structural components according to their geometric and dimensional characteristics.",
    "inLanguage": "ENG",
    "pagination": "465-472",
    "sameAs": [
@@ -8281,6 +8301,7 @@
     "https://iris.uniroma1.it/handle/11573/1614188"
    ],
    "kg:scopusId": "2-s2.0-85126390873",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "yes",
    "isPartOf": {
@@ -8327,6 +8348,7 @@
      }
     ]
    },
+   "abstract": "La rappresentazione delle forme geometriche nell'acqua e la loro percezione visiva è un tema complesso, che coinvolge conoscenze che spaziano dalla geometria alla percezione delle immagini, dalla fisica all'ottica. La deformazione geometrica generata dall'acqua, pur essendo legata al fenomeno fisico della rifrazione, presenta diverse analogie con le immagini anamorfiche: da un lato la dinamica variazione della forma in funzione del punto di vista, dall'altro la ricerca della corretta visione della realtà e il ruolo che essa assume dal punto di vista comunicativo. Attraverso un percorso di analisi critica sullo sviluppo delle immagini anamorfiche nella storia fino ai giorni nostri, questa ricerca pone le prime basi per uno studio sui criteri geometrici di trasformazione delle forme geometriche piane nell'acqua. Partendo da una sperimentazione basata sulla simulazione e l'osservazione della deformazione, ne viene analizzato il principio geometrico, proponendo la costruzione di immagini che prevedano l'effetto deformante dell'acqua da un particolare punto di vista. La finalità della ricerca è quella di definire sperimentalmente un metodo di costruzione di immagini anamorfiche in acqua, mostrando l'integrazione del fenomeno fisico e percettivo, aprendo nuovi scenari di ricerca trans-disciplinari.",
    "inLanguage": "ITA/ENG",
    "pagination": "1105-1122",
    "publisher": "FrancoAngeli",
@@ -8335,6 +8357,7 @@
     "https://doi.org/10.3280/oa-693.61",
     "https://iris.uniroma1.it/handle/11573/1570101"
    ],
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/connettere-un-disegno-per-annodare-e-tessere-linguaggi-distanze-tecnologie"
    },
@@ -8427,6 +8450,7 @@
      }
     ]
    },
+   "abstract": "The representation of complex architectures presents a strong connection with the increasingly massive use of 3D acquisition systems and virtual representations. These tools have changed the relationship between researchers and Cultural Heritage artefacts, deeply affecting their analysis and representation. In this evolutive framework, may orthogonal projections still play an effective role in the study of buildings, or are they can be entirely replaced by 3D virtual models? May these firsts be compared with the communication powerful shown in the field of Augmented Reality? Starting from a critical review on the concepts of \"representation\" and \"complexity\", the article aims to provide a possible answer to these questions, through the description of some case studies characterized by a similar spatial and functional complexity.",
    "inLanguage": "ENG",
    "pagination": "209-220",
    "publisher": "DIDAPress",
@@ -8434,6 +8458,7 @@
    "sameAs": [
     "https://iris.uniroma1.it/handle/11573/1581456"
    ],
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/1st-arco-art-collections-digital-heritage-arco-2020"
    },
@@ -8597,6 +8622,7 @@
      }
     ]
    },
+   "abstract": "The application of integrated survey techniques and 3D modelling methodologies for Cultural Heritage analysis is now considered a consolidated process, while preserving and suggesting continuous research lines. This article describes analysis of one of Rome's largest and best-preserved gates located within the Aurelian walls: Porta San Sebastiano. The original name was Porta Appia, transformed in the Middle Ages into San Sebastiano after a Christian martyr buried in the Basilica on Via Appia, just outside the walls. The current aspect results from many architectural changes over centuries, as well as transformation happened in the twentieth century which has led it to residential use, a unique example of its kind. Through integration of different survey techniques, a geometric analysis of the complex building was completed, highlighting the construction complexity and spatial articulation. A parametric model of a portion of the building was then suggested, aimed at understanding the logic underlying the definition of a HBIM model of an existing artefact.",
    "inLanguage": "ENG",
    "pagination": "447-454",
    "isbn": "9788433866448",
@@ -8604,6 +8630,7 @@
     "https://doi.org/10.4995/FORTMED2020.2020.11337",
     "https://iris.uniroma1.it/handle/11573/1409376"
    ],
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/fortmed-2020-international-society-for-mediterranean-fortifications"
    },
@@ -8656,6 +8683,7 @@
      }
     ]
    },
+   "abstract": "The use of digital images as a source of data for analysis and knowledge of the built environment has seen a significant increase in the last fifteen years. This paper investigates whether metric data derived from smartphone image acquisition and processing proves dependable for analysing and representing built structures. Using a church façade in Rome as a test case, the study assesses the reliability of data acquired from a smartphone for architectural analysis and deterioration mapping, addressing the practical question of whether smartphones' portability and constant availability make their cameras legitimate instruments for professional architectural documentation and conservation work.",
    "inLanguage": "ENG",
    "pagination": "287-294",
    "sameAs": [
@@ -8663,6 +8691,7 @@
     "https://iris.uniroma1.it/handle/11573/1334300"
    ],
    "kg:scopusId": "2-s2.0-85078138933",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "yes",
    "isPartOf": {
@@ -8767,6 +8796,7 @@
      }
     ]
    },
+   "abstract": "This paper is a contribution to the debate on Reverse Modelling (RM) in the Cultural Heritage field, focusing on testing its limitations when applied to ecclesiastical architecture. The mathematical reconstruction of architectural models represents an overlaid result of anthropic and natural transformations framed inside a complex process of shape simplification and surface generation. The methodology integrates comprehensive 3D survey techniques with an analytical evaluation of acquired data and mathematical 3D model generation, aimed at choosing the best acquisition technique to obtain reliable 3D data while reaching a suitable level of architectural knowledge.",
    "inLanguage": "ENG",
    "pagination": "197-204",
    "issn": "2194-9034",
@@ -8777,6 +8807,7 @@
    ],
    "kg:scopusId": "2-s2.0-85065428756",
    "kg:wosId": "000466553500027",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "yes",
    "isPartOf": {
@@ -8829,6 +8860,7 @@
      }
     ]
    },
+   "abstract": "The paper examines how parametric surfaces can improve 3D modelling for augmented reality (AR) applications in architecture, exploring the construction of basic geometries for 3D model generation and highlighting the relationship between geometry and topology, fundamental for a consistent normal distribution. The study uses Villa del Verginese as a case study to demonstrate topological challenges in architectural modelling, proposing best practices for constructing 3D models that can prevent or minimise topological issues and make AR technology more accessible to architectural representation professionals.",
    "inLanguage": "ENG",
    "pagination": "671-678",
    "issn": "2194-9034",
@@ -8839,6 +8871,7 @@
    ],
    "kg:scopusId": "2-s2.0-85065428093",
    "kg:wosId": "000466553500092",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "yes",
    "isPartOf": {
@@ -8985,6 +9018,7 @@
      }
     ]
    },
+   "abstract": "Lo studio si inserisce all'interno di un quadro di interesse nazionale sugli aspetti di tutela e promozione del patrimonio culturale del territorio ferrarese in riferimento alla storia degli Este. Il rinnovato interesse per questa rete culturale diffusa, dichiarata patrimonio mondiale dell’UNESCO nel 1999, è alla base della scelta di un caso studio significativo appartenente a questo sistema, la Villa del Verginese, esempio emblematico per la sua relazione con il territorio, la storia e lo stato di conservazione, sul quale è stato avviato un percorso di analisi finalizzato non solo alla conoscenza del Bene stesso, ma anche del sistema culturale e architettonico nel quale è inserito.",
    "inLanguage": "ITA",
    "pagination": "67-68",
    "isbn": "9788849236217",
@@ -8992,6 +9026,7 @@
    "sameAs": [
     "https://iris.uniroma1.it/handle/11573/1114273"
    ],
+   "kg:openAccess": "yes",
    "isPartOf": {
     "@id": "venue/ricerche-2013-2018-dipartimento-di-storia-disegno-e-restauro-della-architettura"
    },
@@ -9099,6 +9134,7 @@
      }
     ]
    },
+   "abstract": "The paper addresses challenges in surveying historical building façades, including geometric complexity, decorative elements, and environmental obstacles that limit ground-based acquisition. The integration of TLS and close-range photogrammetry allows to overcome such issues, not eliminating the shadows effect due to the ground point of view. The research demonstrates an application using a lightweight unmanned aerial platform (under 300g) equipped with an affordable camera for close-range photographic documentation of a historical Bologna façade, evaluating system precision and detail capture capabilities while validating the emerging technology within architectural survey workflows.",
    "inLanguage": "ENG",
    "pagination": "217-224",
    "issn": "2194-9034",
@@ -9108,6 +9144,7 @@
     "https://iris.uniroma1.it/handle/11573/1114277"
    ],
    "kg:scopusId": "2-s2.0-85048359324",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "yes",
    "isPartOf": {
@@ -9282,6 +9319,7 @@
    ],
    "kg:scopusId": "2-s2.0-85063737130",
    "kg:wosId": "000441374100030",
+   "kg:openAccess": "no",
    "isPartOf": {
     "@id": "venue/vsmm-2017-international-conference-on-virtual-systems-and-multimedia"
    },
@@ -9748,6 +9786,7 @@
      }
     ]
    },
+   "abstract": "3D laser scanning and photogrammetry have deeply benefited Cultural Heritage documentation, though earlier adoption faced barriers including high costs and complex workflows. Recent technological improvements have made these approaches more accessible and automated. The researchers present a case study of the Santa Maria di Pomposa survey project to investigate how 3D digital technologies can deliver comprehensive, multi-scale information about complex structures, emphasising the comparison of results from different surveying approaches to evaluate and select the most reliable and suitable solutions.",
    "inLanguage": "ENG",
    "pagination": "305-312",
    "issn": "2194-9050",
@@ -9757,6 +9796,7 @@
     "https://iris.uniroma1.it/handle/11573/905475"
    ],
    "kg:scopusId": "2-s2.0-84983204131",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "no",
    "isPartOf": {
@@ -10168,6 +10208,7 @@
      }
     ]
    },
+   "abstract": "The paper presents a methodology for creating three-dimensional digital reconstructions of archaeological sites by combining surveyed 3D data with historical documentation. The approach begins with a reality-based model, which, together with ancient drawings and documents, is used for generating the first reconstructive step. Researchers then engage in iterative refinement, where archaeologists and digital modellers collaborate to progressively improve reconstruction hypotheses through archaeological considerations confronted with geometrical constraints. The methodology was tested on five temple ruins at Vietnam's My Son archaeological site (UNESCO World Heritage).",
    "inLanguage": "ENG",
    "pagination": "99-105",
    "issn": "2194-9034",
@@ -10178,6 +10219,7 @@
    ],
    "kg:scopusId": "2-s2.0-84924264772",
    "kg:wosId": "000358300800015",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "yes",
    "isPartOf": {
@@ -10350,6 +10392,7 @@
     "https://iris.uniroma1.it/handle/11573/905486"
    ],
    "kg:scopusId": "2-s2.0-84872023858",
+   "kg:openAccess": "no",
    "isPartOf": {
     "@id": "venue/vsmm-2012-virtual-systems-and-multimedia"
    },
@@ -10640,6 +10683,7 @@
      }
     ]
    },
+   "abstract": "Cultural Heritage artefacts can often be underestimated for their hidden presence in the landscape. A virtual presentation can greatly help in explaining the evolution of a site's status. The paper proposes an integrated methodology that starts from high-resolution digital survey of ancient buildings and develops a coherent virtual reconstruction from different historical sources, suggesting a scalable method suitable to be re-used for generating a 4D (geometry + time) model of the artefact. This approach has been experimented on the Basilica di San Giovanni in Conca in Milan, a significant example of a complex historic site combining evident historical values with an invisible presence inside the city.",
    "inLanguage": "ENG",
    "pagination": "371-376",
    "issn": "1682-1777",
@@ -10650,6 +10694,7 @@
    ],
    "kg:scopusId": "2-s2.0-84924721906",
    "kg:wosId": "000358299000051",
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "yes",
    "isPartOf": {
@@ -10718,6 +10763,7 @@
    ],
    "kg:scopusId": "2-s2.0-79951597569",
    "kg:wosId": "000291691300012",
+   "kg:openAccess": "no",
    "isPartOf": {
     "@id": "venue/spie-electronic-imaging-three-dimensional-imaging-interaction-and-measurement"
    },
@@ -10878,6 +10924,7 @@
     "https://iris.uniroma1.it/handle/11573/905491"
    ],
    "kg:scopusId": "2-s2.0-70350418765",
+   "kg:openAccess": "no",
    "isPartOf": {
     "@id": "venue/spie-optics-photonics-videometrics-range-imaging-and-applications-x"
    },
@@ -11115,6 +11162,7 @@
     "https://iris.uniroma1.it/handle/11573/905493"
    ],
    "kg:scopusId": "2-s2.0-63549084866",
+   "kg:openAccess": "no",
    "isPartOf": {
     "@id": "venue/is-t-spie-electronic-imaging-3d-imaging-metrology"
    },
@@ -11371,6 +11419,7 @@
    ],
    "kg:scopusId": "2-s2.0-34249084386",
    "kg:wosId": "000245861400005",
+   "kg:openAccess": "no",
    "isPartOf": {
     "@id": "venue/spie-electronic-imaging-2007-videometrics-ix"
    },
@@ -11688,6 +11737,7 @@
    ],
    "kg:scopusId": "2-s2.0-46749144236",
    "kg:wosId": "000230405400071",
+   "kg:openAccess": "no",
    "isPartOf": {
     "@id": "venue/3dim-2005-5th-international-conference-on-3-d-digital-imaging-and-modeling"
    },
@@ -11843,6 +11893,7 @@
    ],
    "kg:scopusId": "2-s2.0-21944450605",
    "kg:wosId": "000228789200013",
+   "kg:openAccess": "no",
    "isPartOf": {
     "@id": "venue/spie-electronic-imaging-2005-videometrics-viii"
    },
@@ -11909,6 +11960,7 @@
    ],
    "kg:scopusId": "2-s2.0-21944438755",
    "kg:wosId": "000228789200004",
+   "kg:openAccess": "no",
    "isPartOf": {
     "@id": "venue/spie-electronic-imaging-2005-videometrics-viii"
    },
@@ -12118,6 +12170,7 @@
      }
     ]
    },
+   "abstract": "Architectural survey is a process of knowledge that combines interpretation, established methods of data collection and analysis, and the critical representation of results. Advances in instruments and 3D data management have already profoundly altered this process; the introduction of algorithms for automated or semi-automated classification now risks weakening the link between survey, interpretation and understanding of architecture. Every classification presupposes a theory of architecture: a set of categories, a canon of reference buildings, a definition of the boundaries between elements and materials. This article argues that the main epistemological risk of algorithmic survey lies less in the accuracy of models than in the narrowness of the architectural knowledge they embed, a condition defined here as cultural overfitting. It distinguishes four levels of the phenomenon (corpus, taxonomy, morphological canon, stratification over time), with attention to what taxonomies fail to represent, such as designed voids and transformations. A critical reading of the main public datasets reveals a prevalence of European religious and monumental architecture and formal taxonomies shared across datasets; fortified architecture, virtually absent, is discussed as a limit case. The article concludes with principles for culturally situated models that preserve the relationship between architecture and knowledge.",
    "inLanguage": "ENG",
    "pagination": "247-261",
    "issn": "2341-3050 (e-ISSN 2341-2747)",
@@ -12129,6 +12182,7 @@
     "https://doi.org/10.4995/vlc.2026.27391",
     "https://iris.uniroma1.it/handle/11573/1781277"
    ],
+   "kg:openAccess": "yes",
    "kg:anvurScientificArea08": "yes",
    "kg:anvurClassA": "no",
    "isPartOf": {
