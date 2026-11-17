@@ -112,6 +112,10 @@ ol.list .y{font-family:var(--f-mono);color:var(--muted);font-size:12px;margin-ri
       <div class="checks" id="types"></div>
     </div>
     <div>
+      <h2>Lingua</h2>
+      <div class="checks" id="langs"></div>
+    </div>
+    <div>
       <h2>Anni</h2>
       <div class="range"><span id="y0l"></span><input id="y0" type="range" aria-label="Anno iniziale"><span></span></div>
       <div class="range"><span id="y1l"></span><input id="y1" type="range" aria-label="Anno finale"><span></span></div>
@@ -170,6 +174,13 @@ const esc = s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'
 const typesEl=document.getElementById('types');
 TYPES.forEach(t=>{const id='t_'+t.replace(/\W/g,''); typesEl.insertAdjacentHTML('beforeend',`<label for="${id}"><input id="${id}" type="checkbox" checked><span class="sw" style="background:${TYPECOL[t]||'#888'}"></span>${esc(t)} <span class="note">(${pubs.filter(p=>p.ptype===t).length})</span></label>`);
   document.getElementById(id).addEventListener('change',e=>{e.target.checked?state.types.add(t):state.types.delete(t); update();});});
+const LANGLAB={ENG:'Inglese',ITA:'Italiano',SPA:'Spagnolo',FRA:'Francese',DEU:'Tedesco'};
+const langsOf=p=>String(p.lang||'').split('/').map(s=>s.trim()).filter(Boolean);
+const LANGS=[...new Set(pubs.flatMap(langsOf))].sort((a,b)=>pubs.filter(p=>langsOf(p).includes(b)).length-pubs.filter(p=>langsOf(p).includes(a)).length);
+state.langs=new Set(LANGS);
+const langsEl=document.getElementById('langs');
+LANGS.forEach(l=>{const id='lg_'+l; langsEl.insertAdjacentHTML('beforeend',`<label for="${id}"><input id="${id}" type="checkbox" checked>${esc(LANGLAB[l]||l)} <span class="note">(${pubs.filter(p=>langsOf(p).includes(l)).length})</span></label>`);
+  document.getElementById(id).addEventListener('change',e=>{e.target.checked?state.langs.add(l):state.langs.delete(l); update();});});
 const layersEl=document.getElementById('layers');
 ['keyword','theme','author','venue','place'].concat(HASAFF?['affinity']:[]).forEach(k=>{const id='l_'+k; layersEl.insertAdjacentHTML('beforeend',`<label for="${id}"><input id="${id}" type="checkbox" ${state.layers.has(k)?'checked':''}><span class="sw" style="background:${KIND[k].col}"></span>${KIND[k].lab}</label>`);
   document.getElementById(id).addEventListener('change',e=>{e.target.checked?state.layers.add(k):state.layers.delete(k); update();});});
@@ -190,6 +201,7 @@ document.getElementById('legend').innerHTML=Object.entries(TYPECOL).map(([t,c])=
 function pubVisible(p){
   if(!state.types.has(p.ptype)) return false;
   if(+p.year<state.y0||+p.year>state.y1) return false;
+  if(state.langs && !langsOf(p).some(l=>state.langs.has(l))) return false;
   if(state.theme && !(p.keywords||[]).some(k=>{const n=nodeById.get(keywordId(k)); return n&&n.theme===state.theme;})) return false;
   return true;
 }
