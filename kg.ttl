@@ -5752,7 +5752,7 @@
     :name "IEEE International Conference on Digital Heritage 2013" .
 
 <https://micheler77.github.io/publications-kg/venue/representation-across-boundaries-new-links-with-ai-ai-gen-and-xr-tools-for-cultu> a :Book ;
-    :editor "Spallone, Roberta; Russo, Michele; Giordano, Andrea" ;
+    :editor "Giordano, Andrea; Russo, Michele; Spallone, Roberta" ;
     :name "Representation Across Boundaries. New Links with AI, AI-GEN, and XR Tools for Cultural Heritage and Innovative Design" .
 
 <https://micheler77.github.io/publications-kg/keyword/algorithmic-modelling> a skos:Concept ;
