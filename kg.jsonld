@@ -3940,7 +3940,7 @@
    "inLanguage": "ENG",
    "pagination": "240-252",
    "issn": "1753-5212",
-   "url": "https://www.inderscienceonline.com/doi/abs/10.1504/IJDCET.2008.02141",
+   "url": "https://www.inderscienceonline.com/doi/abs/10.1504/IJDCET.2008.021410",
    "volumeNumber": "1",
    "issueNumber": "2/3",
    "sameAs": [
@@ -4855,6 +4855,7 @@
    "publisher": "Springer Nature",
    "url": "https://iris.uniroma1.it/handle/11573/1690893",
    "sameAs": [
+    "https://doi.org/10.1007/978-3-031-36155-5_39",
     "https://iris.uniroma1.it/handle/11573/1690893"
    ],
    "kg:openAccess": "no",
@@ -7744,6 +7745,7 @@
    "pagination": "520-525",
    "isbn": "9789299009062",
    "sameAs": [
+    "https://doi.org/10.21014/10.21014/tc4-arc-2023.098",
     "https://iris.uniroma1.it/handle/11573/1699467"
    ],
    "isPartOf": {
@@ -8238,6 +8240,7 @@
    "pagination": "175-180",
    "isbn": "9789299009024",
    "sameAs": [
+    "https://doi.org/10.21014/tc4-arc-2022.034",
     "https://iris.uniroma1.it/handle/11573/1668711"
    ],
    "kg:scopusId": "2-s2.0-85150608601",
@@ -8927,6 +8930,7 @@
    "inLanguage": "ENG",
    "pagination": "950-963",
    "sameAs": [
+    "https://doi.org/10.1007/978-3-030-41018-6_77",
     "https://iris.uniroma1.it/handle/11573/1378654"
    ],
    "kg:scopusId": "2-s2.0-85083987534",
@@ -9072,6 +9076,7 @@
    "pagination": "482-490",
    "isbn": "9781728102924",
    "sameAs": [
+    "https://doi.org/10.1109/DigitalHeritage.2018.8810069",
     "https://iris.uniroma1.it/handle/11573/1309902"
    ],
    "kg:scopusId": "2-s2.0-85072406134",
@@ -9573,6 +9578,7 @@
    "issn": "2366-2557",
    "publisher": "Springer",
    "sameAs": [
+    "https://doi.org/10.1007/978-3-319-57937-5_92",
     "https://iris.uniroma1.it/handle/11573/994260"
    ],
    "kg:scopusId": "2-s2.0-85048359324",
@@ -9929,6 +9935,7 @@
    "url": "https://ieeexplore.ieee.org/document/6744760",
    "volumeNumber": "2",
    "sameAs": [
+    "https://doi.org/10.1109/DigitalHeritage.2013.6744760",
     "https://iris.uniroma1.it/handle/11573/905473"
    ],
    "kg:scopusId": "2-s2.0-84896771409",
@@ -9985,6 +9992,7 @@
    "url": "https://ieeexplore.ieee.org/document/6743725",
    "volumeNumber": "1",
    "sameAs": [
+    "https://doi.org/10.1109/DigitalHeritage.2013.6743725",
     "https://iris.uniroma1.it/handle/11573/905499"
    ],
    "kg:scopusId": "2-s2.0-84896771543",
@@ -10050,6 +10058,7 @@
    "url": "https://ieeexplore.ieee.org/document/6744768",
    "volumeNumber": "2",
    "sameAs": [
+    "https://doi.org/10.1109/DigitalHeritage.2013.6744768",
     "https://iris.uniroma1.it/handle/11573/905488"
    ],
    "kg:scopusId": "2-s2.0-84896799913",
@@ -11217,6 +11226,7 @@
    "pagination": "85-92",
    "isbn": "9783905674149",
    "sameAs": [
+    "https://doi.org/10.2312/VAST/VAST08/085-092",
     "https://iris.uniroma1.it/handle/11573/905481"
    ],
    "isPartOf": {

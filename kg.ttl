@@ -1803,7 +1803,8 @@
     :isbn "9781479931705" ;
     :name "A multidisciplinary approach to 3D survey and reconstruction of historical buildings" ;
     :pagination "241-248" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/905473" ;
+    :sameAs "https://doi.org/10.1109/DigitalHeritage.2013.6744760",
+        "https://iris.uniroma1.it/handle/11573/905473" ;
     :url "https://ieeexplore.ieee.org/document/6744760" ;
     :volumeNumber "2" .
 
@@ -2070,7 +2071,8 @@
     :name "AR-Bicycle: Smart AR Component Recognition to Support Bicycle's Second Life" ;
     :pagination "605-620" ;
     :publisher "Springer Nature" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/1690893" ;
+    :sameAs "https://doi.org/10.1007/978-3-031-36155-5_39",
+        "https://iris.uniroma1.it/handle/11573/1690893" ;
     :url "https://iris.uniroma1.it/handle/11573/1690893" .
 
 <https://micheler77.github.io/publications-kg/publication/2024_Avdonina_VRFeedback> a :Chapter ;
@@ -2897,7 +2899,8 @@
     :isbn "9781728102924" ;
     :name "Massive 3D acquisition of CH" ;
     :pagination "482-490" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/1309902" .
+    :sameAs "https://doi.org/10.1109/DigitalHeritage.2018.8810069",
+        "https://iris.uniroma1.it/handle/11573/1309902" .
 
 <https://micheler77.github.io/publications-kg/publication/2018_Russo_PalazzoVerginese> a :Book ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
@@ -2973,7 +2976,8 @@
     :isPartOf <https://micheler77.github.io/publications-kg/venue/grafiche-graphics-convegno-internazionale-su-immagine-e-immaginazione> ;
     :name "Spherical drawing for understanding urban spaces" ;
     :pagination "950-963" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/1378654" .
+    :sameAs "https://doi.org/10.1007/978-3-030-41018-6_77",
+        "https://iris.uniroma1.it/handle/11573/1378654" .
 
 <https://micheler77.github.io/publications-kg/publication/2019_Russo_Fotomodellazione> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/not-applicable> ;
@@ -3355,7 +3359,8 @@
     :isbn "9789299009062" ;
     :name "Phygital sculptures for archaeological dissemination: The head of Sant'Elena" ;
     :pagination "520-525" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/1699467" .
+    :sameAs "https://doi.org/10.21014/10.21014/tc4-arc-2023.098",
+        "https://iris.uniroma1.it/handle/11573/1699467" .
 
 <https://micheler77.github.io/publications-kg/publication/2024_Ruggiero_HullSurvey> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/sculptural-design> ;
@@ -4253,7 +4258,8 @@
     :isbn "9781479931705" ;
     :name "3D Digitizing a whole museum: a metadata centered workflow" ;
     :pagination "307-310" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/905488" ;
+    :sameAs "https://doi.org/10.1109/DigitalHeritage.2013.6744768",
+        "https://iris.uniroma1.it/handle/11573/905488" ;
     :url "https://ieeexplore.ieee.org/document/6744768" ;
     :volumeNumber "2" .
 
@@ -5335,7 +5341,8 @@
     :name "Representation tools for pedestrian and cyclistic fruition of urban area" ;
     :pagination "893-903" ;
     :publisher "Springer" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/994260" .
+    :sameAs "https://doi.org/10.1007/978-3-319-57937-5_92",
+        "https://iris.uniroma1.it/handle/11573/994260" .
 
 <https://micheler77.github.io/publications-kg/publication/2017_Russo_SanMaurelio> a :ScholarlyArticle ;
     kg:caseStudyScale <https://micheler77.github.io/publications-kg/scale/architectural> ;
@@ -5961,7 +5968,8 @@
     :isbn "9783905674149" ;
     :name "3D modeling of large and complex site using multi-sensor integration and multi-resolution data" ;
     :pagination "85-92" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/905481" .
+    :sameAs "https://doi.org/10.2312/VAST/VAST08/085-092",
+        "https://iris.uniroma1.it/handle/11573/905481" .
 
 <https://micheler77.github.io/publications-kg/publication/2008_Guidi_Virtualizing> a :ScholarlyArticle ;
     kg:anvurClassA "no" ;
@@ -5989,7 +5997,7 @@
     :pagination "240-252" ;
     :sameAs "https://doi.org/10.1504/IJDCET.2008.021410",
         "https://iris.uniroma1.it/handle/11573/905438" ;
-    :url "https://www.inderscienceonline.com/doi/abs/10.1504/IJDCET.2008.02141" ;
+    :url "https://www.inderscienceonline.com/doi/abs/10.1504/IJDCET.2008.021410" ;
     :volumeNumber "1" .
 
 <https://micheler77.github.io/publications-kg/publication/2009_Guidi_ResolutionCharacterization> a :ScholarlyArticle ;
@@ -6219,7 +6227,8 @@
     :isbn "9789299009024" ;
     :name "Medieval cultural heritage, from 3D survey to data management: the castle of Canossa" ;
     :pagination "175-180" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/1668711" .
+    :sameAs "https://doi.org/10.21014/tc4-arc-2022.034",
+        "https://iris.uniroma1.it/handle/11573/1668711" .
 
 <https://micheler77.github.io/publications-kg/publication/2022_Russo_SpaceGrid3DArch> a :ScholarlyArticle ;
     kg:anvurClassA "yes" ;
@@ -6880,7 +6889,8 @@
     :isbn "9781479931705" ;
     :name "Multi-scalar 3D digitization of Cultural Heritage using a low-cost integrated approach" ;
     :pagination "153-160" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/905499" ;
+    :sameAs "https://doi.org/10.1109/DigitalHeritage.2013.6743725",
+        "https://iris.uniroma1.it/handle/11573/905499" ;
     :url "https://ieeexplore.ieee.org/document/6743725" ;
     :volumeNumber "1" .
 
