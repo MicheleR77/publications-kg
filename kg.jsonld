@@ -4326,7 +4326,7 @@
     ]
    },
    "inLanguage": "ENG",
-   "pagination": "197-214",
+   "pagination": "197-213",
    "isbn": "9783032047113",
    "publisher": "Springer Nature",
    "url": "https://doi.org/10.1007/978-3-032-04711-3_12",
@@ -8099,7 +8099,7 @@
    "@type": "ScholarlyArticle",
    "identifier": "2022_Cipollone_ElasticJoinery",
    "name": "Ready-to-(dis)assemble: experimentations on elastic joinery for engaging and environmentally friendly furniture",
-   "datePublished": "2022",
+   "datePublished": "2025",
    "kg:publicationType": "Conference paper",
    "kg:irisCode": "04b-055",
    "kg:irisTypology": "04b Atto di convegno in volume",
@@ -8120,11 +8120,15 @@
     ]
    },
    "inLanguage": "ENG",
+   "pagination": "258-267",
+   "isbn": "9781003509653",
+   "publisher": "Routledge",
    "sameAs": [
+    "https://doi.org/10.4324/9781003509653-26",
     "https://iris.uniroma1.it/handle/11573/1646095"
    ],
    "isPartOf": {
-    "@id": "venue/redes2022-international-research-education-in-design-conference"
+    "@id": "venue/proximity-in-design-research"
    },
    "kg:conference": {
     "name": "REDES2022 – International Research & Education in Design Conference",
@@ -12651,9 +12655,9 @@
    "name": "17th International Technology, Education and Development Conference (INTED 2023)"
   },
   {
-   "@id": "venue/redes2022-international-research-education-in-design-conference",
-   "@type": "Event",
-   "name": "REDES2022 – International Research & Education in Design Conference"
+   "@id": "venue/proximity-in-design-research",
+   "@type": "Book",
+   "name": "Proximity in Design Research"
   },
   {
    "@id": "venue/2022-ieee-conference-on-virtual-reality-and-3d-user-interfaces-workshops-vrw",

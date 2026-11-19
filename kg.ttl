@@ -3212,12 +3212,16 @@
         <https://micheler77.github.io/publications-kg/keyword/product-design>,
         <https://micheler77.github.io/publications-kg/keyword/reverse-modelling> ;
     :author ( <https://micheler77.github.io/publications-kg/person/cipollone-patrizio> <https://micheler77.github.io/publications-kg/person/malakuczi-viktor> <https://micheler77.github.io/publications-kg/person/ragazzo-felice> <https://micheler77.github.io/publications-kg/person/russo-michele> ) ;
-    :datePublished "2022" ;
+    :datePublished "2025" ;
     :identifier "2022_Cipollone_ElasticJoinery" ;
     :inLanguage "ENG" ;
-    :isPartOf <https://micheler77.github.io/publications-kg/venue/redes2022-international-research-education-in-design-conference> ;
+    :isPartOf <https://micheler77.github.io/publications-kg/venue/proximity-in-design-research> ;
+    :isbn "9781003509653" ;
     :name "Ready-to-(dis)assemble: experimentations on elastic joinery for engaging and environmentally friendly furniture" ;
-    :sameAs "https://iris.uniroma1.it/handle/11573/1646095" .
+    :pagination "258-267" ;
+    :publisher "Routledge" ;
+    :sameAs "https://doi.org/10.4324/9781003509653-26",
+        "https://iris.uniroma1.it/handle/11573/1646095" .
 
 <https://micheler77.github.io/publications-kg/publication/2022_Russo_CanossaUAV> a :ScholarlyArticle ;
     kg:anvurClassA "yes" ;
@@ -3488,7 +3492,7 @@
     :isPartOf <https://micheler77.github.io/publications-kg/venue/representation-across-boundaries-new-links-with-ai-ai-gen-and-xr-tools-for-cultu> ;
     :isbn "9783032047113" ;
     :name "GPT for Treatise Image Creation: a critical overview" ;
-    :pagination "197-214" ;
+    :pagination "197-213" ;
     :publisher "Springer Nature" ;
     :sameAs "https://doi.org/10.1007/978-3-032-04711-3_12",
         "https://iris.uniroma1.it/handle/11573/1762095" ;
@@ -3833,6 +3837,9 @@
     :editor "Empler, T.; Caldarone, A." ;
     :name "Proliferazioni - 3DModeling&BIM" .
 
+<https://micheler77.github.io/publications-kg/venue/proximity-in-design-research> a :Book ;
+    :name "Proximity in Design Research" .
+
 <https://micheler77.github.io/publications-kg/venue/putting-tradition-into-practice-heritage-place-and-design> a :Book ;
     :editor "Amoruso, G." ;
     :name "Putting Tradition into Practice: Heritage, Place and Design" .
@@ -3840,9 +3847,6 @@
 <https://micheler77.github.io/publications-kg/venue/rappresentazione-materiale-immateriale-drawing-as-in-tangible-representation> a :Book ;
     :editor "Salerno, R." ;
     :name "Rappresentazione/Materiale/Immateriale – Drawing as (in)tangible representation" .
-
-<https://micheler77.github.io/publications-kg/venue/redes2022-international-research-education-in-design-conference> a :Event ;
-    :name "REDES2022 – International Research & Education in Design Conference" .
 
 <https://micheler77.github.io/publications-kg/venue/redibujando-el-futuro-de-la-expresion-grafica-aplicada-a-la-edificacion> a :Book ;
     :editor "Pino Suárez, R.; Martín Dorta, N." ;
